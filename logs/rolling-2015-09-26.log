@@ -1,0 +1,372 @@
+[INFO ] 2015-09-26 12:20:04.321 [main] SEMP - >>>>>>   START V1.2 <<<<<<<
+[INFO ] 2015-09-26 12:20:04.336 [main] SEMP - SEMP Gateway initialized!
+[INFO ] 2015-09-26 12:20:04.352 [main] SEMP - SEMP receiver thread listening on http://192.168.178.30:8080/semp
+[INFO ] 2015-09-26 12:20:04.352 [main] SEMP - SEMP Gateway started succesfully!
+[INFO ] 2015-09-26 12:20:04.352 [Thread-5] SEMP - SSDP Receiver thread listening on: 239.255.255.250:1900 - Waiting for incoming data...
+[INFO ] 2015-09-26 12:20:04.352 [main] SEMP - >>>>>>   ENDE V1.2 <<<<<<<
+[DEBUG] 2015-09-26 12:20:04.602 [Timer-1] SEMP - Send SSDP NOTIFY messages to 239.255.255.250:1900
+[TRACE] 2015-09-26 12:20:04.618 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Linux/3.18.8+ UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: upnp:rootdevice
+USN: uuid:71160837-b424-4844-99e8-c0c55b90939d::upnp:rootdevice
+
+
+[TRACE] 2015-09-26 12:20:04.618 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Linux/3.18.8+ UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: uuid:71160837-b424-4844-99e8-c0c55b90939d
+USN: uuid:71160837-b424-4844-99e8-c0c55b90939d
+
+
+[TRACE] 2015-09-26 12:20:04.618 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2015-09-26 12:20:04.618 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Linux/3.18.8+ UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:71160837-b424-4844-99e8-c0c55b90939d::urn:schemas-simple-energy-management-protocol:device:Gateway:1
+
+
+[TRACE] 2015-09-26 12:20:04.618 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2015-09-26 12:20:04.618 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2015-09-26 12:20:54.915 [Thread-4] SEMP - HTTP Request to /semp/description.xml from Desktop-PC.fritz.box [192.168.178.30]
+<?xml version="1.0"?>
+<root xmlns="urn:schemas-upnp-org:device-1-0">
+  <specVersion><major>1</major><minor>0</minor></specVersion>
+  <device>
+    <deviceType>urn:schemas-simple-energy-management-protocol:device:Gateway:1</deviceType>
+    <friendlyName>Java Gateway</friendlyName>
+    <manufacturer>Markus</manufacturer>
+    <modelName>SEMP GWD</modelName>
+    <UDN>uuid:71160837-b424-4844-99e8-c0c55b90939d</UDN>
+    <serviceList>
+      <service>
+        <serviceType>urn:schemas-simple-energy-management-protocol:service:NULL:1:service:NULL:1</serviceType>
+        <serviceId>urn:schemas-simple-energy-management-protocol:serviceId:NULL:serviceId:NULL</serviceId>
+        <SCPDURL>/XD/NULL.xml</SCPDURL>
+        <controlURL>/UD/?0</controlURL>
+        <eventSubURL></eventSubURL>
+      </service>
+    </serviceList>
+    <presentationURL>index.html</presentationURL>
+    <semp:X_SEMPSERVICE xmlns:semp="urn:schemas-simple-energy-management-protocol:service-1-0">
+        <semp:server>http://192.168.178.30:8080</semp:server>
+        <semp:basePath>/semp</semp:basePath>
+        <semp:transport>HTTP/Pull</semp:transport>
+        <semp:exchangeFormat>XML</semp:exchangeFormat>
+        <semp:wsVersion>1.1.0</semp:wsVersion>
+    </semp:X_SEMPSERVICE>
+  </device>
+</root>
+[DEBUG] 2015-09-26 12:20:54.985 [Thread-4] SEMP - 404 (Not found): the requested URL /favicon.ico is not supported! Client: Desktop-PC.fritz.box [192.168.178.30]
+[INFO ] 2015-09-26 12:24:42.160 [main] SEMP - >>>>>>   START V1.2 <<<<<<<
+[INFO ] 2015-09-26 12:24:42.176 [main] SEMP - SEMP Gateway initialized!
+[INFO ] 2015-09-26 12:24:42.176 [main] SEMP - SEMP receiver thread listening on http://192.168.178.30:8080/semp
+[INFO ] 2015-09-26 12:24:42.176 [main] SEMP - SEMP Gateway started succesfully!
+[INFO ] 2015-09-26 12:24:42.176 [Thread-9] SEMP - SSDP Receiver thread listening on: 239.255.255.250:1900 - Waiting for incoming data...
+[INFO ] 2015-09-26 12:24:42.176 [main] SEMP - >>>>>>   ENDE V1.2 <<<<<<<
+[DEBUG] 2015-09-26 12:24:42.426 [Timer-1] SEMP - Send SSDP NOTIFY messages to 239.255.255.250:1900
+[TRACE] 2015-09-26 12:24:42.426 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Linux/3.18.8+ UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: upnp:rootdevice
+USN: uuid:0ed23527-3548-4bf5-9f14-2079a74b2f16::upnp:rootdevice
+
+
+[TRACE] 2015-09-26 12:24:42.426 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Linux/3.18.8+ UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: uuid:0ed23527-3548-4bf5-9f14-2079a74b2f16
+USN: uuid:0ed23527-3548-4bf5-9f14-2079a74b2f16
+
+
+[TRACE] 2015-09-26 12:24:42.426 [Thread-9] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2015-09-26 12:24:42.426 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Linux/3.18.8+ UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:0ed23527-3548-4bf5-9f14-2079a74b2f16::urn:schemas-simple-energy-management-protocol:device:Gateway:1
+
+
+[TRACE] 2015-09-26 12:24:42.426 [Thread-9] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2015-09-26 12:24:42.426 [Thread-9] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2015-09-26 12:25:00.816 [Thread-8] SEMP - HTTP Request to /semp/description.xml from Desktop-PC.fritz.box [192.168.178.30]
+<?xml version="1.0"?>
+<root xmlns="urn:schemas-upnp-org:device-1-0">
+  <specVersion><major>1</major><minor>0</minor></specVersion>
+  <device>
+    <deviceType>urn:schemas-simple-energy-management-protocol:device:Gateway:1</deviceType>
+    <friendlyName>Java Gateway</friendlyName>
+    <manufacturer>Markus</manufacturer>
+    <modelName>SEMP GWD</modelName>
+    <UDN>uuid:0ed23527-3548-4bf5-9f14-2079a74b2f16</UDN>
+    <serviceList>
+      <service>
+        <serviceType>urn:schemas-simple-energy-management-protocol:service:NULL:1:service:NULL:1</serviceType>
+        <serviceId>urn:schemas-simple-energy-management-protocol:serviceId:NULL:serviceId:NULL</serviceId>
+        <SCPDURL>/XD/NULL.xml</SCPDURL>
+        <controlURL>/UD/?0</controlURL>
+        <eventSubURL></eventSubURL>
+      </service>
+    </serviceList>
+    <presentationURL>index.html</presentationURL>
+    <semp:X_SEMPSERVICE xmlns:semp="urn:schemas-simple-energy-management-protocol:service-1-0">
+        <semp:server>http://192.168.178.30:8080</semp:server>
+        <semp:basePath>/semp</semp:basePath>
+        <semp:transport>HTTP/Pull</semp:transport>
+        <semp:exchangeFormat>XML</semp:exchangeFormat>
+        <semp:wsVersion>1.1.0</semp:wsVersion>
+    </semp:X_SEMPSERVICE>
+  </device>
+</root>
+[DEBUG] 2015-09-26 12:25:05.617 [Thread-8] SEMP - HTTP GET request: /semp/ from: Desktop-PC.fritz.box [192.168.178.30]
+[TRACE] 2015-09-26 12:25:05.618 [Thread-8] SEMP - SEMP message validation: Disabled!
+<?xml version="1.0" encoding="UTF-8"?>
+<Device2EM xmlns="http://www.sma.de/communication/schema/SEMP/v1">
+<DeviceInfo>
+  <Identification>
+    <DeviceId>F-11223344-612233445566-01</DeviceId>
+    <DeviceName>Device 1</DeviceName>
+    <DeviceType>HeatPump</DeviceType>
+    <DeviceSerial>2332532423</DeviceSerial>
+    <DeviceVendor>Some Vendor</DeviceVendor>
+  </Identification>
+  <Characteristics>
+    <MaxPowerConsumption>1500</MaxPowerConsumption>
+  </Characteristics>
+  <Capabilities>
+    <CurrentPower><Method>Measurement</Method></CurrentPower>
+    <Timestamps><AbsoluteTimestamps>false</AbsoluteTimestamps></Timestamps>
+    <Interruptions><InterruptionsAllowed>true</InterruptionsAllowed></Interruptions>
+    <Requests><OptionalEnergy>false</OptionalEnergy></Requests>
+  </Capabilities>
+</DeviceInfo>
+<DeviceStatus>
+  <DeviceId>F-11223344-612233445566-01</DeviceId>
+  <EMSignalsAccepted>true</EMSignalsAccepted>
+  <Status>On</Status>
+  <PowerConsumption>
+    <PowerInfo>
+      <AveragePower>1000</AveragePower>
+      <Timestamp>0</Timestamp>
+     <AveragingInterval>60</AveragingInterval>
+    </PowerInfo>
+  </PowerConsumption>
+</DeviceStatus>
+<PlanningRequest>
+   <Timeframe>
+    <DeviceId>F-11223344-612233445566-01</DeviceId>
+    <EarliestStart>0</EarliestStart>
+    <LatestEnd>10800</LatestEnd>
+    <MinRunningTime>0</MinRunningTime>
+    <MaxRunningTime>1800</MaxRunningTime>
+   </Timeframe>
+</PlanningRequest>
+</Device2EM>
+[DEBUG] 2015-09-26 12:39:42.426 [Timer-1] SEMP - Send SSDP NOTIFY messages to 239.255.255.250:1900
+[TRACE] 2015-09-26 12:39:42.426 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Linux/3.18.8+ UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: upnp:rootdevice
+USN: uuid:0ed23527-3548-4bf5-9f14-2079a74b2f16::upnp:rootdevice
+
+
+[TRACE] 2015-09-26 12:39:42.428 [Thread-9] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2015-09-26 12:39:42.428 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Linux/3.18.8+ UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: uuid:0ed23527-3548-4bf5-9f14-2079a74b2f16
+USN: uuid:0ed23527-3548-4bf5-9f14-2079a74b2f16
+
+
+[TRACE] 2015-09-26 12:39:42.428 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Linux/3.18.8+ UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:0ed23527-3548-4bf5-9f14-2079a74b2f16::urn:schemas-simple-energy-management-protocol:device:Gateway:1
+
+
+[TRACE] 2015-09-26 12:39:42.428 [Thread-9] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2015-09-26 12:39:42.429 [Thread-9] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[INFO ] 2015-09-26 12:42:52.611 [main] SEMP - >>>>>>   START V1.2 <<<<<<<
+[INFO ] 2015-09-26 12:42:52.674 [main] SEMP - SEMP Gateway initialized!
+[INFO ] 2015-09-26 12:42:52.690 [main] SEMP - SEMP receiver thread listening on http://192.168.178.30:8080/semp
+[INFO ] 2015-09-26 12:42:52.690 [main] SEMP - SEMP Gateway started succesfully!
+[INFO ] 2015-09-26 12:42:52.690 [main] SEMP - >>>>>>   ENDE V1.2 <<<<<<<
+[INFO ] 2015-09-26 12:42:52.690 [Thread-9] SEMP - SSDP Receiver thread listening on: 239.255.255.250:1900 - Waiting for incoming data...
+[DEBUG] 2015-09-26 12:42:52.940 [Timer-1] SEMP - Send SSDP NOTIFY messages to 239.255.255.250:1900
+[TRACE] 2015-09-26 12:42:52.940 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Linux/3.18.8+ UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: upnp:rootdevice
+USN: uuid:956e8a73-d31d-4619-ab37-36989d2a797b::upnp:rootdevice
+
+
+[TRACE] 2015-09-26 12:42:52.955 [Thread-9] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Linux/3.18.8+ UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: upnp:rootdevice
+USN: uuid:956e8a73-d31d-4619-ab37-36989d2a797b::upnp:rootdevice
+
+
+[TRACE] 2015-09-26 12:42:52.955 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Linux/3.18.8+ UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: uuid:956e8a73-d31d-4619-ab37-36989d2a797b
+USN: uuid:956e8a73-d31d-4619-ab37-36989d2a797b
+
+
+[TRACE] 2015-09-26 12:42:52.955 [Thread-9] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Linux/3.18.8+ UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: uuid:956e8a73-d31d-4619-ab37-36989d2a797b
+USN: uuid:956e8a73-d31d-4619-ab37-36989d2a797b
+
+
+[TRACE] 2015-09-26 12:42:52.955 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Linux/3.18.8+ UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:956e8a73-d31d-4619-ab37-36989d2a797b::urn:schemas-simple-energy-management-protocol:device:Gateway:1
+
+
+[TRACE] 2015-09-26 12:42:52.955 [Thread-9] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Linux/3.18.8+ UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:956e8a73-d31d-4619-ab37-36989d2a797b::urn:schemas-simple-energy-management-protocol:device:Gateway:1
+
+
+[INFO ] 2015-09-26 12:43:58.672 [main] SEMP - >>>>>>   START V1.2 <<<<<<<
+[INFO ] 2015-09-26 12:43:58.734 [main] SEMP - SEMP Gateway initialized!
+[INFO ] 2015-09-26 12:43:58.750 [main] SEMP - SEMP receiver thread listening on http://192.168.178.30:8080/semp
+[INFO ] 2015-09-26 12:43:58.766 [main] SEMP - SEMP Gateway started succesfully!
+[INFO ] 2015-09-26 12:43:58.766 [Thread-5] SEMP - SSDP Receiver thread listening on: 239.255.255.250:1900 - Waiting for incoming data...
+[INFO ] 2015-09-26 12:43:58.766 [main] SEMP - >>>>>>   ENDE V1.2 <<<<<<<
+[DEBUG] 2015-09-26 12:43:59.016 [Timer-1] SEMP - Send SSDP NOTIFY messages to 239.255.255.250:1900
+[TRACE] 2015-09-26 12:43:59.078 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Linux/3.18.8+ UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: upnp:rootdevice
+USN: uuid:6fde8721-a5df-4423-b3e5-5c77b99033fd::upnp:rootdevice
+
+
+[TRACE] 2015-09-26 12:43:59.078 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Linux/3.18.8+ UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: uuid:6fde8721-a5df-4423-b3e5-5c77b99033fd
+USN: uuid:6fde8721-a5df-4423-b3e5-5c77b99033fd
+
+
+[TRACE] 2015-09-26 12:43:59.078 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Linux/3.18.8+ UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: upnp:rootdevice
+USN: uuid:6fde8721-a5df-4423-b3e5-5c77b99033fd::upnp:rootdevice
+
+
+[TRACE] 2015-09-26 12:43:59.078 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Linux/3.18.8+ UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: uuid:6fde8721-a5df-4423-b3e5-5c77b99033fd
+USN: uuid:6fde8721-a5df-4423-b3e5-5c77b99033fd
+
+
+[TRACE] 2015-09-26 12:43:59.078 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Linux/3.18.8+ UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:6fde8721-a5df-4423-b3e5-5c77b99033fd::urn:schemas-simple-energy-management-protocol:device:Gateway:1
+
+
+[TRACE] 2015-09-26 12:43:59.078 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Linux/3.18.8+ UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:6fde8721-a5df-4423-b3e5-5c77b99033fd::urn:schemas-simple-energy-management-protocol:device:Gateway:1
+
+

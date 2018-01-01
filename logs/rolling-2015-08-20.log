@@ -1,0 +1,20 @@
+[INFO ] 2015-08-20 21:54:47.896 [main] SEMP - >>> START  <<<
+[INFO ] 2015-08-20 21:54:47.896 [main] SEMP - >>> STOP  <<<
+[INFO ] 2015-08-20 21:55:04.319 [main] SEMP - >>> START  <<<
+[INFO ] 2015-08-20 21:55:04.319 [main] SEMP - >>> STOP  <<<
+[INFO ] 2015-08-20 21:56:47.478 [main] SEMP - >>> START  <<<
+[INFO ] 2015-08-20 21:56:47.493 [main] SEMP - >>> STOP  <<<
+[INFO ] 2015-08-20 21:57:56.617 [main] SEMP - >>>>>>   START  <<<<<<<
+[INFO ] 2015-08-20 21:57:56.617 [main] SEMP - >>>>>>   STOP   <<<<<<<
+[INFO ] 2015-08-20 21:58:45.094 [main] SEMP - >>>>>>   START  <<<<<<<
+[INFO ] 2015-08-20 21:59:23.457 [main] SEMP - >>>>>>   START  <<<<<<<
+[INFO ] 2015-08-20 21:59:24.473 [main] SEMP - >>>>>>   STOP   <<<<<<<
+[INFO ] 2015-08-20 21:59:32.770 [main] SEMP - >>>>>>   START  <<<<<<<
+[INFO ] 2015-08-20 21:59:42.771 [main] SEMP - >>>>>>   STOP   <<<<<<<
+[INFO ] 2015-08-20 22:07:12.429 [main] SEMP - >>>>>>   START  <<<<<<<
+[INFO ] 2015-08-20 22:07:22.430 [main] SEMP - >>>>>>   STOP   <<<<<<<
+[INFO ] 2015-08-20 22:08:15.297 [main] SEMP - >>>>>>   START  <<<<<<<
+[INFO ] 2015-08-20 22:08:15.297 [main] SEMP - SEMPGateway initialized!
+[INFO ] 2015-08-20 22:08:15.297 [main] SEMP - SEMP Engine started!
+[INFO ] 2015-08-20 22:08:25.297 [main] SEMP - SEMP Engine stopped!
+[INFO ] 2015-08-20 22:08:25.297 [main] SEMP - >>>>>>   STOP   <<<<<<<

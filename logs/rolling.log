@@ -1,0 +1,20 @@
+[INFO ] 2016-04-25 17:17:40.334 [main] SEMP - SEMP Gateway initialized!
+[INFO ] 2016-04-25 17:17:40.506 [main] SEMP - SEMP receiver thread listening on http://192.168.178.42:8080/semp
+[INFO ] 2016-04-25 17:17:40.506 [main] SEMP - SEMP Gateway started succesfully!
+[INFO ] 2016-04-25 17:17:40.506 [Thread-4] SEMP - SSDP Receiver thread listening on: [239.255.255.250:1900] - Waiting for incoming data...
+[DEBUG] 2016-04-25 17:17:40.756 [Timer-0] SEMP - SSDP NOTIFY messages send to [239.255.255.250:1900]
+[INFO ] 2016-04-25 17:17:54.101 [main] SEMP - SEMP Gateway initialized!
+[INFO ] 2016-04-25 17:17:54.242 [main] SEMP - SEMP receiver thread listening on http://192.168.178.42:8080/semp
+[INFO ] 2016-04-25 17:17:54.257 [main] SEMP - SEMP Gateway started succesfully!
+[INFO ] 2016-04-25 17:17:54.257 [Thread-4] SEMP - SSDP Receiver thread listening on: [239.255.255.250:1900] - Waiting for incoming data...
+[DEBUG] 2016-04-25 17:17:54.507 [Timer-0] SEMP - SSDP NOTIFY messages send to [239.255.255.250:1900]
+[INFO ] 2016-04-25 17:24:00.071 [main] SEMP - SEMP Gateway initialized!
+[ERROR] 2016-04-25 17:24:00.165 [main] SEMP - Address already in use: bind
+[INFO ] 2016-04-25 17:24:00.165 [main] SEMP - SEMP Gateway started succesfully!
+[INFO ] 2016-04-25 17:24:00.165 [Thread-2] SEMP - SSDP Receiver thread listening on: [239.255.255.250:1900] - Waiting for incoming data...
+[DEBUG] 2016-04-25 17:24:00.415 [Timer-0] SEMP - SSDP NOTIFY messages send to [239.255.255.250:1900]
+[INFO ] 2016-04-25 17:24:48.709 [main] SEMP - SEMP Gateway initialized!
+[INFO ] 2016-04-25 17:24:48.850 [main] SEMP - SEMP receiver thread listening on http://192.168.178.42:8080/semp
+[INFO ] 2016-04-25 17:24:48.850 [main] SEMP - SEMP Gateway started succesfully!
+[INFO ] 2016-04-25 17:24:48.850 [Thread-4] SEMP - SSDP Receiver thread listening on: [239.255.255.250:1900] - Waiting for incoming data...
+[DEBUG] 2016-04-25 17:24:49.100 [Timer-0] SEMP - SSDP NOTIFY messages send to [239.255.255.250:1900]

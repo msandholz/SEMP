@@ -1,0 +1,140 @@
+[INFO ] 2016-03-22 15:58:21.376 [main] SEMP - >>>>>>   START V1.2 <<<<<<<
+[INFO ] 2016-03-22 15:58:21.392 [main] SEMP - SEMP Gateway initialized!
+[INFO ] 2016-03-22 15:58:21.423 [main] SEMP - SEMP receiver thread listening on http://192.168.178.42:8080/semp
+[INFO ] 2016-03-22 15:58:21.423 [main] SEMP - SEMP Gateway started succesfully!
+[INFO ] 2016-03-22 15:58:21.423 [Thread-5] SEMP - SSDP Receiver thread listening on: [239.255.255.250:1900] - Waiting for incoming data...
+[INFO ] 2016-03-22 15:58:21.423 [main] SEMP - >>>>>>   ENDE V1.2 <<<<<<<
+[DEBUG] 2016-03-22 15:58:21.673 [Timer-1] SEMP - SSDP NOTIFY messages send to [239.255.255.250:1900]
+[INFO ] 2016-03-22 16:02:16.043 [main] SEMP - >>>>>>   START V1.2 <<<<<<<
+[INFO ] 2016-03-22 16:02:16.121 [main] SEMP - SEMP Gateway initialized!
+[ERROR] 2016-03-22 16:02:16.137 [main] SEMP - Address already in use: bind
+[INFO ] 2016-03-22 16:02:16.137 [main] SEMP - SEMP Gateway started succesfully!
+[INFO ] 2016-03-22 16:02:16.137 [Thread-3] SEMP - SSDP Receiver thread listening on: [239.255.255.250:1900] - Waiting for incoming data...
+[INFO ] 2016-03-22 16:02:16.137 [main] SEMP - >>>>>>   ENDE V1.2 <<<<<<<
+[DEBUG] 2016-03-22 16:02:16.387 [Timer-1] SEMP - SSDP NOTIFY messages send to [239.255.255.250:1900]
+[INFO ] 2016-03-22 16:02:48.936 [main] SEMP - >>>>>>   START V1.2 <<<<<<<
+[INFO ] 2016-03-22 16:02:49.014 [main] SEMP - SEMP Gateway initialized!
+[INFO ] 2016-03-22 16:02:49.076 [main] SEMP - SEMP receiver thread listening on http://192.168.178.42:8080/semp
+[INFO ] 2016-03-22 16:02:49.076 [main] SEMP - SEMP Gateway started succesfully!
+[INFO ] 2016-03-22 16:02:49.076 [Thread-5] SEMP - SSDP Receiver thread listening on: [239.255.255.250:1900] - Waiting for incoming data...
+[INFO ] 2016-03-22 16:02:49.076 [main] SEMP - >>>>>>   ENDE V1.2 <<<<<<<
+[DEBUG] 2016-03-22 16:02:49.326 [Timer-1] SEMP - SSDP NOTIFY messages send to [239.255.255.250:1900]
+[FATAL] 2016-03-22 16:02:54.295 [Thread-4] SEMP - Stream closed
+[FATAL] 2016-03-22 16:03:03.517 [Thread-4] SEMP - Stream closed
+[FATAL] 2016-03-22 16:03:04.501 [Thread-4] SEMP - Stream closed
+[FATAL] 2016-03-22 16:03:05.439 [Thread-4] SEMP - Stream closed
+[FATAL] 2016-03-22 16:03:07.299 [Thread-4] SEMP - Stream closed
+[FATAL] 2016-03-22 16:03:08.394 [Thread-4] SEMP - Stream closed
+[FATAL] 2016-03-22 16:03:10.895 [Thread-4] SEMP - Stream closed
+[FATAL] 2016-03-22 16:03:11.629 [Thread-4] SEMP - Stream closed
+[FATAL] 2016-03-22 16:03:21.709 [Thread-4] SEMP - Stream closed
+[FATAL] 2016-03-22 16:03:31.820 [Thread-4] SEMP - Stream closed
+[INFO ] 2016-03-22 16:03:43.763 [main] SEMP - >>>>>>   START V1.2 <<<<<<<
+[INFO ] 2016-03-22 16:03:43.851 [main] SEMP - SEMP Gateway initialized!
+[INFO ] 2016-03-22 16:03:43.920 [main] SEMP - SEMP receiver thread listening on http://192.168.178.42:8080/semp
+[INFO ] 2016-03-22 16:03:43.920 [main] SEMP - SEMP Gateway started succesfully!
+[INFO ] 2016-03-22 16:03:43.920 [Thread-5] SEMP - SSDP Receiver thread listening on: [239.255.255.250:1900] - Waiting for incoming data...
+[INFO ] 2016-03-22 16:03:43.920 [main] SEMP - >>>>>>   ENDE V1.2 <<<<<<<
+[DEBUG] 2016-03-22 16:03:44.185 [Timer-1] SEMP - SSDP NOTIFY messages send to [239.255.255.250:1900]
+[INFO ] 2016-03-22 16:06:29.334 [main] SEMP - >>>>>>   START V1.2 <<<<<<<
+[INFO ] 2016-03-22 16:06:29.412 [main] SEMP - SEMP Gateway initialized!
+[INFO ] 2016-03-22 16:06:29.475 [main] SEMP - SEMP receiver thread listening on http://192.168.178.42:8080/semp
+[INFO ] 2016-03-22 16:06:29.475 [main] SEMP - SEMP Gateway started succesfully!
+[INFO ] 2016-03-22 16:06:29.475 [Thread-5] SEMP - SSDP Receiver thread listening on: [239.255.255.250:1900] - Waiting for incoming data...
+[INFO ] 2016-03-22 16:06:29.475 [main] SEMP - >>>>>>   ENDE V1.2 <<<<<<<
+[DEBUG] 2016-03-22 16:06:29.725 [Timer-1] SEMP - SSDP NOTIFY messages send to [239.255.255.250:1900]
+[INFO ] 2016-03-22 16:08:32.737 [main] SEMP - >>>>>>   START V1.2 <<<<<<<
+[INFO ] 2016-03-22 16:08:32.810 [main] SEMP - SEMP Gateway initialized!
+[INFO ] 2016-03-22 16:08:32.874 [main] SEMP - SEMP receiver thread listening on http://192.168.178.42:8080/semp
+[INFO ] 2016-03-22 16:08:32.881 [main] SEMP - SEMP Gateway started succesfully!
+[INFO ] 2016-03-22 16:08:32.881 [Thread-5] SEMP - SSDP Receiver thread listening on: [239.255.255.250:1900] - Waiting for incoming data...
+[INFO ] 2016-03-22 16:08:32.881 [main] SEMP - >>>>>>   ENDE V1.2 <<<<<<<
+[DEBUG] 2016-03-22 16:08:33.132 [Timer-1] SEMP - SSDP NOTIFY messages send to [239.255.255.250:1900]
+[DEBUG] 2016-03-22 16:08:42.483 [Thread-4] SEMP - 404 (Not found): the requested URL /favicon.ico is not supported! Client: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-22 16:08:42.485 [Thread-4] SEMP - 404 (Not found): the requested URL /favicon.ico is not supported! Client: Desktop-PC.fritz.box [192.168.178.42]
+[INFO ] 2016-03-22 16:10:08.643 [main] SEMP - >>>>>>   START V1.2 <<<<<<<
+[INFO ] 2016-03-22 16:10:08.716 [main] SEMP - SEMP Gateway initialized!
+[INFO ] 2016-03-22 16:10:08.783 [main] SEMP - SEMP receiver thread listening on http://192.168.178.42:8080/semp
+[INFO ] 2016-03-22 16:10:08.790 [main] SEMP - SEMP Gateway started succesfully!
+[INFO ] 2016-03-22 16:10:08.790 [Thread-5] SEMP - SSDP Receiver thread listening on: [239.255.255.250:1900] - Waiting for incoming data...
+[INFO ] 2016-03-22 16:10:08.790 [main] SEMP - >>>>>>   ENDE V1.2 <<<<<<<
+[DEBUG] 2016-03-22 16:10:09.039 [Timer-1] SEMP - SSDP NOTIFY messages send to [239.255.255.250:1900]
+[INFO ] 2016-03-22 16:18:51.580 [main] SEMP - >>>>>>   START V1.2 <<<<<<<
+[INFO ] 2016-03-22 16:18:51.658 [main] SEMP - SEMP Gateway initialized!
+[INFO ] 2016-03-22 16:18:51.736 [main] SEMP - SEMP receiver thread listening on http://192.168.178.42:8080/semp
+[INFO ] 2016-03-22 16:18:51.736 [main] SEMP - SEMP Gateway started succesfully!
+[INFO ] 2016-03-22 16:18:51.736 [Thread-5] SEMP - SSDP Receiver thread listening on: [239.255.255.250:1900] - Waiting for incoming data...
+[INFO ] 2016-03-22 16:18:51.736 [main] SEMP - >>>>>>   ENDE V1.2 <<<<<<<
+[DEBUG] 2016-03-22 16:18:51.986 [Timer-1] SEMP - SSDP NOTIFY messages send to [239.255.255.250:1900]
+[INFO ] 2016-03-22 16:19:46.299 [main] SEMP - >>>>>>   START V1.2 <<<<<<<
+[INFO ] 2016-03-22 16:19:46.377 [main] SEMP - SEMP Gateway initialized!
+[INFO ] 2016-03-22 16:19:46.455 [main] SEMP - SEMP receiver thread listening on http://192.168.178.42:8080/semp
+[INFO ] 2016-03-22 16:19:46.455 [main] SEMP - SEMP Gateway started succesfully!
+[INFO ] 2016-03-22 16:19:46.455 [Thread-5] SEMP - SSDP Receiver thread listening on: [239.255.255.250:1900] - Waiting for incoming data...
+[INFO ] 2016-03-22 16:19:46.455 [main] SEMP - >>>>>>   ENDE V1.2 <<<<<<<
+[DEBUG] 2016-03-22 16:19:46.706 [Timer-1] SEMP - SSDP NOTIFY messages send to [239.255.255.250:1900]
+[INFO ] 2016-03-22 16:20:50.610 [main] SEMP - >>>>>>   START V1.2 <<<<<<<
+[INFO ] 2016-03-22 16:20:50.688 [main] SEMP - SEMP Gateway initialized!
+[INFO ] 2016-03-22 16:20:50.766 [main] SEMP - SEMP receiver thread listening on http://192.168.178.42:8080/semp
+[INFO ] 2016-03-22 16:20:50.782 [main] SEMP - SEMP Gateway started succesfully!
+[INFO ] 2016-03-22 16:20:50.782 [Thread-5] SEMP - SSDP Receiver thread listening on: [239.255.255.250:1900] - Waiting for incoming data...
+[INFO ] 2016-03-22 16:20:50.782 [main] SEMP - >>>>>>   ENDE V1.2 <<<<<<<
+[DEBUG] 2016-03-22 16:20:51.032 [Timer-1] SEMP - SSDP NOTIFY messages send to [239.255.255.250:1900]
+[INFO ] 2016-03-22 16:22:22.900 [main] SEMP - >>>>>>   START V1.2 <<<<<<<
+[INFO ] 2016-03-22 16:22:22.957 [main] SEMP - SEMP Gateway initialized!
+[INFO ] 2016-03-22 16:22:23.047 [main] SEMP - SEMP receiver thread listening on http://192.168.178.42:8080/semp
+[INFO ] 2016-03-22 16:22:23.047 [main] SEMP - SEMP Gateway started succesfully!
+[INFO ] 2016-03-22 16:22:23.047 [Thread-5] SEMP - SSDP Receiver thread listening on: [239.255.255.250:1900] - Waiting for incoming data...
+[INFO ] 2016-03-22 16:22:23.047 [main] SEMP - >>>>>>   ENDE V1.2 <<<<<<<
+[DEBUG] 2016-03-22 16:22:23.301 [Timer-1] SEMP - SSDP NOTIFY messages send to [239.255.255.250:1900]
+[ERROR] 2016-03-22 16:30:01.407 [Thread-4] SEMP - Unable to load css-file from: C:\Users\Desktop\Documents\NetBeansProjects\SEMPsemp.css
+java.lang.NullPointerException
+	at java.io.Reader.<init>(Reader.java:78) ~[?:1.8.0_05]
+	at java.io.InputStreamReader.<init>(InputStreamReader.java:72) ~[?:1.8.0_05]
+	at de.sandholz.semp.http.DeviceCSSHandler.readCSSFile(DeviceCSSHandler.java:75) [classes/:?]
+	at de.sandholz.semp.http.DeviceCSSHandler.handle(DeviceCSSHandler.java:47) [classes/:?]
+	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:79) [?:1.8.0_05]
+	at sun.net.httpserver.AuthFilter.doFilter(AuthFilter.java:83) [?:1.8.0_05]
+	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:82) [?:1.8.0_05]
+	at sun.net.httpserver.ServerImpl$Exchange$LinkHandler.handle(ServerImpl.java:675) [?:1.8.0_05]
+	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:79) [?:1.8.0_05]
+	at sun.net.httpserver.ServerImpl$Exchange.run(ServerImpl.java:647) [?:1.8.0_05]
+	at sun.net.httpserver.ServerImpl$DefaultExecutor.execute(ServerImpl.java:158) [?:1.8.0_05]
+	at sun.net.httpserver.ServerImpl$Dispatcher.handle(ServerImpl.java:431) [?:1.8.0_05]
+	at sun.net.httpserver.ServerImpl$Dispatcher.run(ServerImpl.java:396) [?:1.8.0_05]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_05]
+[ERROR] 2016-03-22 16:30:01.423 [Thread-4] SEMP - Unable to load logo from: C:\Users\Desktop\Documents\NetBeansProjects\SEMP/resources/logo.png
+java.lang.IllegalArgumentException: input == null!
+	at javax.imageio.ImageIO.read(ImageIO.java:1348) ~[?:1.8.0_05]
+	at de.sandholz.semp.http.DeviceImageHandler.handle(DeviceImageHandler.java:63) [classes/:?]
+	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:79) [?:1.8.0_05]
+	at sun.net.httpserver.AuthFilter.doFilter(AuthFilter.java:83) [?:1.8.0_05]
+	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:82) [?:1.8.0_05]
+	at sun.net.httpserver.ServerImpl$Exchange$LinkHandler.handle(ServerImpl.java:675) [?:1.8.0_05]
+	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:79) [?:1.8.0_05]
+	at sun.net.httpserver.ServerImpl$Exchange.run(ServerImpl.java:647) [?:1.8.0_05]
+	at sun.net.httpserver.ServerImpl$DefaultExecutor.execute(ServerImpl.java:158) [?:1.8.0_05]
+	at sun.net.httpserver.ServerImpl$Dispatcher.handle(ServerImpl.java:431) [?:1.8.0_05]
+	at sun.net.httpserver.ServerImpl$Dispatcher.run(ServerImpl.java:396) [?:1.8.0_05]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_05]
+[INFO ] 2016-03-22 16:30:54.114 [main] SEMP - >>>>>>   START V1.2 <<<<<<<
+[INFO ] 2016-03-22 16:30:54.192 [main] SEMP - SEMP Gateway initialized!
+[ERROR] 2016-03-22 16:30:54.208 [main] SEMP - Address already in use: bind
+[INFO ] 2016-03-22 16:30:54.208 [main] SEMP - SEMP Gateway started succesfully!
+[INFO ] 2016-03-22 16:30:54.208 [Thread-3] SEMP - SSDP Receiver thread listening on: [239.255.255.250:1900] - Waiting for incoming data...
+[INFO ] 2016-03-22 16:30:54.208 [main] SEMP - >>>>>>   ENDE V1.2 <<<<<<<
+[DEBUG] 2016-03-22 16:30:54.458 [Timer-1] SEMP - SSDP NOTIFY messages send to [239.255.255.250:1900]
+[INFO ] 2016-03-22 16:31:50.758 [main] SEMP - >>>>>>   START V1.2 <<<<<<<
+[INFO ] 2016-03-22 16:31:50.836 [main] SEMP - SEMP Gateway initialized!
+[INFO ] 2016-03-22 16:31:50.899 [main] SEMP - SEMP receiver thread listening on http://192.168.178.42:8080/semp
+[INFO ] 2016-03-22 16:31:50.914 [main] SEMP - SEMP Gateway started succesfully!
+[INFO ] 2016-03-22 16:31:50.914 [Thread-5] SEMP - SSDP Receiver thread listening on: [239.255.255.250:1900] - Waiting for incoming data...
+[INFO ] 2016-03-22 16:31:50.914 [main] SEMP - >>>>>>   ENDE V1.2 <<<<<<<
+[DEBUG] 2016-03-22 16:31:51.164 [Timer-1] SEMP - SSDP NOTIFY messages send to [239.255.255.250:1900]
+[INFO ] 2016-03-22 16:33:07.952 [main] SEMP - >>>>>>   START V1.2 <<<<<<<
+[INFO ] 2016-03-22 16:33:08.030 [main] SEMP - SEMP Gateway initialized!
+[INFO ] 2016-03-22 16:33:08.108 [main] SEMP - SEMP receiver thread listening on http://192.168.178.42:8080/semp
+[INFO ] 2016-03-22 16:33:08.108 [main] SEMP - SEMP Gateway started succesfully!
+[INFO ] 2016-03-22 16:33:08.108 [Thread-5] SEMP - SSDP Receiver thread listening on: [239.255.255.250:1900] - Waiting for incoming data...
+[INFO ] 2016-03-22 16:33:08.108 [main] SEMP - >>>>>>   ENDE V1.2 <<<<<<<
+[DEBUG] 2016-03-22 16:33:08.358 [Timer-1] SEMP - SSDP NOTIFY messages send to [239.255.255.250:1900]

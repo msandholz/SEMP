@@ -1,0 +1,189 @@
+html { font-family: sans-serif;	}
+h2 { font-size: 20px;}
+h3 { font-size: 14px;}
+hr { border: 1px solid #666}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+textarea {
+    width: 100%;
+    height: 40%;
+    font-size: 12px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+.logo { 
+   line-height: 200px;
+   margin: 10px;
+ }
+
+.btn {
+    background-color: #E8E8E8;
+    border: 1px solid gray;
+    color: gray;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 3px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+
+.bOn {
+    background: #dff0d8;
+    color: #4CAF50;
+    border-color: #4CAF50;
+}
+
+a.hOn:hover {
+    background: #4CAF50;
+    color: #dff0d8;
+}
+
+.bOff {
+    background: #f2dede;
+    color: #b4601e;
+    border-color: #b4601e;
+}
+
+a.hOff:hover {
+    background: #b4601e;
+    color: #f2dede;
+}
+
+.bAuto {
+    background: #dfeaf4;
+    color: #0166a9;
+    border-color: #0166a9;
+}
+
+a.hAuto:hover {
+    background: #0166a9;
+    color: #dfeaf4;
+}
+
+.status {
+    top: 3px;
+    font-size: 12px;
+    position: relative;
+    color: #666;
+}
+
+.planning {
+    top: 3px;
+    font-size: 12px;
+    color: black;
+}
+
+.footer {
+    text-align: center; 
+    width: 100%;
+    font-size: 12px;
+    color: #666;
+}
+	
+.dot-off {
+    background: #b4601e;
+    border: 5px solid #f2dede;
+    width: 10px;
+    height: 10px;
+    border-radius: 40px;
+    position: relative;
+    left: -5px;
+    top: -2px;
+    float: left;
+}
+
+.dot-on {
+    background: #6ab033;
+    border: 5px solid #d2e8c9;
+    width: 10px;
+    height: 10px;
+    border-radius: 40px;
+    position: relative;
+    left: -5px;
+    top: -2px;
+    float: left;
+}
+
+.blink {
+    -webkit-animation: blink 1s linear infinite;
+    -moz-animation: blink 1s linear infinite;
+    -ms-animation: blink 1s linear infinite;
+    -o-animation: blink 1s linear infinite;
+     animation: blink 1s linear infinite;
+}
+
+.container {
+    background-color: #E8E8E8;
+    border: 1px solid gray;
+    border-collapse: separate;
+    border-spacing: 8px;
+    color: gray;   
+    width: 100%;
+}
+
+.box{
+    vertical-align: top;
+    width: 25%;
+    background: #dfeaf4;
+    color: #0166a9;
+    border-color: #0166a9;
+    border: 1px solid;
+}
+
+
+@-webkit-keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 1; }
+    50.01% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+@-moz-keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 1; }
+    50.01% { opacity: 0; }
+    100% { opacity: 0; }
+}
+@-ms-keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 1; }
+    50.01% { opacity: 0; }
+    100% { opacity: 0; }
+}
+@-o-keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 1; }
+    50.01% { opacity: 0; }
+    100% { opacity: 0; }
+}
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 1; }
+    50.01% { opacity: 0; }
+    100% { opacity: 0; }
+}

@@ -1,0 +1,1375 @@
+[INFO ] 2015-10-24 19:25:45.698 [main] SEMP - >>>>>>   START V1.2 <<<<<<<
+[INFO ] 2015-10-24 19:25:45.721 [main] SEMP - SEMP Gateway initialized!
+[INFO ] 2015-10-24 19:25:45.737 [main] SEMP - SEMP receiver thread listening on http://192.168.178.34:8080/semp
+[INFO ] 2015-10-24 19:25:45.738 [main] SEMP - SEMP Gateway started succesfully!
+[INFO ] 2015-10-24 19:25:45.738 [Thread-9] SEMP - SSDP Receiver thread listening on: 239.255.255.250:1900 - Waiting for incoming data...
+[INFO ] 2015-10-24 19:25:45.738 [main] SEMP - >>>>>>   ENDE V1.2 <<<<<<<
+[DEBUG] 2015-10-24 19:25:45.988 [Timer-1] SEMP - Send SSDP NOTIFY messages to 239.255.255.250:1900
+[TRACE] 2015-10-24 19:25:45.995 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.34:8080/semp/description.xml
+NT: upnp:rootdevice
+USN: uuid:0e1231c3-b627-4b3a-8cfc-6699d4bf1a1e::upnp:rootdevice
+
+
+[TRACE] 2015-10-24 19:25:45.997 [Thread-9] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2015-10-24 19:25:45.997 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.34:8080/semp/description.xml
+NT: uuid:0e1231c3-b627-4b3a-8cfc-6699d4bf1a1e
+USN: uuid:0e1231c3-b627-4b3a-8cfc-6699d4bf1a1e
+
+
+[TRACE] 2015-10-24 19:25:45.998 [Thread-9] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2015-10-24 19:25:45.998 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.34:8080/semp/description.xml
+NT: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:0e1231c3-b627-4b3a-8cfc-6699d4bf1a1e::urn:schemas-simple-energy-management-protocol:device:Gateway:1
+
+
+[TRACE] 2015-10-24 19:25:45.999 [Thread-9] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[DEBUG] 2015-10-24 19:26:57.049 [Thread-8] SEMP - 404 (Not found): the requested URL /test is not supported! Client: Desktop-PC.fritz.box [192.168.178.34]
+[DEBUG] 2015-10-24 19:26:57.080 [Thread-8] SEMP - 404 (Not found): the requested URL /favicon.ico is not supported! Client: Desktop-PC.fritz.box [192.168.178.34]
+[DEBUG] 2015-10-24 19:26:57.080 [Thread-8] SEMP - 404 (Not found): the requested URL /favicon.ico is not supported! Client: Desktop-PC.fritz.box [192.168.178.34]
+[DEBUG] 2015-10-24 19:40:45.988 [Timer-1] SEMP - Send SSDP NOTIFY messages to 239.255.255.250:1900
+[TRACE] 2015-10-24 19:40:45.988 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.34:8080/semp/description.xml
+NT: upnp:rootdevice
+USN: uuid:0e1231c3-b627-4b3a-8cfc-6699d4bf1a1e::upnp:rootdevice
+
+
+[TRACE] 2015-10-24 19:40:45.989 [Thread-9] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2015-10-24 19:40:45.989 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.34:8080/semp/description.xml
+NT: uuid:0e1231c3-b627-4b3a-8cfc-6699d4bf1a1e
+USN: uuid:0e1231c3-b627-4b3a-8cfc-6699d4bf1a1e
+
+
+[TRACE] 2015-10-24 19:40:45.989 [Thread-9] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2015-10-24 19:40:45.989 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.34:8080/semp/description.xml
+NT: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:0e1231c3-b627-4b3a-8cfc-6699d4bf1a1e::urn:schemas-simple-energy-management-protocol:device:Gateway:1
+
+
+[TRACE] 2015-10-24 19:40:45.990 [Thread-9] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[DEBUG] 2015-10-24 19:55:45.989 [Timer-1] SEMP - Send SSDP NOTIFY messages to 239.255.255.250:1900
+[TRACE] 2015-10-24 19:55:45.989 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.34:8080/semp/description.xml
+NT: upnp:rootdevice
+USN: uuid:0e1231c3-b627-4b3a-8cfc-6699d4bf1a1e::upnp:rootdevice
+
+
+[TRACE] 2015-10-24 19:55:45.989 [Thread-9] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2015-10-24 19:55:45.989 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.34:8080/semp/description.xml
+NT: uuid:0e1231c3-b627-4b3a-8cfc-6699d4bf1a1e
+USN: uuid:0e1231c3-b627-4b3a-8cfc-6699d4bf1a1e
+
+
+[TRACE] 2015-10-24 19:55:45.989 [Thread-9] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2015-10-24 19:55:45.989 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.34:8080/semp/description.xml
+NT: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:0e1231c3-b627-4b3a-8cfc-6699d4bf1a1e::urn:schemas-simple-energy-management-protocol:device:Gateway:1
+
+
+[TRACE] 2015-10-24 19:55:45.989 [Thread-9] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[INFO ] 2015-10-24 20:01:15.731 [main] SEMP - >>>>>>   START V1.2 <<<<<<<
+[INFO ] 2015-10-24 20:01:15.778 [main] SEMP - SEMP Gateway initialized!
+[ERROR] 2015-10-24 20:01:15.793 [main] SEMP - Cannot assign requested address: bind
+[INFO ] 2015-10-24 20:01:15.793 [main] SEMP - SEMP Gateway started succesfully!
+[INFO ] 2015-10-24 20:01:15.793 [Thread-3] SEMP - SSDP Receiver thread listening on: 239.255.255.250:1900 - Waiting for incoming data...
+[INFO ] 2015-10-24 20:01:15.793 [main] SEMP - >>>>>>   ENDE V1.2 <<<<<<<
+[DEBUG] 2015-10-24 20:01:16.043 [Timer-1] SEMP - Send SSDP NOTIFY messages to 239.255.255.250:1900
+[TRACE] 2015-10-24 20:01:16.075 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.34:8080/semp/description.xml
+NT: upnp:rootdevice
+USN: uuid:55530c6b-4ae7-4b77-b3cf-32e797c0e0fb::upnp:rootdevice
+
+
+[TRACE] 2015-10-24 20:01:16.075 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.34:8080/semp/description.xml
+NT: uuid:55530c6b-4ae7-4b77-b3cf-32e797c0e0fb
+USN: uuid:55530c6b-4ae7-4b77-b3cf-32e797c0e0fb
+
+
+[TRACE] 2015-10-24 20:01:16.075 [Thread-3] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2015-10-24 20:01:16.075 [Thread-3] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2015-10-24 20:01:16.075 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.34:8080/semp/description.xml
+NT: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:55530c6b-4ae7-4b77-b3cf-32e797c0e0fb::urn:schemas-simple-energy-management-protocol:device:Gateway:1
+
+
+[TRACE] 2015-10-24 20:01:16.075 [Thread-3] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[DEBUG] 2015-10-24 20:01:45.195 [Thread-3] SEMP - Received SSDP M-SEARCH-REQUEST (search by device-type) from 192.168.178.24:33618
+M-SEARCH * HTTP/1.1
+HOST: 239.255.255.250:1900
+MAN: "ssdp:discover"
+MX: 10
+ST: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+
+
+[DEBUG] 2015-10-24 20:01:45.195 [Thread-3] SEMP - Send SSDP M-SEARCH-RESPONSE (search by device-type) message to 192.168.178.24:33618
+[TRACE] 2015-10-24 20:01:45.195 [Thread-3] SEMP - SSDP Message:
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age=1800
+DATE: Sat Oct 24 20:01:45 2015
+EXT: 
+LOCATION: http://192.168.178.34:8080/semp/description.xml
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+ST: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:55530c6b-4ae7-4b77-b3cf-32e797c0e0fb::urn:schemas-simple-energy-management-protocol:device:Gateway:1
+
+
+[INFO ] 2015-10-24 20:02:10.032 [main] SEMP - >>>>>>   START V1.2 <<<<<<<
+[INFO ] 2015-10-24 20:02:10.079 [main] SEMP - SEMP Gateway initialized!
+[ERROR] 2015-10-24 20:02:10.095 [main] SEMP - Cannot assign requested address: bind
+[INFO ] 2015-10-24 20:02:10.095 [main] SEMP - SEMP Gateway started succesfully!
+[INFO ] 2015-10-24 20:02:10.095 [Thread-7] SEMP - SSDP Receiver thread listening on: 239.255.255.250:1900 - Waiting for incoming data...
+[INFO ] 2015-10-24 20:02:10.095 [main] SEMP - >>>>>>   ENDE V1.2 <<<<<<<
+[DEBUG] 2015-10-24 20:02:10.345 [Timer-1] SEMP - Send SSDP NOTIFY messages to 239.255.255.250:1900
+[TRACE] 2015-10-24 20:02:10.345 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.32:8080/semp/description.xml
+NT: upnp:rootdevice
+USN: uuid:50bb645b-85ed-4dd4-bf63-5b8cf207953b::upnp:rootdevice
+
+
+[TRACE] 2015-10-24 20:02:10.361 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.32:8080/semp/description.xml
+NT: uuid:50bb645b-85ed-4dd4-bf63-5b8cf207953b
+USN: uuid:50bb645b-85ed-4dd4-bf63-5b8cf207953b
+
+
+[TRACE] 2015-10-24 20:02:10.361 [Thread-7] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2015-10-24 20:02:10.361 [Thread-3] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2015-10-24 20:02:10.361 [Thread-7] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2015-10-24 20:02:10.361 [Thread-3] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2015-10-24 20:02:10.361 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.32:8080/semp/description.xml
+NT: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:50bb645b-85ed-4dd4-bf63-5b8cf207953b::urn:schemas-simple-energy-management-protocol:device:Gateway:1
+
+
+[TRACE] 2015-10-24 20:02:10.361 [Thread-3] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2015-10-24 20:02:10.361 [Thread-7] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[DEBUG] 2015-10-24 20:02:47.472 [Thread-3] SEMP - Received SSDP M-SEARCH-REQUEST (search by device-type) from 192.168.178.24:33618
+M-SEARCH * HTTP/1.1
+HOST: 239.255.255.250:1900
+MAN: "ssdp:discover"
+MX: 10
+ST: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+
+
+[DEBUG] 2015-10-24 20:02:47.472 [Thread-7] SEMP - Received SSDP M-SEARCH-REQUEST (search by device-type) from 192.168.178.24:33618
+M-SEARCH * HTTP/1.1
+HOST: 239.255.255.250:1900
+MAN: "ssdp:discover"
+MX: 10
+ST: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+
+
+[DEBUG] 2015-10-24 20:02:47.472 [Thread-3] SEMP - Send SSDP M-SEARCH-RESPONSE (search by device-type) message to 192.168.178.24:33618
+[DEBUG] 2015-10-24 20:02:47.472 [Thread-7] SEMP - Send SSDP M-SEARCH-RESPONSE (search by device-type) message to 192.168.178.24:33618
+[TRACE] 2015-10-24 20:02:47.472 [Thread-3] SEMP - SSDP Message:
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age=1800
+DATE: Sat Oct 24 20:02:47 2015
+EXT: 
+LOCATION: http://192.168.178.34:8080/semp/description.xml
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+ST: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:55530c6b-4ae7-4b77-b3cf-32e797c0e0fb::urn:schemas-simple-energy-management-protocol:device:Gateway:1
+
+
+[TRACE] 2015-10-24 20:02:47.487 [Thread-7] SEMP - SSDP Message:
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age=1800
+DATE: Sat Oct 24 20:02:47 2015
+EXT: 
+LOCATION: http://192.168.178.32:8080/semp/description.xml
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+ST: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:50bb645b-85ed-4dd4-bf63-5b8cf207953b::urn:schemas-simple-energy-management-protocol:device:Gateway:1
+
+
+[INFO ] 2015-10-24 20:03:43.740 [main] SEMP - >>>>>>   START V1.2 <<<<<<<
+[INFO ] 2015-10-24 20:03:43.803 [main] SEMP - SEMP Gateway initialized!
+[INFO ] 2015-10-24 20:03:43.819 [main] SEMP - SEMP receiver thread listening on http://192.168.178.36:8080/semp
+[INFO ] 2015-10-24 20:03:43.834 [main] SEMP - SEMP Gateway started succesfully!
+[INFO ] 2015-10-24 20:03:43.834 [Thread-9] SEMP - SSDP Receiver thread listening on: 239.255.255.250:1900 - Waiting for incoming data...
+[INFO ] 2015-10-24 20:03:43.834 [main] SEMP - >>>>>>   ENDE V1.2 <<<<<<<
+[DEBUG] 2015-10-24 20:03:44.084 [Timer-1] SEMP - Send SSDP NOTIFY messages to 239.255.255.250:1900
+[TRACE] 2015-10-24 20:03:44.100 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.36:8080/semp/description.xml
+NT: upnp:rootdevice
+USN: uuid:059582f2-703d-4ad8-89db-25fa946f9bab::upnp:rootdevice
+
+
+[TRACE] 2015-10-24 20:03:44.100 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.36:8080/semp/description.xml
+NT: uuid:059582f2-703d-4ad8-89db-25fa946f9bab
+USN: uuid:059582f2-703d-4ad8-89db-25fa946f9bab
+
+
+[TRACE] 2015-10-24 20:03:44.100 [Thread-9] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2015-10-24 20:03:44.100 [Thread-9] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2015-10-24 20:03:44.100 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.36:8080/semp/description.xml
+NT: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:059582f2-703d-4ad8-89db-25fa946f9bab::urn:schemas-simple-energy-management-protocol:device:Gateway:1
+
+
+[TRACE] 2015-10-24 20:03:44.100 [Thread-9] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2015-10-24 20:03:44.178 [Thread-8] SEMP - HTTP Request to /semp/description.xml from SMA-Home-Manager.fritz.box [192.168.178.24]
+<?xml version="1.0"?>
+<root xmlns="urn:schemas-upnp-org:device-1-0">
+  <specVersion><major>1</major><minor>0</minor></specVersion>
+  <device>
+    <deviceType>urn:schemas-simple-energy-management-protocol:device:Gateway:1</deviceType>
+    <friendlyName>JavaGateway</friendlyName>
+    <manufacturer>Markus</manufacturer>
+    <modelName>SEMP GWD</modelName>
+    <UDN>uuid:059582f2-703d-4ad8-89db-25fa946f9bab</UDN>
+    <serviceList>
+      <service>
+        <serviceType>urn:schemas-simple-energy-management-protocol:service:NULL:1:service:NULL:1</serviceType>
+        <serviceId>urn:schemas-simple-energy-management-protocol:serviceId:NULL:serviceId:NULL</serviceId>
+        <SCPDURL>/XD/NULL.xml</SCPDURL>
+        <controlURL>/UD/?0</controlURL>
+        <eventSubURL></eventSubURL>
+      </service>
+    </serviceList>
+    <presentationURL>index.html</presentationURL>
+    <semp:X_SEMPSERVICE xmlns:semp="urn:schemas-simple-energy-management-protocol:service-1-0">
+        <semp:server>http://192.168.178.36:8080</semp:server>
+        <semp:basePath>/semp</semp:basePath>
+        <semp:transport>HTTP/Pull</semp:transport>
+        <semp:exchangeFormat>XML</semp:exchangeFormat>
+        <semp:wsVersion>1.1.0</semp:wsVersion>
+    </semp:X_SEMPSERVICE>
+  </device>
+</root>
+[TRACE] 2015-10-24 20:03:44.178 [Thread-8] SEMP - HTTP Request to /semp/description.xml from SMA-Home-Manager.fritz.box [192.168.178.24]
+<?xml version="1.0"?>
+<root xmlns="urn:schemas-upnp-org:device-1-0">
+  <specVersion><major>1</major><minor>0</minor></specVersion>
+  <device>
+    <deviceType>urn:schemas-simple-energy-management-protocol:device:Gateway:1</deviceType>
+    <friendlyName>JavaGateway</friendlyName>
+    <manufacturer>Markus</manufacturer>
+    <modelName>SEMP GWD</modelName>
+    <UDN>uuid:059582f2-703d-4ad8-89db-25fa946f9bab</UDN>
+    <serviceList>
+      <service>
+        <serviceType>urn:schemas-simple-energy-management-protocol:service:NULL:1:service:NULL:1</serviceType>
+        <serviceId>urn:schemas-simple-energy-management-protocol:serviceId:NULL:serviceId:NULL</serviceId>
+        <SCPDURL>/XD/NULL.xml</SCPDURL>
+        <controlURL>/UD/?0</controlURL>
+        <eventSubURL></eventSubURL>
+      </service>
+    </serviceList>
+    <presentationURL>index.html</presentationURL>
+    <semp:X_SEMPSERVICE xmlns:semp="urn:schemas-simple-energy-management-protocol:service-1-0">
+        <semp:server>http://192.168.178.36:8080</semp:server>
+        <semp:basePath>/semp</semp:basePath>
+        <semp:transport>HTTP/Pull</semp:transport>
+        <semp:exchangeFormat>XML</semp:exchangeFormat>
+        <semp:wsVersion>1.1.0</semp:wsVersion>
+    </semp:X_SEMPSERVICE>
+  </device>
+</root>
+[DEBUG] 2015-10-24 20:03:44.287 [Thread-8] SEMP - HTTP GET request: /semp/ from: SMA-Home-Manager.fritz.box [192.168.178.24]
+[TRACE] 2015-10-24 20:03:44.365 [Thread-8] SEMP - SEMP message validation: OK!
+<?xml version="1.0" encoding="UTF-8"?>
+<Device2EM xmlns="http://www.sma.de/communication/schema/SEMP/v1">
+<DeviceInfo>
+  <Identification>
+    <DeviceId>0-00D43D7E-812233445566-00</DeviceId>
+    <DeviceName>Device 1</DeviceName>
+    <DeviceType>HeatPump</DeviceType>
+    <DeviceSerial>2332532423</DeviceSerial>
+    <DeviceVendor>Some Vendor</DeviceVendor>
+  </Identification>
+  <Characteristics>
+    <MaxPowerConsumption>1500</MaxPowerConsumption>
+  </Characteristics>
+  <Capabilities>
+    <CurrentPower><Method>Measurement</Method></CurrentPower>
+    <Timestamps><AbsoluteTimestamps>false</AbsoluteTimestamps></Timestamps>
+    <Interruptions><InterruptionsAllowed>true</InterruptionsAllowed></Interruptions>
+    <Requests><OptionalEnergy>false</OptionalEnergy></Requests>
+  </Capabilities>
+</DeviceInfo>
+<DeviceStatus>
+  <DeviceId>0-00D43D7E-812233445566-00</DeviceId>
+  <EMSignalsAccepted>true</EMSignalsAccepted>
+  <Status>On</Status>
+  <PowerConsumption>
+    <PowerInfo>
+      <AveragePower>1000</AveragePower>
+      <Timestamp>0</Timestamp>
+     <AveragingInterval>60</AveragingInterval>
+    </PowerInfo>
+  </PowerConsumption>
+</DeviceStatus>
+<PlanningRequest>
+   <Timeframe>
+    <DeviceId>0-00D43D7E-812233445566-00</DeviceId>
+    <EarliestStart>0</EarliestStart>
+    <LatestEnd>10800</LatestEnd>
+    <MinRunningTime>0</MinRunningTime>
+    <MaxRunningTime>1800</MaxRunningTime>
+   </Timeframe>
+</PlanningRequest>
+</Device2EM>
+[DEBUG] 2015-10-24 20:03:49.678 [Thread-9] SEMP - Received SSDP M-SEARCH-REQUEST (search by device-type) from 192.168.178.24:33618
+M-SEARCH * HTTP/1.1
+HOST: 239.255.255.250:1900
+MAN: "ssdp:discover"
+MX: 10
+ST: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+
+
+[DEBUG] 2015-10-24 20:03:49.678 [Thread-9] SEMP - Send SSDP M-SEARCH-RESPONSE (search by device-type) message to 192.168.178.24:33618
+[TRACE] 2015-10-24 20:03:49.678 [Thread-9] SEMP - SSDP Message:
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age=1800
+DATE: Sat Oct 24 20:03:49 2015
+EXT: 
+LOCATION: http://192.168.178.36:8080/semp/description.xml
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+ST: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:059582f2-703d-4ad8-89db-25fa946f9bab::urn:schemas-simple-energy-management-protocol:device:Gateway:1
+
+
+[TRACE] 2015-10-24 20:03:49.741 [Thread-8] SEMP - HTTP Request to /semp/description.xml from SMA-Home-Manager.fritz.box [192.168.178.24]
+<?xml version="1.0"?>
+<root xmlns="urn:schemas-upnp-org:device-1-0">
+  <specVersion><major>1</major><minor>0</minor></specVersion>
+  <device>
+    <deviceType>urn:schemas-simple-energy-management-protocol:device:Gateway:1</deviceType>
+    <friendlyName>JavaGateway</friendlyName>
+    <manufacturer>Markus</manufacturer>
+    <modelName>SEMP GWD</modelName>
+    <UDN>uuid:059582f2-703d-4ad8-89db-25fa946f9bab</UDN>
+    <serviceList>
+      <service>
+        <serviceType>urn:schemas-simple-energy-management-protocol:service:NULL:1:service:NULL:1</serviceType>
+        <serviceId>urn:schemas-simple-energy-management-protocol:serviceId:NULL:serviceId:NULL</serviceId>
+        <SCPDURL>/XD/NULL.xml</SCPDURL>
+        <controlURL>/UD/?0</controlURL>
+        <eventSubURL></eventSubURL>
+      </service>
+    </serviceList>
+    <presentationURL>index.html</presentationURL>
+    <semp:X_SEMPSERVICE xmlns:semp="urn:schemas-simple-energy-management-protocol:service-1-0">
+        <semp:server>http://192.168.178.36:8080</semp:server>
+        <semp:basePath>/semp</semp:basePath>
+        <semp:transport>HTTP/Pull</semp:transport>
+        <semp:exchangeFormat>XML</semp:exchangeFormat>
+        <semp:wsVersion>1.1.0</semp:wsVersion>
+    </semp:X_SEMPSERVICE>
+  </device>
+</root>
+[DEBUG] 2015-10-24 20:04:00.943 [Thread-8] SEMP - HTTP GET request: /semp/ from: SMA-Home-Manager.fritz.box [192.168.178.24]
+[TRACE] 2015-10-24 20:04:00.968 [Thread-8] SEMP - SEMP message validation: OK!
+<?xml version="1.0" encoding="UTF-8"?>
+<Device2EM xmlns="http://www.sma.de/communication/schema/SEMP/v1">
+<DeviceInfo>
+  <Identification>
+    <DeviceId>0-00D43D7E-812233445566-00</DeviceId>
+    <DeviceName>Device 1</DeviceName>
+    <DeviceType>HeatPump</DeviceType>
+    <DeviceSerial>2332532423</DeviceSerial>
+    <DeviceVendor>Some Vendor</DeviceVendor>
+  </Identification>
+  <Characteristics>
+    <MaxPowerConsumption>1500</MaxPowerConsumption>
+  </Characteristics>
+  <Capabilities>
+    <CurrentPower><Method>Measurement</Method></CurrentPower>
+    <Timestamps><AbsoluteTimestamps>false</AbsoluteTimestamps></Timestamps>
+    <Interruptions><InterruptionsAllowed>true</InterruptionsAllowed></Interruptions>
+    <Requests><OptionalEnergy>false</OptionalEnergy></Requests>
+  </Capabilities>
+</DeviceInfo>
+<DeviceStatus>
+  <DeviceId>0-00D43D7E-812233445566-00</DeviceId>
+  <EMSignalsAccepted>true</EMSignalsAccepted>
+  <Status>On</Status>
+  <PowerConsumption>
+    <PowerInfo>
+      <AveragePower>1000</AveragePower>
+      <Timestamp>0</Timestamp>
+     <AveragingInterval>60</AveragingInterval>
+    </PowerInfo>
+  </PowerConsumption>
+</DeviceStatus>
+<PlanningRequest>
+   <Timeframe>
+    <DeviceId>0-00D43D7E-812233445566-00</DeviceId>
+    <EarliestStart>0</EarliestStart>
+    <LatestEnd>10800</LatestEnd>
+    <MinRunningTime>0</MinRunningTime>
+    <MaxRunningTime>1800</MaxRunningTime>
+   </Timeframe>
+</PlanningRequest>
+</Device2EM>
+[DEBUG] 2015-10-24 20:04:51.727 [Thread-9] SEMP - Received SSDP M-SEARCH-REQUEST (search by device-type) from 192.168.178.24:33618
+M-SEARCH * HTTP/1.1
+HOST: 239.255.255.250:1900
+MAN: "ssdp:discover"
+MX: 10
+ST: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+
+
+[DEBUG] 2015-10-24 20:04:51.727 [Thread-9] SEMP - Send SSDP M-SEARCH-RESPONSE (search by device-type) message to 192.168.178.24:33618
+[TRACE] 2015-10-24 20:04:51.727 [Thread-9] SEMP - SSDP Message:
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age=1800
+DATE: Sat Oct 24 20:04:51 2015
+EXT: 
+LOCATION: http://192.168.178.36:8080/semp/description.xml
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+ST: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:059582f2-703d-4ad8-89db-25fa946f9bab::urn:schemas-simple-energy-management-protocol:device:Gateway:1
+
+
+[TRACE] 2015-10-24 20:04:51.790 [Thread-8] SEMP - HTTP Request to /semp/description.xml from SMA-Home-Manager.fritz.box [192.168.178.24]
+<?xml version="1.0"?>
+<root xmlns="urn:schemas-upnp-org:device-1-0">
+  <specVersion><major>1</major><minor>0</minor></specVersion>
+  <device>
+    <deviceType>urn:schemas-simple-energy-management-protocol:device:Gateway:1</deviceType>
+    <friendlyName>JavaGateway</friendlyName>
+    <manufacturer>Markus</manufacturer>
+    <modelName>SEMP GWD</modelName>
+    <UDN>uuid:059582f2-703d-4ad8-89db-25fa946f9bab</UDN>
+    <serviceList>
+      <service>
+        <serviceType>urn:schemas-simple-energy-management-protocol:service:NULL:1:service:NULL:1</serviceType>
+        <serviceId>urn:schemas-simple-energy-management-protocol:serviceId:NULL:serviceId:NULL</serviceId>
+        <SCPDURL>/XD/NULL.xml</SCPDURL>
+        <controlURL>/UD/?0</controlURL>
+        <eventSubURL></eventSubURL>
+      </service>
+    </serviceList>
+    <presentationURL>index.html</presentationURL>
+    <semp:X_SEMPSERVICE xmlns:semp="urn:schemas-simple-energy-management-protocol:service-1-0">
+        <semp:server>http://192.168.178.36:8080</semp:server>
+        <semp:basePath>/semp</semp:basePath>
+        <semp:transport>HTTP/Pull</semp:transport>
+        <semp:exchangeFormat>XML</semp:exchangeFormat>
+        <semp:wsVersion>1.1.0</semp:wsVersion>
+    </semp:X_SEMPSERVICE>
+  </device>
+</root>
+[DEBUG] 2015-10-24 20:05:01.115 [Thread-8] SEMP - HTTP GET request: /semp/ from: SMA-Home-Manager.fritz.box [192.168.178.24]
+[TRACE] 2015-10-24 20:05:01.143 [Thread-8] SEMP - SEMP message validation: OK!
+<?xml version="1.0" encoding="UTF-8"?>
+<Device2EM xmlns="http://www.sma.de/communication/schema/SEMP/v1">
+<DeviceInfo>
+  <Identification>
+    <DeviceId>0-00D43D7E-812233445566-00</DeviceId>
+    <DeviceName>Device 1</DeviceName>
+    <DeviceType>HeatPump</DeviceType>
+    <DeviceSerial>2332532423</DeviceSerial>
+    <DeviceVendor>Some Vendor</DeviceVendor>
+  </Identification>
+  <Characteristics>
+    <MaxPowerConsumption>1500</MaxPowerConsumption>
+  </Characteristics>
+  <Capabilities>
+    <CurrentPower><Method>Measurement</Method></CurrentPower>
+    <Timestamps><AbsoluteTimestamps>false</AbsoluteTimestamps></Timestamps>
+    <Interruptions><InterruptionsAllowed>true</InterruptionsAllowed></Interruptions>
+    <Requests><OptionalEnergy>false</OptionalEnergy></Requests>
+  </Capabilities>
+</DeviceInfo>
+<DeviceStatus>
+  <DeviceId>0-00D43D7E-812233445566-00</DeviceId>
+  <EMSignalsAccepted>true</EMSignalsAccepted>
+  <Status>On</Status>
+  <PowerConsumption>
+    <PowerInfo>
+      <AveragePower>1000</AveragePower>
+      <Timestamp>0</Timestamp>
+     <AveragingInterval>60</AveragingInterval>
+    </PowerInfo>
+  </PowerConsumption>
+</DeviceStatus>
+<PlanningRequest>
+   <Timeframe>
+    <DeviceId>0-00D43D7E-812233445566-00</DeviceId>
+    <EarliestStart>0</EarliestStart>
+    <LatestEnd>10800</LatestEnd>
+    <MinRunningTime>0</MinRunningTime>
+    <MaxRunningTime>1800</MaxRunningTime>
+   </Timeframe>
+</PlanningRequest>
+</Device2EM>
+[DEBUG] 2015-10-24 20:05:53.779 [Thread-9] SEMP - Received SSDP M-SEARCH-REQUEST (search by device-type) from 192.168.178.24:33618
+M-SEARCH * HTTP/1.1
+HOST: 239.255.255.250:1900
+MAN: "ssdp:discover"
+MX: 10
+ST: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+
+
+[DEBUG] 2015-10-24 20:05:53.779 [Thread-9] SEMP - Send SSDP M-SEARCH-RESPONSE (search by device-type) message to 192.168.178.24:33618
+[TRACE] 2015-10-24 20:05:53.779 [Thread-9] SEMP - SSDP Message:
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age=1800
+DATE: Sat Oct 24 20:05:53 2015
+EXT: 
+LOCATION: http://192.168.178.36:8080/semp/description.xml
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+ST: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:059582f2-703d-4ad8-89db-25fa946f9bab::urn:schemas-simple-energy-management-protocol:device:Gateway:1
+
+
+[TRACE] 2015-10-24 20:05:53.841 [Thread-8] SEMP - HTTP Request to /semp/description.xml from SMA-Home-Manager.fritz.box [192.168.178.24]
+<?xml version="1.0"?>
+<root xmlns="urn:schemas-upnp-org:device-1-0">
+  <specVersion><major>1</major><minor>0</minor></specVersion>
+  <device>
+    <deviceType>urn:schemas-simple-energy-management-protocol:device:Gateway:1</deviceType>
+    <friendlyName>JavaGateway</friendlyName>
+    <manufacturer>Markus</manufacturer>
+    <modelName>SEMP GWD</modelName>
+    <UDN>uuid:059582f2-703d-4ad8-89db-25fa946f9bab</UDN>
+    <serviceList>
+      <service>
+        <serviceType>urn:schemas-simple-energy-management-protocol:service:NULL:1:service:NULL:1</serviceType>
+        <serviceId>urn:schemas-simple-energy-management-protocol:serviceId:NULL:serviceId:NULL</serviceId>
+        <SCPDURL>/XD/NULL.xml</SCPDURL>
+        <controlURL>/UD/?0</controlURL>
+        <eventSubURL></eventSubURL>
+      </service>
+    </serviceList>
+    <presentationURL>index.html</presentationURL>
+    <semp:X_SEMPSERVICE xmlns:semp="urn:schemas-simple-energy-management-protocol:service-1-0">
+        <semp:server>http://192.168.178.36:8080</semp:server>
+        <semp:basePath>/semp</semp:basePath>
+        <semp:transport>HTTP/Pull</semp:transport>
+        <semp:exchangeFormat>XML</semp:exchangeFormat>
+        <semp:wsVersion>1.1.0</semp:wsVersion>
+    </semp:X_SEMPSERVICE>
+  </device>
+</root>
+[TRACE] 2015-10-24 20:05:58.328 [Thread-9] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2015-10-24 20:05:58.329 [Thread-9] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2015-10-24 20:05:58.331 [Thread-9] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2015-10-24 20:05:58.338 [Thread-9] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2015-10-24 20:05:58.340 [Thread-9] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[DEBUG] 2015-10-24 20:06:01.313 [Thread-8] SEMP - HTTP GET request: /semp/ from: SMA-Home-Manager.fritz.box [192.168.178.24]
+[TRACE] 2015-10-24 20:06:01.344 [Thread-8] SEMP - SEMP message validation: OK!
+<?xml version="1.0" encoding="UTF-8"?>
+<Device2EM xmlns="http://www.sma.de/communication/schema/SEMP/v1">
+<DeviceInfo>
+  <Identification>
+    <DeviceId>0-00D43D7E-812233445566-00</DeviceId>
+    <DeviceName>Device 1</DeviceName>
+    <DeviceType>HeatPump</DeviceType>
+    <DeviceSerial>2332532423</DeviceSerial>
+    <DeviceVendor>Some Vendor</DeviceVendor>
+  </Identification>
+  <Characteristics>
+    <MaxPowerConsumption>1500</MaxPowerConsumption>
+  </Characteristics>
+  <Capabilities>
+    <CurrentPower><Method>Measurement</Method></CurrentPower>
+    <Timestamps><AbsoluteTimestamps>false</AbsoluteTimestamps></Timestamps>
+    <Interruptions><InterruptionsAllowed>true</InterruptionsAllowed></Interruptions>
+    <Requests><OptionalEnergy>false</OptionalEnergy></Requests>
+  </Capabilities>
+</DeviceInfo>
+<DeviceStatus>
+  <DeviceId>0-00D43D7E-812233445566-00</DeviceId>
+  <EMSignalsAccepted>true</EMSignalsAccepted>
+  <Status>On</Status>
+  <PowerConsumption>
+    <PowerInfo>
+      <AveragePower>1000</AveragePower>
+      <Timestamp>0</Timestamp>
+     <AveragingInterval>60</AveragingInterval>
+    </PowerInfo>
+  </PowerConsumption>
+</DeviceStatus>
+<PlanningRequest>
+   <Timeframe>
+    <DeviceId>0-00D43D7E-812233445566-00</DeviceId>
+    <EarliestStart>0</EarliestStart>
+    <LatestEnd>10800</LatestEnd>
+    <MinRunningTime>0</MinRunningTime>
+    <MaxRunningTime>1800</MaxRunningTime>
+   </Timeframe>
+</PlanningRequest>
+</Device2EM>
+[TRACE] 2015-10-24 20:06:17.322 [Thread-9] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2015-10-24 20:06:17.322 [Thread-9] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2015-10-24 20:06:17.322 [Thread-9] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2015-10-24 20:06:17.322 [Thread-9] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2015-10-24 20:06:17.322 [Thread-9] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2015-10-24 20:06:17.322 [Thread-9] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2015-10-24 20:06:17.322 [Thread-9] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2015-10-24 20:06:19.320 [Thread-9] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2015-10-24 20:06:19.320 [Thread-9] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2015-10-24 20:06:19.320 [Thread-9] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2015-10-24 20:06:19.320 [Thread-9] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2015-10-24 20:06:21.320 [Thread-9] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2015-10-24 20:06:21.320 [Thread-9] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2015-10-24 20:06:21.320 [Thread-9] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2015-10-24 20:06:21.320 [Thread-9] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2015-10-24 20:06:21.320 [Thread-9] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2015-10-24 20:06:21.336 [Thread-9] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2015-10-24 20:06:21.336 [Thread-9] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2015-10-24 20:06:21.336 [Thread-9] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2015-10-24 20:06:21.336 [Thread-9] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2015-10-24 20:06:21.336 [Thread-9] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2015-10-24 20:06:21.336 [Thread-9] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2015-10-24 20:06:21.351 [Thread-9] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2015-10-24 20:06:21.351 [Thread-9] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2015-10-24 20:06:21.351 [Thread-9] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2015-10-24 20:06:21.351 [Thread-9] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[DEBUG] 2015-10-24 20:06:55.831 [Thread-9] SEMP - Received SSDP M-SEARCH-REQUEST (search by device-type) from 192.168.178.24:33618
+M-SEARCH * HTTP/1.1
+HOST: 239.255.255.250:1900
+MAN: "ssdp:discover"
+MX: 10
+ST: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+
+
+[DEBUG] 2015-10-24 20:06:55.831 [Thread-9] SEMP - Send SSDP M-SEARCH-RESPONSE (search by device-type) message to 192.168.178.24:33618
+[TRACE] 2015-10-24 20:06:55.831 [Thread-9] SEMP - SSDP Message:
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age=1800
+DATE: Sat Oct 24 20:06:55 2015
+EXT: 
+LOCATION: http://192.168.178.36:8080/semp/description.xml
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+ST: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:059582f2-703d-4ad8-89db-25fa946f9bab::urn:schemas-simple-energy-management-protocol:device:Gateway:1
+
+
+[TRACE] 2015-10-24 20:07:00.476 [Thread-8] SEMP - HTTP Request to /semp/description.xml from SMA-Home-Manager.fritz.box [192.168.178.24]
+<?xml version="1.0"?>
+<root xmlns="urn:schemas-upnp-org:device-1-0">
+  <specVersion><major>1</major><minor>0</minor></specVersion>
+  <device>
+    <deviceType>urn:schemas-simple-energy-management-protocol:device:Gateway:1</deviceType>
+    <friendlyName>JavaGateway</friendlyName>
+    <manufacturer>Markus</manufacturer>
+    <modelName>SEMP GWD</modelName>
+    <UDN>uuid:059582f2-703d-4ad8-89db-25fa946f9bab</UDN>
+    <serviceList>
+      <service>
+        <serviceType>urn:schemas-simple-energy-management-protocol:service:NULL:1:service:NULL:1</serviceType>
+        <serviceId>urn:schemas-simple-energy-management-protocol:serviceId:NULL:serviceId:NULL</serviceId>
+        <SCPDURL>/XD/NULL.xml</SCPDURL>
+        <controlURL>/UD/?0</controlURL>
+        <eventSubURL></eventSubURL>
+      </service>
+    </serviceList>
+    <presentationURL>index.html</presentationURL>
+    <semp:X_SEMPSERVICE xmlns:semp="urn:schemas-simple-energy-management-protocol:service-1-0">
+        <semp:server>http://192.168.178.36:8080</semp:server>
+        <semp:basePath>/semp</semp:basePath>
+        <semp:transport>HTTP/Pull</semp:transport>
+        <semp:exchangeFormat>XML</semp:exchangeFormat>
+        <semp:wsVersion>1.1.0</semp:wsVersion>
+    </semp:X_SEMPSERVICE>
+  </device>
+</root>
+[DEBUG] 2015-10-24 20:07:01.500 [Thread-8] SEMP - HTTP GET request: /semp/ from: SMA-Home-Manager.fritz.box [192.168.178.24]
+[TRACE] 2015-10-24 20:07:01.516 [Thread-8] SEMP - SEMP message validation: OK!
+<?xml version="1.0" encoding="UTF-8"?>
+<Device2EM xmlns="http://www.sma.de/communication/schema/SEMP/v1">
+<DeviceInfo>
+  <Identification>
+    <DeviceId>0-00D43D7E-812233445566-00</DeviceId>
+    <DeviceName>Device 1</DeviceName>
+    <DeviceType>HeatPump</DeviceType>
+    <DeviceSerial>2332532423</DeviceSerial>
+    <DeviceVendor>Some Vendor</DeviceVendor>
+  </Identification>
+  <Characteristics>
+    <MaxPowerConsumption>1500</MaxPowerConsumption>
+  </Characteristics>
+  <Capabilities>
+    <CurrentPower><Method>Measurement</Method></CurrentPower>
+    <Timestamps><AbsoluteTimestamps>false</AbsoluteTimestamps></Timestamps>
+    <Interruptions><InterruptionsAllowed>true</InterruptionsAllowed></Interruptions>
+    <Requests><OptionalEnergy>false</OptionalEnergy></Requests>
+  </Capabilities>
+</DeviceInfo>
+<DeviceStatus>
+  <DeviceId>0-00D43D7E-812233445566-00</DeviceId>
+  <EMSignalsAccepted>true</EMSignalsAccepted>
+  <Status>On</Status>
+  <PowerConsumption>
+    <PowerInfo>
+      <AveragePower>1000</AveragePower>
+      <Timestamp>0</Timestamp>
+     <AveragingInterval>60</AveragingInterval>
+    </PowerInfo>
+  </PowerConsumption>
+</DeviceStatus>
+<PlanningRequest>
+   <Timeframe>
+    <DeviceId>0-00D43D7E-812233445566-00</DeviceId>
+    <EarliestStart>0</EarliestStart>
+    <LatestEnd>10800</LatestEnd>
+    <MinRunningTime>0</MinRunningTime>
+    <MaxRunningTime>1800</MaxRunningTime>
+   </Timeframe>
+</PlanningRequest>
+</Device2EM>
+[DEBUG] 2015-10-24 20:07:57.871 [Thread-9] SEMP - Received SSDP M-SEARCH-REQUEST (search by device-type) from 192.168.178.24:33618
+M-SEARCH * HTTP/1.1
+HOST: 239.255.255.250:1900
+MAN: "ssdp:discover"
+MX: 10
+ST: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+
+
+[DEBUG] 2015-10-24 20:07:57.871 [Thread-9] SEMP - Send SSDP M-SEARCH-RESPONSE (search by device-type) message to 192.168.178.24:33618
+[TRACE] 2015-10-24 20:07:57.871 [Thread-9] SEMP - SSDP Message:
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age=1800
+DATE: Sat Oct 24 20:07:57 2015
+EXT: 
+LOCATION: http://192.168.178.36:8080/semp/description.xml
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+ST: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:059582f2-703d-4ad8-89db-25fa946f9bab::urn:schemas-simple-energy-management-protocol:device:Gateway:1
+
+
+[TRACE] 2015-10-24 20:07:57.949 [Thread-8] SEMP - HTTP Request to /semp/description.xml from SMA-Home-Manager.fritz.box [192.168.178.24]
+<?xml version="1.0"?>
+<root xmlns="urn:schemas-upnp-org:device-1-0">
+  <specVersion><major>1</major><minor>0</minor></specVersion>
+  <device>
+    <deviceType>urn:schemas-simple-energy-management-protocol:device:Gateway:1</deviceType>
+    <friendlyName>JavaGateway</friendlyName>
+    <manufacturer>Markus</manufacturer>
+    <modelName>SEMP GWD</modelName>
+    <UDN>uuid:059582f2-703d-4ad8-89db-25fa946f9bab</UDN>
+    <serviceList>
+      <service>
+        <serviceType>urn:schemas-simple-energy-management-protocol:service:NULL:1:service:NULL:1</serviceType>
+        <serviceId>urn:schemas-simple-energy-management-protocol:serviceId:NULL:serviceId:NULL</serviceId>
+        <SCPDURL>/XD/NULL.xml</SCPDURL>
+        <controlURL>/UD/?0</controlURL>
+        <eventSubURL></eventSubURL>
+      </service>
+    </serviceList>
+    <presentationURL>index.html</presentationURL>
+    <semp:X_SEMPSERVICE xmlns:semp="urn:schemas-simple-energy-management-protocol:service-1-0">
+        <semp:server>http://192.168.178.36:8080</semp:server>
+        <semp:basePath>/semp</semp:basePath>
+        <semp:transport>HTTP/Pull</semp:transport>
+        <semp:exchangeFormat>XML</semp:exchangeFormat>
+        <semp:wsVersion>1.1.0</semp:wsVersion>
+    </semp:X_SEMPSERVICE>
+  </device>
+</root>
+[DEBUG] 2015-10-24 20:08:01.699 [Thread-8] SEMP - HTTP GET request: /semp/ from: SMA-Home-Manager.fritz.box [192.168.178.24]
+[TRACE] 2015-10-24 20:08:01.715 [Thread-8] SEMP - SEMP message validation: OK!
+<?xml version="1.0" encoding="UTF-8"?>
+<Device2EM xmlns="http://www.sma.de/communication/schema/SEMP/v1">
+<DeviceInfo>
+  <Identification>
+    <DeviceId>0-00D43D7E-812233445566-00</DeviceId>
+    <DeviceName>Device 1</DeviceName>
+    <DeviceType>HeatPump</DeviceType>
+    <DeviceSerial>2332532423</DeviceSerial>
+    <DeviceVendor>Some Vendor</DeviceVendor>
+  </Identification>
+  <Characteristics>
+    <MaxPowerConsumption>1500</MaxPowerConsumption>
+  </Characteristics>
+  <Capabilities>
+    <CurrentPower><Method>Measurement</Method></CurrentPower>
+    <Timestamps><AbsoluteTimestamps>false</AbsoluteTimestamps></Timestamps>
+    <Interruptions><InterruptionsAllowed>true</InterruptionsAllowed></Interruptions>
+    <Requests><OptionalEnergy>false</OptionalEnergy></Requests>
+  </Capabilities>
+</DeviceInfo>
+<DeviceStatus>
+  <DeviceId>0-00D43D7E-812233445566-00</DeviceId>
+  <EMSignalsAccepted>true</EMSignalsAccepted>
+  <Status>On</Status>
+  <PowerConsumption>
+    <PowerInfo>
+      <AveragePower>1000</AveragePower>
+      <Timestamp>0</Timestamp>
+     <AveragingInterval>60</AveragingInterval>
+    </PowerInfo>
+  </PowerConsumption>
+</DeviceStatus>
+<PlanningRequest>
+   <Timeframe>
+    <DeviceId>0-00D43D7E-812233445566-00</DeviceId>
+    <EarliestStart>0</EarliestStart>
+    <LatestEnd>10800</LatestEnd>
+    <MinRunningTime>0</MinRunningTime>
+    <MaxRunningTime>1800</MaxRunningTime>
+   </Timeframe>
+</PlanningRequest>
+</Device2EM>
+[DEBUG] 2015-10-24 20:08:59.930 [Thread-9] SEMP - Received SSDP M-SEARCH-REQUEST (search by device-type) from 192.168.178.24:33618
+M-SEARCH * HTTP/1.1
+HOST: 239.255.255.250:1900
+MAN: "ssdp:discover"
+MX: 10
+ST: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+
+
+[DEBUG] 2015-10-24 20:08:59.930 [Thread-9] SEMP - Send SSDP M-SEARCH-RESPONSE (search by device-type) message to 192.168.178.24:33618
+[TRACE] 2015-10-24 20:08:59.930 [Thread-9] SEMP - SSDP Message:
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age=1800
+DATE: Sat Oct 24 20:08:59 2015
+EXT: 
+LOCATION: http://192.168.178.36:8080/semp/description.xml
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+ST: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:059582f2-703d-4ad8-89db-25fa946f9bab::urn:schemas-simple-energy-management-protocol:device:Gateway:1
+
+
+[TRACE] 2015-10-24 20:08:59.993 [Thread-8] SEMP - HTTP Request to /semp/description.xml from SMA-Home-Manager.fritz.box [192.168.178.24]
+<?xml version="1.0"?>
+<root xmlns="urn:schemas-upnp-org:device-1-0">
+  <specVersion><major>1</major><minor>0</minor></specVersion>
+  <device>
+    <deviceType>urn:schemas-simple-energy-management-protocol:device:Gateway:1</deviceType>
+    <friendlyName>JavaGateway</friendlyName>
+    <manufacturer>Markus</manufacturer>
+    <modelName>SEMP GWD</modelName>
+    <UDN>uuid:059582f2-703d-4ad8-89db-25fa946f9bab</UDN>
+    <serviceList>
+      <service>
+        <serviceType>urn:schemas-simple-energy-management-protocol:service:NULL:1:service:NULL:1</serviceType>
+        <serviceId>urn:schemas-simple-energy-management-protocol:serviceId:NULL:serviceId:NULL</serviceId>
+        <SCPDURL>/XD/NULL.xml</SCPDURL>
+        <controlURL>/UD/?0</controlURL>
+        <eventSubURL></eventSubURL>
+      </service>
+    </serviceList>
+    <presentationURL>index.html</presentationURL>
+    <semp:X_SEMPSERVICE xmlns:semp="urn:schemas-simple-energy-management-protocol:service-1-0">
+        <semp:server>http://192.168.178.36:8080</semp:server>
+        <semp:basePath>/semp</semp:basePath>
+        <semp:transport>HTTP/Pull</semp:transport>
+        <semp:exchangeFormat>XML</semp:exchangeFormat>
+        <semp:wsVersion>1.1.0</semp:wsVersion>
+    </semp:X_SEMPSERVICE>
+  </device>
+</root>
+[DEBUG] 2015-10-24 20:09:01.868 [Thread-8] SEMP - HTTP GET request: /semp/ from: SMA-Home-Manager.fritz.box [192.168.178.24]
+[TRACE] 2015-10-24 20:09:01.884 [Thread-8] SEMP - SEMP message validation: OK!
+<?xml version="1.0" encoding="UTF-8"?>
+<Device2EM xmlns="http://www.sma.de/communication/schema/SEMP/v1">
+<DeviceInfo>
+  <Identification>
+    <DeviceId>0-00D43D7E-812233445566-00</DeviceId>
+    <DeviceName>Device 1</DeviceName>
+    <DeviceType>HeatPump</DeviceType>
+    <DeviceSerial>2332532423</DeviceSerial>
+    <DeviceVendor>Some Vendor</DeviceVendor>
+  </Identification>
+  <Characteristics>
+    <MaxPowerConsumption>1500</MaxPowerConsumption>
+  </Characteristics>
+  <Capabilities>
+    <CurrentPower><Method>Measurement</Method></CurrentPower>
+    <Timestamps><AbsoluteTimestamps>false</AbsoluteTimestamps></Timestamps>
+    <Interruptions><InterruptionsAllowed>true</InterruptionsAllowed></Interruptions>
+    <Requests><OptionalEnergy>false</OptionalEnergy></Requests>
+  </Capabilities>
+</DeviceInfo>
+<DeviceStatus>
+  <DeviceId>0-00D43D7E-812233445566-00</DeviceId>
+  <EMSignalsAccepted>true</EMSignalsAccepted>
+  <Status>On</Status>
+  <PowerConsumption>
+    <PowerInfo>
+      <AveragePower>1000</AveragePower>
+      <Timestamp>0</Timestamp>
+     <AveragingInterval>60</AveragingInterval>
+    </PowerInfo>
+  </PowerConsumption>
+</DeviceStatus>
+<PlanningRequest>
+   <Timeframe>
+    <DeviceId>0-00D43D7E-812233445566-00</DeviceId>
+    <EarliestStart>0</EarliestStart>
+    <LatestEnd>10800</LatestEnd>
+    <MinRunningTime>0</MinRunningTime>
+    <MaxRunningTime>1800</MaxRunningTime>
+   </Timeframe>
+</PlanningRequest>
+</Device2EM>
+[DEBUG] 2015-10-24 20:10:01.980 [Thread-9] SEMP - Received SSDP M-SEARCH-REQUEST (search by device-type) from 192.168.178.24:33618
+M-SEARCH * HTTP/1.1
+HOST: 239.255.255.250:1900
+MAN: "ssdp:discover"
+MX: 10
+ST: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+
+
+[DEBUG] 2015-10-24 20:10:01.980 [Thread-9] SEMP - Send SSDP M-SEARCH-RESPONSE (search by device-type) message to 192.168.178.24:33618
+[TRACE] 2015-10-24 20:10:01.980 [Thread-9] SEMP - SSDP Message:
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age=1800
+DATE: Sat Oct 24 20:10:01 2015
+EXT: 
+LOCATION: http://192.168.178.36:8080/semp/description.xml
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+ST: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:059582f2-703d-4ad8-89db-25fa946f9bab::urn:schemas-simple-energy-management-protocol:device:Gateway:1
+
+
+[TRACE] 2015-10-24 20:10:02.042 [Thread-8] SEMP - HTTP Request to /semp/description.xml from SMA-Home-Manager.fritz.box [192.168.178.24]
+<?xml version="1.0"?>
+<root xmlns="urn:schemas-upnp-org:device-1-0">
+  <specVersion><major>1</major><minor>0</minor></specVersion>
+  <device>
+    <deviceType>urn:schemas-simple-energy-management-protocol:device:Gateway:1</deviceType>
+    <friendlyName>JavaGateway</friendlyName>
+    <manufacturer>Markus</manufacturer>
+    <modelName>SEMP GWD</modelName>
+    <UDN>uuid:059582f2-703d-4ad8-89db-25fa946f9bab</UDN>
+    <serviceList>
+      <service>
+        <serviceType>urn:schemas-simple-energy-management-protocol:service:NULL:1:service:NULL:1</serviceType>
+        <serviceId>urn:schemas-simple-energy-management-protocol:serviceId:NULL:serviceId:NULL</serviceId>
+        <SCPDURL>/XD/NULL.xml</SCPDURL>
+        <controlURL>/UD/?0</controlURL>
+        <eventSubURL></eventSubURL>
+      </service>
+    </serviceList>
+    <presentationURL>index.html</presentationURL>
+    <semp:X_SEMPSERVICE xmlns:semp="urn:schemas-simple-energy-management-protocol:service-1-0">
+        <semp:server>http://192.168.178.36:8080</semp:server>
+        <semp:basePath>/semp</semp:basePath>
+        <semp:transport>HTTP/Pull</semp:transport>
+        <semp:exchangeFormat>XML</semp:exchangeFormat>
+        <semp:wsVersion>1.1.0</semp:wsVersion>
+    </semp:X_SEMPSERVICE>
+  </device>
+</root>
+[DEBUG] 2015-10-24 20:10:02.058 [Thread-8] SEMP - HTTP GET request: /semp/ from: SMA-Home-Manager.fritz.box [192.168.178.24]
+[TRACE] 2015-10-24 20:10:02.074 [Thread-8] SEMP - SEMP message validation: OK!
+<?xml version="1.0" encoding="UTF-8"?>
+<Device2EM xmlns="http://www.sma.de/communication/schema/SEMP/v1">
+<DeviceInfo>
+  <Identification>
+    <DeviceId>0-00D43D7E-812233445566-00</DeviceId>
+    <DeviceName>Device 1</DeviceName>
+    <DeviceType>HeatPump</DeviceType>
+    <DeviceSerial>2332532423</DeviceSerial>
+    <DeviceVendor>Some Vendor</DeviceVendor>
+  </Identification>
+  <Characteristics>
+    <MaxPowerConsumption>1500</MaxPowerConsumption>
+  </Characteristics>
+  <Capabilities>
+    <CurrentPower><Method>Measurement</Method></CurrentPower>
+    <Timestamps><AbsoluteTimestamps>false</AbsoluteTimestamps></Timestamps>
+    <Interruptions><InterruptionsAllowed>true</InterruptionsAllowed></Interruptions>
+    <Requests><OptionalEnergy>false</OptionalEnergy></Requests>
+  </Capabilities>
+</DeviceInfo>
+<DeviceStatus>
+  <DeviceId>0-00D43D7E-812233445566-00</DeviceId>
+  <EMSignalsAccepted>true</EMSignalsAccepted>
+  <Status>On</Status>
+  <PowerConsumption>
+    <PowerInfo>
+      <AveragePower>1000</AveragePower>
+      <Timestamp>0</Timestamp>
+     <AveragingInterval>60</AveragingInterval>
+    </PowerInfo>
+  </PowerConsumption>
+</DeviceStatus>
+<PlanningRequest>
+   <Timeframe>
+    <DeviceId>0-00D43D7E-812233445566-00</DeviceId>
+    <EarliestStart>0</EarliestStart>
+    <LatestEnd>10800</LatestEnd>
+    <MinRunningTime>0</MinRunningTime>
+    <MaxRunningTime>1800</MaxRunningTime>
+   </Timeframe>
+</PlanningRequest>
+</Device2EM>
+[DEBUG] 2015-10-24 20:11:02.217 [Thread-8] SEMP - HTTP GET request: /semp/ from: SMA-Home-Manager.fritz.box [192.168.178.24]
+[TRACE] 2015-10-24 20:11:02.233 [Thread-8] SEMP - SEMP message validation: OK!
+<?xml version="1.0" encoding="UTF-8"?>
+<Device2EM xmlns="http://www.sma.de/communication/schema/SEMP/v1">
+<DeviceInfo>
+  <Identification>
+    <DeviceId>0-00D43D7E-812233445566-00</DeviceId>
+    <DeviceName>Device 1</DeviceName>
+    <DeviceType>HeatPump</DeviceType>
+    <DeviceSerial>2332532423</DeviceSerial>
+    <DeviceVendor>Some Vendor</DeviceVendor>
+  </Identification>
+  <Characteristics>
+    <MaxPowerConsumption>1500</MaxPowerConsumption>
+  </Characteristics>
+  <Capabilities>
+    <CurrentPower><Method>Measurement</Method></CurrentPower>
+    <Timestamps><AbsoluteTimestamps>false</AbsoluteTimestamps></Timestamps>
+    <Interruptions><InterruptionsAllowed>true</InterruptionsAllowed></Interruptions>
+    <Requests><OptionalEnergy>false</OptionalEnergy></Requests>
+  </Capabilities>
+</DeviceInfo>
+<DeviceStatus>
+  <DeviceId>0-00D43D7E-812233445566-00</DeviceId>
+  <EMSignalsAccepted>true</EMSignalsAccepted>
+  <Status>On</Status>
+  <PowerConsumption>
+    <PowerInfo>
+      <AveragePower>1000</AveragePower>
+      <Timestamp>0</Timestamp>
+     <AveragingInterval>60</AveragingInterval>
+    </PowerInfo>
+  </PowerConsumption>
+</DeviceStatus>
+<PlanningRequest>
+   <Timeframe>
+    <DeviceId>0-00D43D7E-812233445566-00</DeviceId>
+    <EarliestStart>0</EarliestStart>
+    <LatestEnd>10800</LatestEnd>
+    <MinRunningTime>0</MinRunningTime>
+    <MaxRunningTime>1800</MaxRunningTime>
+   </Timeframe>
+</PlanningRequest>
+</Device2EM>
+[DEBUG] 2015-10-24 20:11:04.030 [Thread-9] SEMP - Received SSDP M-SEARCH-REQUEST (search by device-type) from 192.168.178.24:33618
+M-SEARCH * HTTP/1.1
+HOST: 239.255.255.250:1900
+MAN: "ssdp:discover"
+MX: 10
+ST: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+
+
+[DEBUG] 2015-10-24 20:11:04.030 [Thread-9] SEMP - Send SSDP M-SEARCH-RESPONSE (search by device-type) message to 192.168.178.24:33618
+[TRACE] 2015-10-24 20:11:04.030 [Thread-9] SEMP - SSDP Message:
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age=1800
+DATE: Sat Oct 24 20:11:04 2015
+EXT: 
+LOCATION: http://192.168.178.36:8080/semp/description.xml
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+ST: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:059582f2-703d-4ad8-89db-25fa946f9bab::urn:schemas-simple-energy-management-protocol:device:Gateway:1
+
+
+[TRACE] 2015-10-24 20:11:04.092 [Thread-8] SEMP - HTTP Request to /semp/description.xml from SMA-Home-Manager.fritz.box [192.168.178.24]
+<?xml version="1.0"?>
+<root xmlns="urn:schemas-upnp-org:device-1-0">
+  <specVersion><major>1</major><minor>0</minor></specVersion>
+  <device>
+    <deviceType>urn:schemas-simple-energy-management-protocol:device:Gateway:1</deviceType>
+    <friendlyName>JavaGateway</friendlyName>
+    <manufacturer>Markus</manufacturer>
+    <modelName>SEMP GWD</modelName>
+    <UDN>uuid:059582f2-703d-4ad8-89db-25fa946f9bab</UDN>
+    <serviceList>
+      <service>
+        <serviceType>urn:schemas-simple-energy-management-protocol:service:NULL:1:service:NULL:1</serviceType>
+        <serviceId>urn:schemas-simple-energy-management-protocol:serviceId:NULL:serviceId:NULL</serviceId>
+        <SCPDURL>/XD/NULL.xml</SCPDURL>
+        <controlURL>/UD/?0</controlURL>
+        <eventSubURL></eventSubURL>
+      </service>
+    </serviceList>
+    <presentationURL>index.html</presentationURL>
+    <semp:X_SEMPSERVICE xmlns:semp="urn:schemas-simple-energy-management-protocol:service-1-0">
+        <semp:server>http://192.168.178.36:8080</semp:server>
+        <semp:basePath>/semp</semp:basePath>
+        <semp:transport>HTTP/Pull</semp:transport>
+        <semp:exchangeFormat>XML</semp:exchangeFormat>
+        <semp:wsVersion>1.1.0</semp:wsVersion>
+    </semp:X_SEMPSERVICE>
+  </device>
+</root>
+[DEBUG] 2015-10-24 20:12:00.377 [Thread-8] SEMP - HTTP GET request: /semp/ from: SMA-Home-Manager.fritz.box [192.168.178.24]
+[TRACE] 2015-10-24 20:12:00.377 [Thread-8] SEMP - SEMP message validation: OK!
+<?xml version="1.0" encoding="UTF-8"?>
+<Device2EM xmlns="http://www.sma.de/communication/schema/SEMP/v1">
+<DeviceInfo>
+  <Identification>
+    <DeviceId>0-00D43D7E-812233445566-00</DeviceId>
+    <DeviceName>Device 1</DeviceName>
+    <DeviceType>HeatPump</DeviceType>
+    <DeviceSerial>2332532423</DeviceSerial>
+    <DeviceVendor>Some Vendor</DeviceVendor>
+  </Identification>
+  <Characteristics>
+    <MaxPowerConsumption>1500</MaxPowerConsumption>
+  </Characteristics>
+  <Capabilities>
+    <CurrentPower><Method>Measurement</Method></CurrentPower>
+    <Timestamps><AbsoluteTimestamps>false</AbsoluteTimestamps></Timestamps>
+    <Interruptions><InterruptionsAllowed>true</InterruptionsAllowed></Interruptions>
+    <Requests><OptionalEnergy>false</OptionalEnergy></Requests>
+  </Capabilities>
+</DeviceInfo>
+<DeviceStatus>
+  <DeviceId>0-00D43D7E-812233445566-00</DeviceId>
+  <EMSignalsAccepted>true</EMSignalsAccepted>
+  <Status>On</Status>
+  <PowerConsumption>
+    <PowerInfo>
+      <AveragePower>1000</AveragePower>
+      <Timestamp>0</Timestamp>
+     <AveragingInterval>60</AveragingInterval>
+    </PowerInfo>
+  </PowerConsumption>
+</DeviceStatus>
+<PlanningRequest>
+   <Timeframe>
+    <DeviceId>0-00D43D7E-812233445566-00</DeviceId>
+    <EarliestStart>0</EarliestStart>
+    <LatestEnd>10800</LatestEnd>
+    <MinRunningTime>0</MinRunningTime>
+    <MaxRunningTime>1800</MaxRunningTime>
+   </Timeframe>
+</PlanningRequest>
+</Device2EM>
+[DEBUG] 2015-10-24 20:12:06.080 [Thread-9] SEMP - Received SSDP M-SEARCH-REQUEST (search by device-type) from 192.168.178.24:33618
+M-SEARCH * HTTP/1.1
+HOST: 239.255.255.250:1900
+MAN: "ssdp:discover"
+MX: 10
+ST: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+
+
+[DEBUG] 2015-10-24 20:12:06.080 [Thread-9] SEMP - Send SSDP M-SEARCH-RESPONSE (search by device-type) message to 192.168.178.24:33618
+[TRACE] 2015-10-24 20:12:06.080 [Thread-9] SEMP - SSDP Message:
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age=1800
+DATE: Sat Oct 24 20:12:06 2015
+EXT: 
+LOCATION: http://192.168.178.36:8080/semp/description.xml
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+ST: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:059582f2-703d-4ad8-89db-25fa946f9bab::urn:schemas-simple-energy-management-protocol:device:Gateway:1
+
+
+[TRACE] 2015-10-24 20:12:06.143 [Thread-8] SEMP - HTTP Request to /semp/description.xml from SMA-Home-Manager.fritz.box [192.168.178.24]
+<?xml version="1.0"?>
+<root xmlns="urn:schemas-upnp-org:device-1-0">
+  <specVersion><major>1</major><minor>0</minor></specVersion>
+  <device>
+    <deviceType>urn:schemas-simple-energy-management-protocol:device:Gateway:1</deviceType>
+    <friendlyName>JavaGateway</friendlyName>
+    <manufacturer>Markus</manufacturer>
+    <modelName>SEMP GWD</modelName>
+    <UDN>uuid:059582f2-703d-4ad8-89db-25fa946f9bab</UDN>
+    <serviceList>
+      <service>
+        <serviceType>urn:schemas-simple-energy-management-protocol:service:NULL:1:service:NULL:1</serviceType>
+        <serviceId>urn:schemas-simple-energy-management-protocol:serviceId:NULL:serviceId:NULL</serviceId>
+        <SCPDURL>/XD/NULL.xml</SCPDURL>
+        <controlURL>/UD/?0</controlURL>
+        <eventSubURL></eventSubURL>
+      </service>
+    </serviceList>
+    <presentationURL>index.html</presentationURL>
+    <semp:X_SEMPSERVICE xmlns:semp="urn:schemas-simple-energy-management-protocol:service-1-0">
+        <semp:server>http://192.168.178.36:8080</semp:server>
+        <semp:basePath>/semp</semp:basePath>
+        <semp:transport>HTTP/Pull</semp:transport>
+        <semp:exchangeFormat>XML</semp:exchangeFormat>
+        <semp:wsVersion>1.1.0</semp:wsVersion>
+    </semp:X_SEMPSERVICE>
+  </device>
+</root>
+[DEBUG] 2015-10-24 20:13:00.536 [Thread-8] SEMP - HTTP GET request: /semp/ from: SMA-Home-Manager.fritz.box [192.168.178.24]
+[TRACE] 2015-10-24 20:13:00.552 [Thread-8] SEMP - SEMP message validation: OK!
+<?xml version="1.0" encoding="UTF-8"?>
+<Device2EM xmlns="http://www.sma.de/communication/schema/SEMP/v1">
+<DeviceInfo>
+  <Identification>
+    <DeviceId>0-00D43D7E-812233445566-00</DeviceId>
+    <DeviceName>Device 1</DeviceName>
+    <DeviceType>HeatPump</DeviceType>
+    <DeviceSerial>2332532423</DeviceSerial>
+    <DeviceVendor>Some Vendor</DeviceVendor>
+  </Identification>
+  <Characteristics>
+    <MaxPowerConsumption>1500</MaxPowerConsumption>
+  </Characteristics>
+  <Capabilities>
+    <CurrentPower><Method>Measurement</Method></CurrentPower>
+    <Timestamps><AbsoluteTimestamps>false</AbsoluteTimestamps></Timestamps>
+    <Interruptions><InterruptionsAllowed>true</InterruptionsAllowed></Interruptions>
+    <Requests><OptionalEnergy>false</OptionalEnergy></Requests>
+  </Capabilities>
+</DeviceInfo>
+<DeviceStatus>
+  <DeviceId>0-00D43D7E-812233445566-00</DeviceId>
+  <EMSignalsAccepted>true</EMSignalsAccepted>
+  <Status>On</Status>
+  <PowerConsumption>
+    <PowerInfo>
+      <AveragePower>1000</AveragePower>
+      <Timestamp>0</Timestamp>
+     <AveragingInterval>60</AveragingInterval>
+    </PowerInfo>
+  </PowerConsumption>
+</DeviceStatus>
+<PlanningRequest>
+   <Timeframe>
+    <DeviceId>0-00D43D7E-812233445566-00</DeviceId>
+    <EarliestStart>0</EarliestStart>
+    <LatestEnd>10800</LatestEnd>
+    <MinRunningTime>0</MinRunningTime>
+    <MaxRunningTime>1800</MaxRunningTime>
+   </Timeframe>
+</PlanningRequest>
+</Device2EM>
+[DEBUG] 2015-10-24 20:13:08.130 [Thread-9] SEMP - Received SSDP M-SEARCH-REQUEST (search by device-type) from 192.168.178.24:33618
+M-SEARCH * HTTP/1.1
+HOST: 239.255.255.250:1900
+MAN: "ssdp:discover"
+MX: 10
+ST: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+
+
+[DEBUG] 2015-10-24 20:13:08.130 [Thread-9] SEMP - Send SSDP M-SEARCH-RESPONSE (search by device-type) message to 192.168.178.24:33618
+[TRACE] 2015-10-24 20:13:08.130 [Thread-9] SEMP - SSDP Message:
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age=1800
+DATE: Sat Oct 24 20:13:08 2015
+EXT: 
+LOCATION: http://192.168.178.36:8080/semp/description.xml
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+ST: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:059582f2-703d-4ad8-89db-25fa946f9bab::urn:schemas-simple-energy-management-protocol:device:Gateway:1
+
+
+[TRACE] 2015-10-24 20:13:08.193 [Thread-8] SEMP - HTTP Request to /semp/description.xml from SMA-Home-Manager.fritz.box [192.168.178.24]
+<?xml version="1.0"?>
+<root xmlns="urn:schemas-upnp-org:device-1-0">
+  <specVersion><major>1</major><minor>0</minor></specVersion>
+  <device>
+    <deviceType>urn:schemas-simple-energy-management-protocol:device:Gateway:1</deviceType>
+    <friendlyName>JavaGateway</friendlyName>
+    <manufacturer>Markus</manufacturer>
+    <modelName>SEMP GWD</modelName>
+    <UDN>uuid:059582f2-703d-4ad8-89db-25fa946f9bab</UDN>
+    <serviceList>
+      <service>
+        <serviceType>urn:schemas-simple-energy-management-protocol:service:NULL:1:service:NULL:1</serviceType>
+        <serviceId>urn:schemas-simple-energy-management-protocol:serviceId:NULL:serviceId:NULL</serviceId>
+        <SCPDURL>/XD/NULL.xml</SCPDURL>
+        <controlURL>/UD/?0</controlURL>
+        <eventSubURL></eventSubURL>
+      </service>
+    </serviceList>
+    <presentationURL>index.html</presentationURL>
+    <semp:X_SEMPSERVICE xmlns:semp="urn:schemas-simple-energy-management-protocol:service-1-0">
+        <semp:server>http://192.168.178.36:8080</semp:server>
+        <semp:basePath>/semp</semp:basePath>
+        <semp:transport>HTTP/Pull</semp:transport>
+        <semp:exchangeFormat>XML</semp:exchangeFormat>
+        <semp:wsVersion>1.1.0</semp:wsVersion>
+    </semp:X_SEMPSERVICE>
+  </device>
+</root>

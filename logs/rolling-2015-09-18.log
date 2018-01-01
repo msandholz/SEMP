@@ -1,0 +1,1058 @@
+[INFO ] 2015-09-18 20:44:08.540 [main] SEMP - >>>>>>   START  <<<<<<<
+[INFO ] 2015-09-18 20:44:08.587 [main] SEMP - >>>>>>   STOP   <<<<<<<
+[INFO ] 2015-09-18 20:46:29.275 [main] SEMP - >>>>>>   START  <<<<<<<
+[INFO ] 2015-09-18 20:46:29.321 [main] SEMP - >>>>>>   STOP   <<<<<<<
+[INFO ] 2015-09-18 20:47:30.187 [main] SEMP - >>>>>>   START  <<<<<<<
+[INFO ] 2015-09-18 20:47:30.234 [main] SEMP - >>>>>>   STOP   <<<<<<<
+[INFO ] 2015-09-18 20:48:15.988 [main] SEMP - >>>>>>   START  <<<<<<<
+[INFO ] 2015-09-18 20:48:16.019 [main] SEMP - >>>>>>   STOP   <<<<<<<
+[INFO ] 2015-09-18 20:48:46.099 [main] SEMP - >>>>>>   START  <<<<<<<
+[INFO ] 2015-09-18 20:48:46.130 [main] SEMP - >>>>>>   STOP   <<<<<<<
+[INFO ] 2015-09-18 20:55:41.623 [main] SEMP - >>>>>>   START  <<<<<<<
+[INFO ] 2015-09-18 20:55:41.654 [main] SEMP - >>>>>>   STOP   <<<<<<<
+[INFO ] 2015-09-18 20:56:45.419 [main] SEMP - >>>>>>   START  <<<<<<<
+[INFO ] 2015-09-18 20:56:45.465 [main] SEMP - >>>>>>   STOP   <<<<<<<
+[INFO ] 2015-09-18 21:07:49.125 [main] SEMP - >>>>>>   START  <<<<<<<
+[INFO ] 2015-09-18 21:07:49.156 [main] SEMP - >>>>>>   STOP   <<<<<<<
+[INFO ] 2015-09-18 21:09:34.499 [main] SEMP - >>>>>>   START  <<<<<<<
+[INFO ] 2015-09-18 21:09:34.545 [main] SEMP - >>>>>>   STOP   <<<<<<<
+[INFO ] 2015-09-18 21:11:09.488 [main] SEMP - >>>>>>   START  <<<<<<<
+[INFO ] 2015-09-18 21:11:09.519 [main] SEMP - >>>>>>   STOP   <<<<<<<
+[INFO ] 2015-09-18 21:51:01.425 [main] SEMP - >>>>>>   START  <<<<<<<
+[INFO ] 2015-09-18 21:51:01.441 [main] SEMP - >>>>>>   STOP   <<<<<<<
+[INFO ] 2015-09-18 21:51:36.890 [main] SEMP - >>>>>>   START  <<<<<<<
+[INFO ] 2015-09-18 21:51:36.890 [main] SEMP - >>>>>>   STOP   <<<<<<<
+[INFO ] 2015-09-18 22:29:13.235 [main] SEMP - >>>>>>   START  <<<<<<<
+[INFO ] 2015-09-18 22:29:13.235 [Thread-2] SEMP - SSDP Receiver thread started!
+[DEBUG] 2015-09-18 22:29:13.282 [Timer-0] SEMP - Send SSDP NOTIFY messages.
+[INFO ] 2015-09-18 22:29:23.251 [main] SEMP - SSDP Receiver thread stopped!
+[INFO ] 2015-09-18 22:29:23.251 [main] SEMP - >>>>>>   STOP   <<<<<<<
+[INFO ] 2015-09-18 22:33:23.137 [main] SEMP - >>>>>>   START  <<<<<<<
+[INFO ] 2015-09-18 22:33:23.137 [Thread-2] SEMP - SSDP Receiver thread started!
+[INFO ] 2015-09-18 22:33:23.152 [Thread-2] SEMP - SSDP Socket created. Waiting for incoming data...
+[DEBUG] 2015-09-18 22:33:23.184 [Thread-2] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[DEBUG] 2015-09-18 22:33:23.184 [Thread-2] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[DEBUG] 2015-09-18 22:33:23.184 [Thread-2] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[DEBUG] 2015-09-18 22:33:23.184 [Timer-0] SEMP - Send SSDP NOTIFY messages.
+[INFO ] 2015-09-18 22:33:33.155 [main] SEMP - SSDP Receiver thread stopped!
+[INFO ] 2015-09-18 22:33:33.155 [main] SEMP - >>>>>>   STOP   <<<<<<<
+[INFO ] 2015-09-18 22:33:59.637 [main] SEMP - >>>>>>   START  <<<<<<<
+[INFO ] 2015-09-18 22:33:59.637 [Thread-2] SEMP - SSDP Receiver thread started!
+[DEBUG] 2015-09-18 22:33:59.668 [Timer-0] SEMP - Send SSDP NOTIFY messages.
+[INFO ] 2015-09-18 22:34:09.644 [main] SEMP - SSDP Receiver thread stopped!
+[INFO ] 2015-09-18 22:34:09.644 [main] SEMP - >>>>>>   STOP   <<<<<<<
+[INFO ] 2015-09-18 22:36:27.696 [main] SEMP - >>>>>>   START  <<<<<<<
+[DEBUG] 2015-09-18 22:36:27.743 [Timer-0] SEMP - Send SSDP NOTIFY messages.
+[INFO ] 2015-09-18 22:36:46.276 [main] SEMP - >>>>>>   START  <<<<<<<
+[DEBUG] 2015-09-18 22:36:46.323 [Timer-0] SEMP - Send SSDP NOTIFY messages.
+[INFO ] 2015-09-18 22:36:56.292 [main] SEMP - SSDP Receiver thread stopped!
+[INFO ] 2015-09-18 22:36:56.292 [main] SEMP - >>>>>>   STOP   <<<<<<<
+[INFO ] 2015-09-18 22:38:48.819 [main] SEMP - >>>>>>   START  <<<<<<<
+[INFO ] 2015-09-18 22:38:48.835 [main] SEMP - >>>>>>   STOP   <<<<<<<
+[INFO ] 2015-09-18 22:39:18.503 [main] SEMP - >>>>>>   START  <<<<<<<
+[INFO ] 2015-09-18 22:39:18.518 [main] SEMP - >>>>>>   STOP   <<<<<<<
+[INFO ] 2015-09-18 22:39:47.544 [main] SEMP - >>>>>>   START  <<<<<<<
+[INFO ] 2015-09-18 22:39:47.560 [main] SEMP - >>>>>>   STOP   <<<<<<<
+[INFO ] 2015-09-18 22:41:08.724 [main] SEMP - >>>>>>   START  <<<<<<<
+[INFO ] 2015-09-18 22:41:08.724 [main] SEMP - >>>>>>   STOP   <<<<<<<
+[INFO ] 2015-09-18 22:41:18.853 [main] SEMP - >>>>>>   START  <<<<<<<
+[INFO ] 2015-09-18 22:41:18.853 [main] SEMP - >>>>>>   STOP   <<<<<<<
+[INFO ] 2015-09-18 22:41:50.860 [main] SEMP - >>>>>>   START  <<<<<<<
+[INFO ] 2015-09-18 22:41:50.875 [main] SEMP - >>>>>>   STOP   <<<<<<<
+[INFO ] 2015-09-18 22:42:15.165 [main] SEMP - >>>>>>   START  <<<<<<<
+[INFO ] 2015-09-18 22:42:15.165 [main] SEMP - >>>>>>   STOP   <<<<<<<
+[INFO ] 2015-09-18 22:42:45.692 [main] SEMP - >>>>>>   START  <<<<<<<
+[DEBUG] 2015-09-18 22:42:45.739 [Timer-0] SEMP - Send SSDP NOTIFY messages.
+[INFO ] 2015-09-18 22:42:55.720 [main] SEMP - >>>>>>   STOP   <<<<<<<
+[INFO ] 2015-09-18 22:43:20.762 [main] SEMP - >>>>>>   START  <<<<<<<
+[DEBUG] 2015-09-18 22:43:20.809 [Timer-0] SEMP - Send SSDP NOTIFY messages.
+[INFO ] 2015-09-18 22:43:30.784 [main] SEMP - >>>>>>   STOP   <<<<<<<
+[INFO ] 2015-09-18 22:43:53.514 [main] SEMP - >>>>>>   START  <<<<<<<
+[DEBUG] 2015-09-18 22:43:53.576 [Timer-0] SEMP - Send SSDP NOTIFY messages.
+[INFO ] 2015-09-18 22:44:03.550 [main] SEMP - >>>>>>   STOP   <<<<<<<
+[INFO ] 2015-09-18 22:44:58.881 [main] SEMP - >>>>>>   START  <<<<<<<
+[DEBUG] 2015-09-18 22:44:58.943 [Timer-0] SEMP - Send SSDP NOTIFY messages.
+[INFO ] 2015-09-18 22:45:48.919 [main] SEMP - >>>>>>   STOP   <<<<<<<
+[INFO ] 2015-09-18 22:47:47.660 [main] SEMP - >>>>>>   START  <<<<<<<
+[TRACE] 2015-09-18 22:47:47.707 [Timer-0] SEMP - NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: upnp:rootdevice
+USN: uuid:c8011057-1cd9-41a9-a7d4-01e88d0e717b::upnp:rootdevice
+
+
+[TRACE] 2015-09-18 22:47:47.707 [Timer-0] SEMP - NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: uuid:c8011057-1cd9-41a9-a7d4-01e88d0e717b
+USN: uuid:c8011057-1cd9-41a9-a7d4-01e88d0e717b
+
+
+[TRACE] 2015-09-18 22:47:47.707 [Timer-0] SEMP - NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:c8011057-1cd9-41a9-a7d4-01e88d0e717b::SSDP_NT_DEVICE_TYPE
+
+
+[DEBUG] 2015-09-18 22:47:47.707 [Timer-0] SEMP - Send SSDP NOTIFY messages.
+[INFO ] 2015-09-18 22:48:37.676 [main] SEMP - >>>>>>   STOP   <<<<<<<
+[INFO ] 2015-09-18 22:56:25.590 [main] SEMP - >>>>>>   START  <<<<<<<
+[TRACE] 2015-09-18 22:56:25.636 [Timer-0] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: upnp:rootdevice
+USN: uuid:db9c868b-a2f6-450a-8592-5ebe2ab82930::upnp:rootdevice
+
+
+[TRACE] 2015-09-18 22:56:25.639 [Timer-0] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: uuid:db9c868b-a2f6-450a-8592-5ebe2ab82930
+USN: uuid:db9c868b-a2f6-450a-8592-5ebe2ab82930
+
+
+[TRACE] 2015-09-18 22:56:25.639 [Timer-0] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:db9c868b-a2f6-450a-8592-5ebe2ab82930::SSDP_NT_DEVICE_TYPE
+
+
+[DEBUG] 2015-09-18 22:56:25.640 [Timer-0] SEMP - Send SSDP NOTIFY messages.
+[INFO ] 2015-09-18 22:57:15.607 [main] SEMP - >>>>>>   STOP   <<<<<<<
+[INFO ] 2015-09-18 22:58:20.456 [main] SEMP - >>>>>>   START  <<<<<<<
+[TRACE] 2015-09-18 22:58:20.497 [Timer-0] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: upnp:rootdevice
+USN: uuid:4ee74dbb-0852-4319-b4c8-adbdec732f90::upnp:rootdevice
+
+
+[TRACE] 2015-09-18 22:58:20.500 [Timer-0] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: uuid:4ee74dbb-0852-4319-b4c8-adbdec732f90
+USN: uuid:4ee74dbb-0852-4319-b4c8-adbdec732f90
+
+
+[TRACE] 2015-09-18 22:58:20.500 [Timer-0] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:4ee74dbb-0852-4319-b4c8-adbdec732f90::SSDP_NT_DEVICE_TYPE
+
+
+[DEBUG] 2015-09-18 22:58:20.501 [Timer-0] SEMP - Send SSDP NOTIFY messages.
+[INFO ] 2015-09-18 22:59:10.472 [main] SEMP - SSDP Receiver thread stopped!
+[INFO ] 2015-09-18 22:59:10.472 [main] SEMP - >>>>>>   STOP   <<<<<<<
+[INFO ] 2015-09-18 22:59:53.715 [main] SEMP - >>>>>>   START  <<<<<<<
+[TRACE] 2015-09-18 22:59:53.757 [Timer-0] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: upnp:rootdevice
+USN: uuid:bf9ed732-3029-4a03-b02e-7ff8f718df97::upnp:rootdevice
+
+
+[TRACE] 2015-09-18 22:59:53.759 [Timer-0] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: uuid:bf9ed732-3029-4a03-b02e-7ff8f718df97
+USN: uuid:bf9ed732-3029-4a03-b02e-7ff8f718df97
+
+
+[TRACE] 2015-09-18 22:59:53.760 [Timer-0] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:bf9ed732-3029-4a03-b02e-7ff8f718df97::SSDP_NT_DEVICE_TYPE
+
+
+[DEBUG] 2015-09-18 22:59:53.760 [Timer-0] SEMP - Send SSDP NOTIFY messages.
+[INFO ] 2015-09-18 23:00:43.730 [main] SEMP - SSDP Receiver thread stopped!
+[INFO ] 2015-09-18 23:00:43.730 [main] SEMP - >>>>>>   STOP   <<<<<<<
+[INFO ] 2015-09-18 23:01:06.377 [main] SEMP - >>>>>>   START  <<<<<<<
+[INFO ] 2015-09-18 23:01:06.395 [Thread-2] SEMP - SSDP Receiver thread started! Listening on: 
+[TRACE] 2015-09-18 23:01:06.444 [Timer-0] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: upnp:rootdevice
+USN: uuid:b80bbd0a-3165-4565-857b-559a0b39a25c::upnp:rootdevice
+
+
+[TRACE] 2015-09-18 23:01:06.446 [Timer-0] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: uuid:b80bbd0a-3165-4565-857b-559a0b39a25c
+USN: uuid:b80bbd0a-3165-4565-857b-559a0b39a25c
+
+
+[TRACE] 2015-09-18 23:01:06.447 [Timer-0] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:b80bbd0a-3165-4565-857b-559a0b39a25c::SSDP_NT_DEVICE_TYPE
+
+
+[DEBUG] 2015-09-18 23:01:06.447 [Timer-0] SEMP - Send SSDP NOTIFY messages.
+[INFO ] 2015-09-18 23:01:56.409 [main] SEMP - SSDP Receiver thread stopped!
+[INFO ] 2015-09-18 23:01:56.409 [main] SEMP - >>>>>>   STOP   <<<<<<<
+[INFO ] 2015-09-18 23:02:13.898 [main] SEMP - >>>>>>   START  <<<<<<<
+[INFO ] 2015-09-18 23:02:13.912 [main] SEMP - 239.255.255.250:1900
+[INFO ] 2015-09-18 23:02:13.912 [Thread-2] SEMP - SSDP Receiver thread started! Listening on: 
+[TRACE] 2015-09-18 23:02:13.939 [Timer-0] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: upnp:rootdevice
+USN: uuid:f0f7fa71-fb3d-4ab6-bb14-924d2aef8c12::upnp:rootdevice
+
+
+[TRACE] 2015-09-18 23:02:13.942 [Timer-0] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: uuid:f0f7fa71-fb3d-4ab6-bb14-924d2aef8c12
+USN: uuid:f0f7fa71-fb3d-4ab6-bb14-924d2aef8c12
+
+
+[TRACE] 2015-09-18 23:02:13.942 [Timer-0] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:f0f7fa71-fb3d-4ab6-bb14-924d2aef8c12::SSDP_NT_DEVICE_TYPE
+
+
+[DEBUG] 2015-09-18 23:02:13.942 [Timer-0] SEMP - Send SSDP NOTIFY messages.
+[INFO ] 2015-09-18 23:02:56.554 [main] SEMP - >>>>>>   START  <<<<<<<
+[INFO ] 2015-09-18 23:02:56.571 [Thread-2] SEMP - SSDP Receiver thread started! Listening on: 
+[INFO ] 2015-09-18 23:02:56.585 [Thread-2] SEMP - 239.255.255.250:1900
+[TRACE] 2015-09-18 23:02:56.620 [Timer-0] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: upnp:rootdevice
+USN: uuid:a23841fd-1989-4873-a408-445df1612d4e::upnp:rootdevice
+
+
+[TRACE] 2015-09-18 23:02:56.622 [Timer-0] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: uuid:a23841fd-1989-4873-a408-445df1612d4e
+USN: uuid:a23841fd-1989-4873-a408-445df1612d4e
+
+
+[TRACE] 2015-09-18 23:02:56.623 [Timer-0] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:a23841fd-1989-4873-a408-445df1612d4e::SSDP_NT_DEVICE_TYPE
+
+
+[DEBUG] 2015-09-18 23:02:56.623 [Timer-0] SEMP - Send SSDP NOTIFY messages.
+[INFO ] 2015-09-18 23:03:46.585 [main] SEMP - SSDP Receiver thread stopped!
+[INFO ] 2015-09-18 23:03:46.585 [main] SEMP - >>>>>>   STOP   <<<<<<<
+[INFO ] 2015-09-18 23:03:48.056 [main] SEMP - >>>>>>   START  <<<<<<<
+[TRACE] 2015-09-18 23:03:48.118 [Timer-0] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: upnp:rootdevice
+USN: uuid:40f354d5-d400-4a48-9132-a5fb6b99e08f::upnp:rootdevice
+
+
+[TRACE] 2015-09-18 23:03:48.121 [Timer-0] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: uuid:40f354d5-d400-4a48-9132-a5fb6b99e08f
+USN: uuid:40f354d5-d400-4a48-9132-a5fb6b99e08f
+
+
+[TRACE] 2015-09-18 23:03:48.121 [Timer-0] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:40f354d5-d400-4a48-9132-a5fb6b99e08f::SSDP_NT_DEVICE_TYPE
+
+
+[DEBUG] 2015-09-18 23:03:48.121 [Timer-0] SEMP - Send SSDP NOTIFY messages.
+[INFO ] 2015-09-18 23:04:41.483 [main] SEMP - >>>>>>   START  <<<<<<<
+[TRACE] 2015-09-18 23:04:41.548 [Timer-0] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: upnp:rootdevice
+USN: uuid:aa0ea70e-66b7-4dec-918f-57673bb67100::upnp:rootdevice
+
+
+[TRACE] 2015-09-18 23:04:41.551 [Timer-0] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: uuid:aa0ea70e-66b7-4dec-918f-57673bb67100
+USN: uuid:aa0ea70e-66b7-4dec-918f-57673bb67100
+
+
+[TRACE] 2015-09-18 23:04:41.551 [Timer-0] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:aa0ea70e-66b7-4dec-918f-57673bb67100::SSDP_NT_DEVICE_TYPE
+
+
+[DEBUG] 2015-09-18 23:04:41.551 [Timer-0] SEMP - Send SSDP NOTIFY messages.
+[INFO ] 2015-09-18 23:05:11.982 [main] SEMP - >>>>>>   START  <<<<<<<
+[INFO ] 2015-09-18 23:05:11.998 [Thread-2] SEMP - SSDP Receiver thread started! Listening on: {0}
+[TRACE] 2015-09-18 23:05:12.044 [Timer-0] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: upnp:rootdevice
+USN: uuid:0fdd7b33-f608-4af0-8ace-2aa84d8c8f87::upnp:rootdevice
+
+
+[TRACE] 2015-09-18 23:05:12.046 [Timer-0] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: uuid:0fdd7b33-f608-4af0-8ace-2aa84d8c8f87
+USN: uuid:0fdd7b33-f608-4af0-8ace-2aa84d8c8f87
+
+
+[TRACE] 2015-09-18 23:05:12.047 [Timer-0] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:0fdd7b33-f608-4af0-8ace-2aa84d8c8f87::SSDP_NT_DEVICE_TYPE
+
+
+[DEBUG] 2015-09-18 23:05:12.047 [Timer-0] SEMP - Send SSDP NOTIFY messages.
+[INFO ] 2015-09-18 23:05:32.902 [main] SEMP - >>>>>>   START  <<<<<<<
+[INFO ] 2015-09-18 23:05:32.918 [Thread-2] SEMP - SSDP Receiver thread started! Listening on: {0}
+[TRACE] 2015-09-18 23:05:32.967 [Timer-0] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: upnp:rootdevice
+USN: uuid:2fb4ab6e-eed2-4bee-a341-7a6df6313994::upnp:rootdevice
+
+
+[TRACE] 2015-09-18 23:05:32.969 [Timer-0] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: uuid:2fb4ab6e-eed2-4bee-a341-7a6df6313994
+USN: uuid:2fb4ab6e-eed2-4bee-a341-7a6df6313994
+
+
+[TRACE] 2015-09-18 23:05:32.970 [Timer-0] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:2fb4ab6e-eed2-4bee-a341-7a6df6313994::SSDP_NT_DEVICE_TYPE
+
+
+[DEBUG] 2015-09-18 23:05:32.970 [Timer-0] SEMP - Send SSDP NOTIFY messages.
+[INFO ] 2015-09-18 23:06:22.933 [main] SEMP - SSDP Receiver thread stopped!
+[INFO ] 2015-09-18 23:06:22.933 [main] SEMP - >>>>>>   STOP   <<<<<<<
+[INFO ] 2015-09-18 23:07:09.561 [main] SEMP - >>>>>>   START  <<<<<<<
+[INFO ] 2015-09-18 23:07:09.575 [Thread-2] SEMP - SSDP Receiver thread started! Listening on: {0}
+[TRACE] 2015-09-18 23:07:09.603 [Timer-0] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: upnp:rootdevice
+USN: uuid:73591756-5dbe-4598-9c44-bbb1e3b6e25c::upnp:rootdevice
+
+
+[TRACE] 2015-09-18 23:07:09.606 [Timer-0] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: uuid:73591756-5dbe-4598-9c44-bbb1e3b6e25c
+USN: uuid:73591756-5dbe-4598-9c44-bbb1e3b6e25c
+
+
+[TRACE] 2015-09-18 23:07:09.606 [Timer-0] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:73591756-5dbe-4598-9c44-bbb1e3b6e25c::SSDP_NT_DEVICE_TYPE
+
+
+[DEBUG] 2015-09-18 23:07:09.607 [Timer-0] SEMP - Send SSDP NOTIFY messages.
+[INFO ] 2015-09-18 23:07:35.980 [main] SEMP - >>>>>>   START  <<<<<<<
+[INFO ] 2015-09-18 23:07:36.012 [Thread-2] SEMP - SSDP Receiver thread started! Listening on: {0}
+[TRACE] 2015-09-18 23:07:36.045 [Timer-0] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: upnp:rootdevice
+USN: uuid:9ddc246e-0302-4fa8-99ba-295745e9a568::upnp:rootdevice
+
+
+[TRACE] 2015-09-18 23:07:36.048 [Timer-0] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: uuid:9ddc246e-0302-4fa8-99ba-295745e9a568
+USN: uuid:9ddc246e-0302-4fa8-99ba-295745e9a568
+
+
+[TRACE] 2015-09-18 23:07:36.048 [Timer-0] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:9ddc246e-0302-4fa8-99ba-295745e9a568::SSDP_NT_DEVICE_TYPE
+
+
+[DEBUG] 2015-09-18 23:07:36.049 [Timer-0] SEMP - Send SSDP NOTIFY messages.
+[INFO ] 2015-09-18 23:08:14.929 [main] SEMP - >>>>>>   START  <<<<<<<
+[INFO ] 2015-09-18 23:08:14.960 [Thread-2] SEMP - SSDP Receiver thread started! Listening on: {0}
+[TRACE] 2015-09-18 23:08:14.993 [Timer-0] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: upnp:rootdevice
+USN: uuid:3f9bdd7a-483c-44cb-94c5-afa62fbb3e10::upnp:rootdevice
+
+
+[TRACE] 2015-09-18 23:08:14.996 [Timer-0] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: uuid:3f9bdd7a-483c-44cb-94c5-afa62fbb3e10
+USN: uuid:3f9bdd7a-483c-44cb-94c5-afa62fbb3e10
+
+
+[TRACE] 2015-09-18 23:08:14.996 [Timer-0] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:3f9bdd7a-483c-44cb-94c5-afa62fbb3e10::SSDP_NT_DEVICE_TYPE
+
+
+[DEBUG] 2015-09-18 23:08:14.996 [Timer-0] SEMP - Send SSDP NOTIFY messages.
+[INFO ] 2015-09-18 23:09:06.660 [main] SEMP - >>>>>>   START  <<<<<<<
+[INFO ] 2015-09-18 23:09:06.672 [Thread-2] SEMP - SSDP Receiver thread started! Listening on: {0}
+[INFO ] 2015-09-18 23:09:06.672 [Thread-2] SEMP - 239.255.255.250:1900
+[TRACE] 2015-09-18 23:09:06.699 [Timer-0] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: upnp:rootdevice
+USN: uuid:c836ca3c-aa5f-4a82-8040-c9d8c58e98bd::upnp:rootdevice
+
+
+[TRACE] 2015-09-18 23:09:06.701 [Timer-0] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: uuid:c836ca3c-aa5f-4a82-8040-c9d8c58e98bd
+USN: uuid:c836ca3c-aa5f-4a82-8040-c9d8c58e98bd
+
+
+[TRACE] 2015-09-18 23:09:06.701 [Timer-0] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:c836ca3c-aa5f-4a82-8040-c9d8c58e98bd::SSDP_NT_DEVICE_TYPE
+
+
+[DEBUG] 2015-09-18 23:09:06.702 [Timer-0] SEMP - Send SSDP NOTIFY messages.
+[INFO ] 2015-09-18 23:09:56.672 [main] SEMP - SSDP Receiver thread stopped!
+[INFO ] 2015-09-18 23:09:56.672 [main] SEMP - >>>>>>   STOP   <<<<<<<
+[INFO ] 2015-09-18 23:10:21.700 [main] SEMP - >>>>>>   START  <<<<<<<
+[INFO ] 2015-09-18 23:10:21.715 [Thread-2] SEMP - SSDP Receiver thread started! Listening on: 239.255.255.250:1900
+[INFO ] 2015-09-18 23:10:21.716 [Thread-2] SEMP - 239.255.255.250:1900
+[TRACE] 2015-09-18 23:10:21.744 [Timer-0] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: upnp:rootdevice
+USN: uuid:19feb962-6999-4fbb-8b06-c917c59d9194::upnp:rootdevice
+
+
+[TRACE] 2015-09-18 23:10:21.747 [Timer-0] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: uuid:19feb962-6999-4fbb-8b06-c917c59d9194
+USN: uuid:19feb962-6999-4fbb-8b06-c917c59d9194
+
+
+[TRACE] 2015-09-18 23:10:21.747 [Timer-0] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:19feb962-6999-4fbb-8b06-c917c59d9194::SSDP_NT_DEVICE_TYPE
+
+
+[DEBUG] 2015-09-18 23:10:21.747 [Timer-0] SEMP - Send SSDP NOTIFY messages.
+[INFO ] 2015-09-18 23:11:11.715 [main] SEMP - SSDP Receiver thread stopped!
+[INFO ] 2015-09-18 23:11:11.715 [main] SEMP - >>>>>>   STOP   <<<<<<<
+[INFO ] 2015-09-18 23:15:43.507 [main] SEMP - >>>>>>   START  <<<<<<<
+[INFO ] 2015-09-18 23:15:43.525 [Thread-2] SEMP - SSDP Receiver thread started! Listening on: /239.255.255.250
+[INFO ] 2015-09-18 23:15:43.526 [Thread-2] SEMP - /239.255.255.250
+[TRACE] 2015-09-18 23:15:43.552 [Timer-0] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: upnp:rootdevice
+USN: uuid:9a6bf148-2f28-4587-a373-ba30ea4047b8::upnp:rootdevice
+
+
+[TRACE] 2015-09-18 23:15:43.554 [Timer-0] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: uuid:9a6bf148-2f28-4587-a373-ba30ea4047b8
+USN: uuid:9a6bf148-2f28-4587-a373-ba30ea4047b8
+
+
+[TRACE] 2015-09-18 23:15:43.554 [Timer-0] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:9a6bf148-2f28-4587-a373-ba30ea4047b8::SSDP_NT_DEVICE_TYPE
+
+
+[DEBUG] 2015-09-18 23:15:43.555 [Timer-0] SEMP - Send SSDP NOTIFY messages.
+[INFO ] 2015-09-18 23:16:33.525 [main] SEMP - SSDP Receiver thread stopped!
+[INFO ] 2015-09-18 23:16:33.525 [main] SEMP - >>>>>>   STOP   <<<<<<<
+[INFO ] 2015-09-18 23:17:46.405 [main] SEMP - >>>>>>   START  <<<<<<<
+[INFO ] 2015-09-18 23:17:46.423 [Thread-2] SEMP - SSDP Receiver thread started! Listening on: /239.255.255.250:1900
+[TRACE] 2015-09-18 23:17:46.451 [Timer-0] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: upnp:rootdevice
+USN: uuid:cb034093-39d7-4a87-99ce-e98777a5ec80::upnp:rootdevice
+
+
+[TRACE] 2015-09-18 23:17:46.453 [Timer-0] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: uuid:cb034093-39d7-4a87-99ce-e98777a5ec80
+USN: uuid:cb034093-39d7-4a87-99ce-e98777a5ec80
+
+
+[TRACE] 2015-09-18 23:17:46.454 [Timer-0] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:cb034093-39d7-4a87-99ce-e98777a5ec80::SSDP_NT_DEVICE_TYPE
+
+
+[DEBUG] 2015-09-18 23:17:46.454 [Timer-0] SEMP - Send SSDP NOTIFY messages.
+[INFO ] 2015-09-18 23:18:36.422 [main] SEMP - SSDP Receiver thread stopped!
+[INFO ] 2015-09-18 23:18:36.422 [main] SEMP - >>>>>>   STOP   <<<<<<<
+[INFO ] 2015-09-18 23:19:43.685 [main] SEMP - >>>>>>   START  <<<<<<<
+[INFO ] 2015-09-18 23:19:43.703 [Thread-2] SEMP - SSDP Receiver thread started! Listening on: 239.255.255.250:1900
+[INFO ] 2015-09-18 23:19:43.705 [Thread-2] SEMP - SSDP Socket created. Waiting for incoming data...
+[TRACE] 2015-09-18 23:19:43.729 [Timer-0] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: upnp:rootdevice
+USN: uuid:aa4cf073-6796-4b62-954a-62b4e7a9f58f::upnp:rootdevice
+
+
+[TRACE] 2015-09-18 23:19:43.730 [Timer-0] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: uuid:aa4cf073-6796-4b62-954a-62b4e7a9f58f
+USN: uuid:aa4cf073-6796-4b62-954a-62b4e7a9f58f
+
+
+[DEBUG] 2015-09-18 23:19:43.730 [Thread-2] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[DEBUG] 2015-09-18 23:19:43.730 [Thread-2] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2015-09-18 23:19:43.730 [Timer-0] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:aa4cf073-6796-4b62-954a-62b4e7a9f58f::SSDP_NT_DEVICE_TYPE
+
+
+[DEBUG] 2015-09-18 23:19:43.730 [Thread-2] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[DEBUG] 2015-09-18 23:19:43.730 [Timer-0] SEMP - Send SSDP NOTIFY messages.
+[INFO ] 2015-09-18 23:20:33.703 [main] SEMP - SSDP Receiver thread stopped!
+[INFO ] 2015-09-18 23:20:33.703 [main] SEMP - >>>>>>   STOP   <<<<<<<
+[INFO ] 2015-09-18 23:25:00.389 [main] SEMP - >>>>>>   START  <<<<<<<
+[INFO ] 2015-09-18 23:25:00.425 [Thread-2] SEMP - SSDP Receiver thread listening on: 239.255.255.250:1900 - Waiting for incoming data...
+[TRACE] 2015-09-18 23:25:00.458 [Timer-0] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: upnp:rootdevice
+USN: uuid:d13032a7-064c-4eb8-93c1-2b255b52aaee::upnp:rootdevice
+
+
+[DEBUG] 2015-09-18 23:25:00.459 [Thread-2] SEMP - Data reveived from: 169.254.226.32:1900
+[TRACE] 2015-09-18 23:25:00.459 [Timer-0] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: uuid:d13032a7-064c-4eb8-93c1-2b255b52aaee
+USN: uuid:d13032a7-064c-4eb8-93c1-2b255b52aaee
+
+
+[DEBUG] 2015-09-18 23:25:00.459 [Thread-2] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[DEBUG] 2015-09-18 23:25:00.460 [Thread-2] SEMP - Data reveived from: 169.254.226.32:1900
+[TRACE] 2015-09-18 23:25:00.460 [Timer-0] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:d13032a7-064c-4eb8-93c1-2b255b52aaee::SSDP_NT_DEVICE_TYPE
+
+
+[DEBUG] 2015-09-18 23:25:00.460 [Thread-2] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[DEBUG] 2015-09-18 23:25:00.460 [Timer-0] SEMP - Send SSDP NOTIFY messages.
+[DEBUG] 2015-09-18 23:25:00.460 [Thread-2] SEMP - Data reveived from: 169.254.226.32:1900
+[DEBUG] 2015-09-18 23:25:00.460 [Thread-2] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[DEBUG] 2015-09-18 23:25:06.697 [Thread-2] SEMP - Data reveived from: 169.254.226.32:57592
+[DEBUG] 2015-09-18 23:25:09.698 [Thread-2] SEMP - Data reveived from: 169.254.226.32:57592
+[DEBUG] 2015-09-18 23:25:12.698 [Thread-2] SEMP - Data reveived from: 169.254.226.32:57592
+[DEBUG] 2015-09-18 23:25:15.703 [Thread-2] SEMP - Data reveived from: 169.254.226.32:57592
+[DEBUG] 2015-09-18 23:25:18.704 [Thread-2] SEMP - Data reveived from: 169.254.226.32:57592
+[DEBUG] 2015-09-18 23:25:21.704 [Thread-2] SEMP - Data reveived from: 169.254.226.32:57592
+[DEBUG] 2015-09-18 23:25:43.643 [Thread-2] SEMP - Data reveived from: 169.254.226.32:57592
+[DEBUG] 2015-09-18 23:25:46.644 [Thread-2] SEMP - Data reveived from: 169.254.226.32:57592
+[DEBUG] 2015-09-18 23:25:49.644 [Thread-2] SEMP - Data reveived from: 169.254.226.32:57592
+[INFO ] 2015-09-18 23:25:50.425 [main] SEMP - SSDP Receiver thread stopped!
+[INFO ] 2015-09-18 23:25:50.425 [main] SEMP - >>>>>>   STOP   <<<<<<<
+[DEBUG] 2015-09-18 23:25:52.649 [Thread-2] SEMP - Data reveived from: 169.254.226.32:57592
+[INFO ] 2015-09-18 23:34:16.298 [main] SEMP - >>>>>>   START  <<<<<<<
+[INFO ] 2015-09-18 23:34:16.298 [Thread-2] SEMP - SSDP Receiver thread listening on: 239.255.255.250:1900 - Waiting for incoming data...
+[TRACE] 2015-09-18 23:34:16.329 [Timer-0] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: upnp:rootdevice
+USN: uuid:ef6fe972-aa2e-4c55-be95-e8a160406335::upnp:rootdevice
+
+
+[TRACE] 2015-09-18 23:34:16.329 [Timer-0] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: uuid:ef6fe972-aa2e-4c55-be95-e8a160406335
+USN: uuid:ef6fe972-aa2e-4c55-be95-e8a160406335
+
+
+[DEBUG] 2015-09-18 23:34:16.329 [Thread-2] SEMP - Data reveived from: 169.254.226.32:1900
+[DEBUG] 2015-09-18 23:34:16.329 [Thread-2] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2015-09-18 23:34:16.329 [Timer-0] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:ef6fe972-aa2e-4c55-be95-e8a160406335::SSDP_NT_DEVICE_TYPE
+
+
+[DEBUG] 2015-09-18 23:34:16.329 [Thread-2] SEMP - Data reveived from: 169.254.226.32:1900
+[DEBUG] 2015-09-18 23:34:16.329 [Thread-2] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[DEBUG] 2015-09-18 23:34:16.329 [Timer-0] SEMP - Send SSDP NOTIFY messages.
+[DEBUG] 2015-09-18 23:34:16.329 [Thread-2] SEMP - Data reveived from: 169.254.226.32:1900
+[DEBUG] 2015-09-18 23:34:16.329 [Thread-2] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[INFO ] 2015-09-18 23:35:06.300 [main] SEMP - SSDP Receiver thread stopped!
+[INFO ] 2015-09-18 23:35:06.300 [main] SEMP - >>>>>>   STOP   <<<<<<<
+[INFO ] 2015-09-18 23:37:02.556 [main] SEMP - >>>>>>   START  <<<<<<<
+[INFO ] 2015-09-18 23:37:02.556 [Thread-2] SEMP - SSDP Receiver thread listening on: 239.255.255.250:1900 - Waiting for incoming data...
+[TRACE] 2015-09-18 23:37:02.588 [Timer-0] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: upnp:rootdevice
+USN: uuid:b2dcfb78-49d6-4a26-a018-451a4fbbe370::upnp:rootdevice
+
+
+[TRACE] 2015-09-18 23:37:02.588 [Timer-0] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: uuid:b2dcfb78-49d6-4a26-a018-451a4fbbe370
+USN: uuid:b2dcfb78-49d6-4a26-a018-451a4fbbe370
+
+
+[DEBUG] 2015-09-18 23:37:02.588 [Thread-2] SEMP - Data reveived from: 169.254.226.32:1900
+[DEBUG] 2015-09-18 23:37:02.588 [Thread-2] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2015-09-18 23:37:02.588 [Timer-0] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:b2dcfb78-49d6-4a26-a018-451a4fbbe370::SSDP_NT_DEVICE_TYPE
+
+
+[DEBUG] 2015-09-18 23:37:02.588 [Thread-2] SEMP - Data reveived from: 169.254.226.32:1900
+[DEBUG] 2015-09-18 23:37:02.588 [Thread-2] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[DEBUG] 2015-09-18 23:37:02.588 [Thread-2] SEMP - Data reveived from: 169.254.226.32:1900
+[DEBUG] 2015-09-18 23:37:02.588 [Timer-0] SEMP - Send SSDP NOTIFY messages.
+[DEBUG] 2015-09-18 23:37:02.588 [Thread-2] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[INFO ] 2015-09-18 23:37:52.563 [main] SEMP - SSDP Receiver thread stopped!
+[INFO ] 2015-09-18 23:37:52.563 [main] SEMP - >>>>>>   STOP   <<<<<<<
+[DEBUG] 2015-09-18 23:39:06.854 [Thread-2] SEMP - Data reveived from: 169.254.226.32:57592
+[INFO ] 2015-09-18 23:50:46.940 [main] SEMP - >>>>>>   START  <<<<<<<
+[INFO ] 2015-09-18 23:50:46.987 [Thread-2] SEMP - SSDP Receiver thread listening on: 239.255.255.250:1900 - Waiting for incoming data...
+[TRACE] 2015-09-18 23:50:47.018 [Timer-0] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: upnp:rootdevice
+USN: uuid:e8dc7c26-b801-4cae-893c-386a758c5be6::upnp:rootdevice
+
+
+[TRACE] 2015-09-18 23:50:47.018 [Timer-0] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: uuid:e8dc7c26-b801-4cae-893c-386a758c5be6
+USN: uuid:e8dc7c26-b801-4cae-893c-386a758c5be6
+
+
+[DEBUG] 2015-09-18 23:50:47.018 [Thread-2] SEMP - Data reveived from: 169.254.226.32:1900
+[DEBUG] 2015-09-18 23:50:47.018 [Thread-2] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[DEBUG] 2015-09-18 23:50:47.018 [Thread-2] SEMP - Data reveived from: 169.254.226.32:1900
+[TRACE] 2015-09-18 23:50:47.018 [Timer-0] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:e8dc7c26-b801-4cae-893c-386a758c5be6::SSDP_NT_DEVICE_TYPE
+
+
+[DEBUG] 2015-09-18 23:50:47.018 [Thread-2] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[DEBUG] 2015-09-18 23:50:47.018 [Thread-2] SEMP - Data reveived from: 169.254.226.32:1900
+[DEBUG] 2015-09-18 23:50:47.018 [Timer-0] SEMP - Send SSDP NOTIFY messages.
+[DEBUG] 2015-09-18 23:50:47.018 [Thread-2] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[INFO ] 2015-09-18 23:51:36.994 [main] SEMP - SSDP Receiver thread stopped!
+[INFO ] 2015-09-18 23:51:36.994 [main] SEMP - >>>>>>   STOP   <<<<<<<
+[DEBUG] 2015-09-18 23:52:22.036 [Thread-2] SEMP - Data reveived from: 169.254.226.32:57592
+[INFO ] 2015-09-18 23:55:22.531 [main] SEMP - >>>>>>   START  <<<<<<<
+[INFO ] 2015-09-18 23:55:22.562 [Thread-2] SEMP - SSDP Receiver thread listening on: 239.255.255.250:1900 - Waiting for incoming data...
+[TRACE] 2015-09-18 23:55:22.578 [Timer-0] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: upnp:rootdevice
+USN: uuid:e8dc7c26-b801-4cae-893c-386a758c5be6::upnp:rootdevice
+
+
+[TRACE] 2015-09-18 23:55:22.578 [Timer-0] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: uuid:e8dc7c26-b801-4cae-893c-386a758c5be6
+USN: uuid:e8dc7c26-b801-4cae-893c-386a758c5be6
+
+
+[DEBUG] 2015-09-18 23:55:22.578 [Thread-2] SEMP - Data reveived from: 169.254.226.32:1900
+[DEBUG] 2015-09-18 23:55:22.578 [Thread-2] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2015-09-18 23:55:22.578 [Timer-0] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:e8dc7c26-b801-4cae-893c-386a758c5be6::SSDP_NT_DEVICE_TYPE
+
+
+[DEBUG] 2015-09-18 23:55:22.578 [Thread-2] SEMP - Data reveived from: 169.254.226.32:1900
+[DEBUG] 2015-09-18 23:55:22.578 [Thread-2] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[DEBUG] 2015-09-18 23:55:22.578 [Timer-0] SEMP - Send SSDP NOTIFY messages.
+[DEBUG] 2015-09-18 23:55:22.578 [Thread-2] SEMP - Data reveived from: 169.254.226.32:1900
+[DEBUG] 2015-09-18 23:55:22.578 [Thread-2] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[INFO ] 2015-09-18 23:56:12.563 [main] SEMP - SSDP Receiver thread stopped!
+[INFO ] 2015-09-18 23:56:12.563 [main] SEMP - >>>>>>   STOP   <<<<<<<
+[INFO ] 2015-09-18 23:57:03.681 [main] SEMP - >>>>>>   START  <<<<<<<
+[INFO ] 2015-09-18 23:57:03.712 [Thread-2] SEMP - SSDP Receiver thread listening on: 239.255.255.250:1900 - Waiting for incoming data...
+[TRACE] 2015-09-18 23:57:03.712 [Timer-0] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: upnp:rootdevice
+USN: uuid:e8dc7c26-b801-4cae-893c-386a758c5be6::upnp:rootdevice
+
+
+[TRACE] 2015-09-18 23:57:03.712 [Timer-0] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: uuid:e8dc7c26-b801-4cae-893c-386a758c5be6
+USN: uuid:e8dc7c26-b801-4cae-893c-386a758c5be6
+
+
+[DEBUG] 2015-09-18 23:57:03.712 [Thread-2] SEMP - Data reveived from: 169.254.226.32:1900
+[DEBUG] 2015-09-18 23:57:03.712 [Thread-2] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2015-09-18 23:57:03.712 [Timer-0] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:e8dc7c26-b801-4cae-893c-386a758c5be6::SSDP_NT_DEVICE_TYPE
+
+
+[DEBUG] 2015-09-18 23:57:03.712 [Thread-2] SEMP - Data reveived from: 169.254.226.32:1900
+[DEBUG] 2015-09-18 23:57:03.712 [Thread-2] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[DEBUG] 2015-09-18 23:57:03.712 [Timer-0] SEMP - Send SSDP NOTIFY messages.
+[DEBUG] 2015-09-18 23:57:03.712 [Thread-2] SEMP - Data reveived from: 169.254.226.32:1900
+[DEBUG] 2015-09-18 23:57:03.712 [Thread-2] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[INFO ] 2015-09-18 23:58:43.725 [main] SEMP - SSDP Receiver thread stopped!
+[INFO ] 2015-09-18 23:58:43.725 [main] SEMP - >>>>>>   STOP   <<<<<<<
+[DEBUG] 2015-09-18 23:59:03.210 [Thread-2] SEMP - Data reveived from: 169.254.226.32:57592

@@ -1,0 +1,671 @@
+[INFO ] 2016-03-14 18:18:00.614 [main] SEMP - >>>>>>   START V1.2 <<<<<<<
+[INFO ] 2016-03-14 18:18:00.692 [main] SEMP - SEMP Gateway initialized!
+[INFO ] 2016-03-14 18:18:00.801 [main] SEMP - SEMP receiver thread listening on http://192.168.178.42:8080/semp
+[INFO ] 2016-03-14 18:18:00.817 [main] SEMP - SEMP Gateway started succesfully!
+[INFO ] 2016-03-14 18:18:00.817 [Thread-5] SEMP - SSDP Receiver thread listening on: 239.255.255.250:1900 - Waiting for incoming data...
+[INFO ] 2016-03-14 18:18:00.817 [main] SEMP - >>>>>>   ENDE V1.2 <<<<<<<
+[DEBUG] 2016-03-14 18:18:01.067 [Timer-1] SEMP - Send SSDP NOTIFY messages to 239.255.255.250:1900
+[TRACE] 2016-03-14 18:18:01.098 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: upnp:rootdevice
+USN: uuid:2a10aefd-6dbb-4c8b-aa15-6470e2bcd6a6::upnp:rootdevice
+
+
+[TRACE] 2016-03-14 18:18:01.098 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: uuid:2a10aefd-6dbb-4c8b-aa15-6470e2bcd6a6
+USN: uuid:2a10aefd-6dbb-4c8b-aa15-6470e2bcd6a6
+
+
+[TRACE] 2016-03-14 18:18:01.098 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-14 18:18:01.098 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-14 18:18:01.098 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:2a10aefd-6dbb-4c8b-aa15-6470e2bcd6a6::urn:schemas-simple-energy-management-protocol:device:Gateway:1
+
+
+[TRACE] 2016-03-14 18:18:01.098 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[DEBUG] 2016-03-14 18:19:42.746 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:19:42.777 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:19:42.777 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:19:42.871 [Thread-4] SEMP - 404 (Not found): the requested URL /favicon.ico is not supported! Client: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:19:42.887 [Thread-4] SEMP - 404 (Not found): the requested URL /favicon.ico is not supported! Client: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:19:52.872 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:19:52.887 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:19:52.903 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:20:02.950 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:20:02.966 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:20:02.966 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:20:13.011 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:20:13.027 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:20:13.042 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[INFO ] 2016-03-14 18:20:35.472 [main] SEMP - >>>>>>   START V1.2 <<<<<<<
+[INFO ] 2016-03-14 18:20:35.488 [main] SEMP - SEMP Gateway initialized!
+[INFO ] 2016-03-14 18:20:35.519 [main] SEMP - SEMP receiver thread listening on http://192.168.178.42:8080/semp
+[INFO ] 2016-03-14 18:20:35.534 [main] SEMP - SEMP Gateway started succesfully!
+[INFO ] 2016-03-14 18:20:35.534 [Thread-5] SEMP - SSDP Receiver thread listening on: 239.255.255.250:1900 - Waiting for incoming data...
+[INFO ] 2016-03-14 18:20:35.534 [main] SEMP - >>>>>>   ENDE V1.2 <<<<<<<
+[DEBUG] 2016-03-14 18:20:35.784 [Timer-1] SEMP - Send SSDP NOTIFY messages to 239.255.255.250:1900
+[TRACE] 2016-03-14 18:20:35.800 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: upnp:rootdevice
+USN: uuid:77b52564-fb2b-46a7-9b7e-6724045f69b9::upnp:rootdevice
+
+
+[TRACE] 2016-03-14 18:20:35.800 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: uuid:77b52564-fb2b-46a7-9b7e-6724045f69b9
+USN: uuid:77b52564-fb2b-46a7-9b7e-6724045f69b9
+
+
+[TRACE] 2016-03-14 18:20:35.800 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-14 18:20:35.800 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-14 18:20:35.800 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:77b52564-fb2b-46a7-9b7e-6724045f69b9::urn:schemas-simple-energy-management-protocol:device:Gateway:1
+
+
+[TRACE] 2016-03-14 18:20:35.800 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[DEBUG] 2016-03-14 18:20:40.441 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:20:40.472 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:20:40.488 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:20:50.567 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:20:50.629 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:20:50.660 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:21:00.739 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:21:00.755 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:21:00.755 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:21:10.818 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:21:10.849 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:21:10.880 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:21:20.959 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:21:20.974 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:21:20.990 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:21:31.022 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:21:31.037 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:21:31.037 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:21:41.085 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:21:41.100 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:21:41.100 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:21:51.163 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:21:51.179 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:21:51.179 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:22:01.211 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:22:01.226 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:22:01.242 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:22:11.274 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:22:11.289 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:22:11.289 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:22:21.333 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:22:21.349 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:22:21.356 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:22:31.403 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:22:31.419 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:22:31.419 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:22:41.466 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:22:41.482 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:22:41.498 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:22:51.529 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:22:51.545 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:22:51.545 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:23:01.592 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:23:01.608 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:23:01.608 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:23:11.655 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:23:11.671 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:23:11.687 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:23:21.718 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:23:21.734 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:23:21.734 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:23:31.781 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:23:31.797 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:23:31.797 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:23:41.844 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:23:41.860 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:23:41.860 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:23:51.908 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:23:51.923 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:23:51.939 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:24:01.971 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:24:01.986 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:24:01.986 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:24:12.034 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:24:12.049 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:24:12.049 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:24:22.097 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:24:22.112 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:24:22.112 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:24:32.160 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:24:32.175 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:24:32.191 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:24:42.223 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:24:42.238 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:24:42.254 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:24:52.301 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:24:52.317 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:24:52.317 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:25:02.364 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:25:02.380 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:25:02.380 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:25:12.427 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:25:12.443 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:25:12.443 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:25:22.490 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:25:22.506 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:25:22.522 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:25:32.553 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:25:32.569 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:25:32.569 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:25:42.616 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:25:42.632 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:25:42.632 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:25:52.695 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:25:52.711 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:25:52.726 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:26:02.774 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:26:02.789 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:26:02.805 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:26:12.837 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:26:12.852 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:26:12.868 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:26:22.900 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:26:22.915 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:26:22.915 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:26:32.963 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:26:32.978 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:26:32.978 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[INFO ] 2016-03-14 18:26:45.604 [main] SEMP - >>>>>>   START V1.2 <<<<<<<
+[INFO ] 2016-03-14 18:26:45.620 [main] SEMP - SEMP Gateway initialized!
+[INFO ] 2016-03-14 18:26:45.651 [main] SEMP - SEMP receiver thread listening on http://192.168.178.42:8080/semp
+[INFO ] 2016-03-14 18:26:45.651 [main] SEMP - SEMP Gateway started succesfully!
+[INFO ] 2016-03-14 18:26:45.651 [Thread-5] SEMP - SSDP Receiver thread listening on: 239.255.255.250:1900 - Waiting for incoming data...
+[INFO ] 2016-03-14 18:26:45.651 [main] SEMP - >>>>>>   ENDE V1.2 <<<<<<<
+[DEBUG] 2016-03-14 18:26:45.901 [Timer-1] SEMP - Send SSDP NOTIFY messages to 239.255.255.250:1900
+[TRACE] 2016-03-14 18:26:45.917 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: upnp:rootdevice
+USN: uuid:b7fe26fe-c9a7-458e-b349-b34811acbf12::upnp:rootdevice
+
+
+[TRACE] 2016-03-14 18:26:45.917 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: uuid:b7fe26fe-c9a7-458e-b349-b34811acbf12
+USN: uuid:b7fe26fe-c9a7-458e-b349-b34811acbf12
+
+
+[TRACE] 2016-03-14 18:26:45.917 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-14 18:26:45.917 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-14 18:26:45.917 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:b7fe26fe-c9a7-458e-b349-b34811acbf12::urn:schemas-simple-energy-management-protocol:device:Gateway:1
+
+
+[TRACE] 2016-03-14 18:26:45.917 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[DEBUG] 2016-03-14 18:26:49.276 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:26:49.307 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:26:49.323 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:26:59.402 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:26:59.417 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:26:59.417 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:27:09.461 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:27:09.473 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:27:09.526 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:27:19.559 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:27:19.574 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:27:19.627 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:27:29.659 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:27:29.676 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:27:29.729 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:27:39.756 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:27:39.773 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:27:39.825 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:27:49.855 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:27:49.893 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:27:49.938 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:27:59.965 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:27:59.978 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:28:00.033 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:28:10.059 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:28:10.076 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:28:10.129 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:28:20.160 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:28:20.176 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:28:20.228 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:28:30.256 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:28:30.272 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 18:28:30.322 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[INFO ] 2016-03-14 20:09:45.068 [main] SEMP - >>>>>>   START V1.2 <<<<<<<
+[INFO ] 2016-03-14 20:09:45.084 [main] SEMP - SEMP Gateway initialized!
+[INFO ] 2016-03-14 20:09:45.115 [main] SEMP - SEMP receiver thread listening on http://192.168.178.42:8080/semp
+[INFO ] 2016-03-14 20:09:45.115 [main] SEMP - SEMP Gateway started succesfully!
+[INFO ] 2016-03-14 20:09:45.115 [Thread-5] SEMP - SSDP Receiver thread listening on: 239.255.255.250:1900 - Waiting for incoming data...
+[INFO ] 2016-03-14 20:09:45.115 [main] SEMP - >>>>>>   ENDE V1.2 <<<<<<<
+[DEBUG] 2016-03-14 20:09:45.365 [Timer-1] SEMP - Send SSDP NOTIFY messages to 239.255.255.250:1900
+[TRACE] 2016-03-14 20:09:45.396 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: upnp:rootdevice
+USN: uuid:004c6cb3-88fd-4c80-b693-f80f2141d3de::upnp:rootdevice
+
+
+[TRACE] 2016-03-14 20:09:45.412 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: uuid:004c6cb3-88fd-4c80-b693-f80f2141d3de
+USN: uuid:004c6cb3-88fd-4c80-b693-f80f2141d3de
+
+
+[TRACE] 2016-03-14 20:09:45.412 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-14 20:09:45.412 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:004c6cb3-88fd-4c80-b693-f80f2141d3de::urn:schemas-simple-energy-management-protocol:device:Gateway:1
+
+
+[TRACE] 2016-03-14 20:09:45.412 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-14 20:09:45.412 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[DEBUG] 2016-03-14 20:10:02.600 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:10:02.647 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:10:02.663 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:10:02.757 [Thread-4] SEMP - 404 (Not found): the requested URL /favicon.ico is not supported! Client: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:10:02.757 [Thread-4] SEMP - 404 (Not found): the requested URL /favicon.ico is not supported! Client: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:10:12.741 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:10:12.773 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:10:12.788 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:10:22.827 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:10:22.858 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:10:22.874 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:10:30.865 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:10:30.881 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:10:30.897 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:10:40.928 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:10:40.960 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:10:40.975 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:10:51.007 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:10:51.023 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:10:51.023 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:11:01.070 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:11:01.101 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:11:01.117 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:11:11.164 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:11:11.211 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:11:11.211 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:11:21.259 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:11:21.274 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:11:21.274 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:11:31.322 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:11:31.353 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:11:31.369 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:11:41.400 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:11:41.432 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:11:41.447 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:11:51.479 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:11:51.526 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:11:51.526 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:12:01.558 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:12:01.589 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:12:01.589 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:12:11.636 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:12:11.652 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:12:11.652 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[INFO ] 2016-03-14 20:12:28.700 [main] SEMP - >>>>>>   START V1.2 <<<<<<<
+[INFO ] 2016-03-14 20:12:28.715 [main] SEMP - SEMP Gateway initialized!
+[INFO ] 2016-03-14 20:12:28.747 [main] SEMP - SEMP receiver thread listening on http://192.168.178.42:8080/semp
+[INFO ] 2016-03-14 20:12:28.747 [main] SEMP - SEMP Gateway started succesfully!
+[INFO ] 2016-03-14 20:12:28.747 [Thread-5] SEMP - SSDP Receiver thread listening on: 239.255.255.250:1900 - Waiting for incoming data...
+[INFO ] 2016-03-14 20:12:28.747 [main] SEMP - >>>>>>   ENDE V1.2 <<<<<<<
+[DEBUG] 2016-03-14 20:12:28.997 [Timer-1] SEMP - Send SSDP NOTIFY messages to 239.255.255.250:1900
+[TRACE] 2016-03-14 20:12:29.044 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: upnp:rootdevice
+USN: uuid:0a5ec4fd-189f-4e22-87bb-56039492c783::upnp:rootdevice
+
+
+[TRACE] 2016-03-14 20:12:29.044 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: uuid:0a5ec4fd-189f-4e22-87bb-56039492c783
+USN: uuid:0a5ec4fd-189f-4e22-87bb-56039492c783
+
+
+[TRACE] 2016-03-14 20:12:29.044 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-14 20:12:29.044 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:0a5ec4fd-189f-4e22-87bb-56039492c783::urn:schemas-simple-energy-management-protocol:device:Gateway:1
+
+
+[TRACE] 2016-03-14 20:12:29.044 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-14 20:12:29.044 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[DEBUG] 2016-03-14 20:12:35.310 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:12:35.372 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:12:35.388 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:12:45.482 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:12:45.529 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:12:45.544 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:12:55.592 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:12:55.654 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:12:55.670 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:13:05.717 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:13:05.780 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:13:05.795 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:13:15.843 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:13:15.921 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:13:15.921 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:13:26.000 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:13:26.062 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:13:26.078 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:13:36.125 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:13:36.188 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:13:36.250 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:13:46.298 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:13:46.360 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:13:46.360 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:13:56.408 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:13:56.486 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:13:56.486 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:14:06.533 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:14:06.580 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:14:06.596 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:14:16.643 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:14:16.690 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:14:16.706 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:14:26.769 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:14:26.816 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:14:26.831 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:14:36.882 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:14:36.917 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:14:36.917 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:14:46.955 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:14:47.002 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:14:47.033 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:14:57.080 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:14:57.127 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:14:57.143 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:15:07.190 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:15:07.237 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:15:07.253 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[INFO ] 2016-03-14 20:15:38.881 [main] SEMP - >>>>>>   START V1.2 <<<<<<<
+[INFO ] 2016-03-14 20:15:38.897 [main] SEMP - SEMP Gateway initialized!
+[INFO ] 2016-03-14 20:15:38.928 [main] SEMP - SEMP receiver thread listening on http://192.168.178.42:8080/semp
+[INFO ] 2016-03-14 20:15:38.928 [main] SEMP - SEMP Gateway started succesfully!
+[INFO ] 2016-03-14 20:15:38.928 [Thread-5] SEMP - SSDP Receiver thread listening on: 239.255.255.250:1900 - Waiting for incoming data...
+[INFO ] 2016-03-14 20:15:38.928 [main] SEMP - >>>>>>   ENDE V1.2 <<<<<<<
+[DEBUG] 2016-03-14 20:15:39.178 [Timer-1] SEMP - Send SSDP NOTIFY messages to 239.255.255.250:1900
+[TRACE] 2016-03-14 20:15:39.210 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: upnp:rootdevice
+USN: uuid:0d44cb32-b6de-47d5-aa36-81e55769def8::upnp:rootdevice
+
+
+[TRACE] 2016-03-14 20:15:39.210 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: uuid:0d44cb32-b6de-47d5-aa36-81e55769def8
+USN: uuid:0d44cb32-b6de-47d5-aa36-81e55769def8
+
+
+[TRACE] 2016-03-14 20:15:39.210 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-14 20:15:39.210 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:0d44cb32-b6de-47d5-aa36-81e55769def8::urn:schemas-simple-energy-management-protocol:device:Gateway:1
+
+
+[TRACE] 2016-03-14 20:15:39.210 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-14 20:15:39.210 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[DEBUG] 2016-03-14 20:15:42.475 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:15:42.538 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:15:42.538 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:15:52.632 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:15:52.695 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:15:52.710 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:16:02.742 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:16:02.805 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:16:02.820 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:16:12.852 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:16:12.915 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:16:12.915 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:16:22.962 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:16:23.025 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:16:23.040 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:16:33.088 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:16:33.150 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:16:33.150 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:16:43.197 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:16:43.260 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:16:43.276 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:16:53.307 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:16:53.370 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:16:53.386 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:17:03.417 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:17:03.480 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:17:03.496 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:17:13.527 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:17:13.590 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:17:13.590 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:17:23.637 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:17:23.700 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:17:23.700 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:17:33.747 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:17:33.810 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:17:33.810 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:17:43.858 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:17:43.889 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:17:43.904 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:17:53.936 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:17:53.999 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:17:53.999 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:18:04.062 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:18:04.109 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:18:04.125 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:18:14.188 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:18:14.250 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:18:14.250 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:18:24.297 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:18:24.360 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:18:24.360 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:18:34.407 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:18:34.470 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:18:34.470 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:18:44.517 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:18:44.580 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:18:44.580 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:18:54.627 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:18:54.690 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:18:54.705 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:19:04.737 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:19:04.800 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:19:04.831 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:19:14.863 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:19:14.925 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:19:14.941 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:19:24.972 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:19:25.035 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:19:25.035 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:19:35.082 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:19:35.145 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:19:35.145 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:19:45.190 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:19:45.224 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:19:45.242 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:19:55.286 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:19:55.364 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:19:55.364 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:20:05.411 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:20:05.474 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:20:05.490 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:20:15.521 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:20:15.584 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-14 20:20:15.584 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[INFO ] 2016-03-14 20:20:23.865 [main] SEMP - >>>>>>   START V1.2 <<<<<<<
+[INFO ] 2016-03-14 20:20:23.881 [main] SEMP - SEMP Gateway initialized!
+[INFO ] 2016-03-14 20:20:23.912 [main] SEMP - SEMP receiver thread listening on http://192.168.178.42:8080/semp
+[INFO ] 2016-03-14 20:20:23.912 [main] SEMP - SEMP Gateway started succesfully!
+[INFO ] 2016-03-14 20:20:23.912 [main] SEMP - >>>>>>   ENDE V1.2 <<<<<<<
+[INFO ] 2016-03-14 20:20:23.912 [Thread-5] SEMP - SSDP Receiver thread listening on: 239.255.255.250:1900 - Waiting for incoming data...
+[DEBUG] 2016-03-14 20:20:24.162 [Timer-1] SEMP - Send SSDP NOTIFY messages to 239.255.255.250:1900
+[TRACE] 2016-03-14 20:20:24.225 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: upnp:rootdevice
+USN: uuid:b6264bed-c463-4bff-ade2-d6c29ba7c421::upnp:rootdevice
+
+
+[TRACE] 2016-03-14 20:20:24.225 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-14 20:20:24.225 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: uuid:b6264bed-c463-4bff-ade2-d6c29ba7c421
+USN: uuid:b6264bed-c463-4bff-ade2-d6c29ba7c421
+
+
+[TRACE] 2016-03-14 20:20:24.225 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-14 20:20:24.225 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:b6264bed-c463-4bff-ade2-d6c29ba7c421::urn:schemas-simple-energy-management-protocol:device:Gateway:1
+
+
+[TRACE] 2016-03-14 20:20:24.225 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-14 20:20:25.631 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[TRACE] 2016-03-14 20:20:25.694 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[TRACE] 2016-03-14 20:20:25.725 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[TRACE] 2016-03-14 20:20:33.835 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[TRACE] 2016-03-14 20:20:33.882 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[TRACE] 2016-03-14 20:20:33.882 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[TRACE] 2016-03-14 20:20:43.929 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[TRACE] 2016-03-14 20:20:43.992 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[TRACE] 2016-03-14 20:20:44.007 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[TRACE] 2016-03-14 20:20:54.039 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[TRACE] 2016-03-14 20:20:54.101 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[TRACE] 2016-03-14 20:20:54.117 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[TRACE] 2016-03-14 20:21:04.149 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[TRACE] 2016-03-14 20:21:04.211 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[TRACE] 2016-03-14 20:21:04.211 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[TRACE] 2016-03-14 20:21:14.259 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[TRACE] 2016-03-14 20:21:14.321 [Thread-4] SEMP - HTTP GET: /status/css/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[TRACE] 2016-03-14 20:21:14.337 [Thread-4] SEMP - HTTP GET: /status/image/logo.png from: Desktop-PC.fritz.box [192.168.178.42]
+[INFO ] 2016-03-14 20:21:27.103 [main] SEMP - >>>>>>   START V1.2 <<<<<<<
+[INFO ] 2016-03-14 20:21:27.119 [main] SEMP - SEMP Gateway initialized!
+[INFO ] 2016-03-14 20:21:27.150 [main] SEMP - SEMP receiver thread listening on http://192.168.178.42:8080/semp
+[INFO ] 2016-03-14 20:21:27.150 [main] SEMP - SEMP Gateway started succesfully!
+[INFO ] 2016-03-14 20:21:27.150 [main] SEMP - >>>>>>   ENDE V1.2 <<<<<<<
+[INFO ] 2016-03-14 20:21:27.150 [Thread-5] SEMP - SSDP Receiver thread listening on: 239.255.255.250:1900 - Waiting for incoming data...
+[DEBUG] 2016-03-14 20:21:27.400 [Timer-1] SEMP - Send SSDP NOTIFY messages to 239.255.255.250:1900
+[INFO ] 2016-03-14 20:21:49.901 [main] SEMP - >>>>>>   START V1.2 <<<<<<<
+[INFO ] 2016-03-14 20:21:49.917 [main] SEMP - SEMP Gateway initialized!
+[INFO ] 2016-03-14 20:21:49.948 [main] SEMP - SEMP receiver thread listening on http://192.168.178.42:8080/semp
+[INFO ] 2016-03-14 20:21:49.948 [main] SEMP - SEMP Gateway started succesfully!
+[INFO ] 2016-03-14 20:21:49.948 [main] SEMP - >>>>>>   ENDE V1.2 <<<<<<<
+[INFO ] 2016-03-14 20:21:49.948 [Thread-5] SEMP - SSDP Receiver thread listening on: 239.255.255.250:1900 - Waiting for incoming data...
+[DEBUG] 2016-03-14 20:21:50.198 [Timer-1] SEMP - Send SSDP NOTIFY messages to 239.255.255.250:1900
+[INFO ] 2016-03-14 20:24:35.614 [main] SEMP - >>>>>>   START V1.2 <<<<<<<
+[INFO ] 2016-03-14 20:24:35.692 [main] SEMP - SEMP Gateway initialized!
+[INFO ] 2016-03-14 20:24:35.755 [main] SEMP - SEMP receiver thread listening on http://192.168.178.42:8080/semp
+[INFO ] 2016-03-14 20:24:35.755 [main] SEMP - SEMP Gateway started succesfully!
+[INFO ] 2016-03-14 20:24:35.755 [main] SEMP - >>>>>>   ENDE V1.2 <<<<<<<
+[INFO ] 2016-03-14 20:24:35.755 [Thread-5] SEMP - SSDP Receiver thread listening on: 239.255.255.250:1900 - Waiting for incoming data...
+[DEBUG] 2016-03-14 20:24:36.005 [Timer-1] SEMP - Send SSDP NOTIFY messages to 239.255.255.250:1900

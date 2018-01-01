@@ -1,0 +1,893 @@
+[INFO ] 2015-09-22 17:49:20.902 [main] SEMP - >>>>>>   START  <<<<<<<
+[INFO ] 2015-09-22 17:49:20.902 [main] SEMP - SEMP Gateway initialized!
+[ERROR] 2015-09-22 17:49:20.917 [main] SEMP - Cannot assign requested address: bind
+[INFO ] 2015-09-22 17:49:20.933 [main] SEMP - SEMP Gateway started succesfully!
+[INFO ] 2015-09-22 17:49:20.933 [Thread-3] SEMP - SSDP Receiver thread listening on: 239.255.255.250:1900 - Waiting for incoming data...
+[DEBUG] 2015-09-22 17:49:20.933 [Timer-1] SEMP - Send SSDP NOTIFY messages to 239.255.255.250:1900
+[TRACE] 2015-09-22 17:49:20.949 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.110:8080/semp/description.xml
+NT: upnp:rootdevice
+USN: uuid:44240fc6-4d94-4352-897a-9dc75c2aad82::upnp:rootdevice
+
+
+[TRACE] 2015-09-22 17:49:20.949 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.110:8080/semp/description.xml
+NT: uuid:44240fc6-4d94-4352-897a-9dc75c2aad82
+USN: uuid:44240fc6-4d94-4352-897a-9dc75c2aad82
+
+
+[TRACE] 2015-09-22 17:49:20.964 [Thread-3] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2015-09-22 17:49:20.964 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.110:8080/semp/description.xml
+NT: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:44240fc6-4d94-4352-897a-9dc75c2aad82::urn:schemas-simple-energy-management-protocol:device:Gateway:1
+
+
+[TRACE] 2015-09-22 17:49:20.964 [Thread-3] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2015-09-22 17:49:20.964 [Thread-3] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[INFO ] 2015-09-22 17:51:08.388 [main] SEMP - >>>>>>   START  <<<<<<<
+[INFO ] 2015-09-22 17:51:08.388 [main] SEMP - SEMP Gateway initialized!
+[INFO ] 2015-09-22 17:51:08.404 [main] SEMP - SEMP receiver thread listening on http://192.168.178.30:8080/semp
+[INFO ] 2015-09-22 17:51:08.420 [main] SEMP - SEMP Gateway started succesfully!
+[DEBUG] 2015-09-22 17:51:08.420 [Timer-1] SEMP - Send SSDP NOTIFY messages to 239.255.255.250:1900
+[INFO ] 2015-09-22 17:51:08.420 [Thread-5] SEMP - SSDP Receiver thread listening on: 239.255.255.250:1900 - Waiting for incoming data...
+[TRACE] 2015-09-22 17:51:08.435 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: upnp:rootdevice
+USN: uuid:662fe6f2-1b09-4bf1-a144-8c7debfe15ad::upnp:rootdevice
+
+
+[TRACE] 2015-09-22 17:51:08.451 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2015-09-22 17:51:08.451 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: uuid:662fe6f2-1b09-4bf1-a144-8c7debfe15ad
+USN: uuid:662fe6f2-1b09-4bf1-a144-8c7debfe15ad
+
+
+[TRACE] 2015-09-22 17:51:08.451 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2015-09-22 17:51:08.451 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:662fe6f2-1b09-4bf1-a144-8c7debfe15ad::urn:schemas-simple-energy-management-protocol:device:Gateway:1
+
+
+[TRACE] 2015-09-22 17:51:08.451 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[INFO ] 2015-09-22 17:52:45.105 [main] SEMP - >>>>>>   START  <<<<<<<
+[INFO ] 2015-09-22 17:52:45.105 [main] SEMP - SEMP Gateway initialized!
+[INFO ] 2015-09-22 17:52:45.120 [main] SEMP - SEMP receiver thread listening on http://192.168.178.30:8080/semp
+[INFO ] 2015-09-22 17:52:45.120 [main] SEMP - SEMP Gateway started succesfully!
+[DEBUG] 2015-09-22 17:52:45.120 [Timer-1] SEMP - Send SSDP NOTIFY messages to 239.255.255.250:1900
+[INFO ] 2015-09-22 17:52:45.120 [Thread-5] SEMP - SSDP Receiver thread listening on: 239.255.255.250:1900 - Waiting for incoming data...
+[TRACE] 2015-09-22 17:52:45.152 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: upnp:rootdevice
+USN: uuid:26f82764-239f-4bad-bc2b-2927ea9d6d02::upnp:rootdevice
+
+
+[TRACE] 2015-09-22 17:52:45.152 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: uuid:26f82764-239f-4bad-bc2b-2927ea9d6d02
+USN: uuid:26f82764-239f-4bad-bc2b-2927ea9d6d02
+
+
+[TRACE] 2015-09-22 17:52:45.152 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2015-09-22 17:52:45.152 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2015-09-22 17:52:45.152 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:26f82764-239f-4bad-bc2b-2927ea9d6d02::urn:schemas-simple-energy-management-protocol:device:Gateway:1
+
+
+[TRACE] 2015-09-22 17:52:45.152 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[INFO ] 2015-09-22 17:54:25.126 [main] SEMP - SSDP Receiver thread stopped!
+[INFO ] 2015-09-22 17:54:25.126 [main] SEMP - SEMP Engine stopped!
+[INFO ] 2015-09-22 17:54:25.126 [main] SEMP - >>>>>>   STOP   <<<<<<<
+[INFO ] 2015-09-22 18:53:44.446 [main] SEMP - >>>>>>   START  <<<<<<<
+[INFO ] 2015-09-22 18:53:44.446 [main] SEMP - SEMP Gateway initialized!
+[INFO ] 2015-09-22 18:53:44.477 [main] SEMP - SEMP receiver thread listening on http://192.168.178.30:8080/semp
+[INFO ] 2015-09-22 18:53:44.477 [main] SEMP - SEMP Gateway started succesfully!
+[DEBUG] 2015-09-22 18:53:44.477 [Timer-1] SEMP - Send SSDP NOTIFY messages to 239.255.255.250:1900
+[INFO ] 2015-09-22 18:53:44.477 [Thread-5] SEMP - SSDP Receiver thread listening on: 239.255.255.250:1900 - Waiting for incoming data...
+[TRACE] 2015-09-22 18:53:44.493 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: upnp:rootdevice
+USN: uuid:116fd3ad-bb9d-4668-bc00-bcfdc3912c64::upnp:rootdevice
+
+
+[TRACE] 2015-09-22 18:53:44.509 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2015-09-22 18:53:44.509 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: uuid:116fd3ad-bb9d-4668-bc00-bcfdc3912c64
+USN: uuid:116fd3ad-bb9d-4668-bc00-bcfdc3912c64
+
+
+[TRACE] 2015-09-22 18:53:44.509 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2015-09-22 18:53:44.509 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:116fd3ad-bb9d-4668-bc00-bcfdc3912c64::urn:schemas-simple-energy-management-protocol:device:Gateway:1
+
+
+[TRACE] 2015-09-22 18:53:44.509 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[INFO ] 2015-09-22 18:55:24.483 [main] SEMP - SSDP Receiver thread stopped!
+[INFO ] 2015-09-22 18:55:24.483 [main] SEMP - SEMP Engine stopped!
+[INFO ] 2015-09-22 18:55:24.483 [main] SEMP - >>>>>>   STOP   <<<<<<<
+[INFO ] 2015-09-22 18:55:54.375 [main] SEMP - >>>>>>   START  <<<<<<<
+[INFO ] 2015-09-22 18:55:54.375 [main] SEMP - SEMP Gateway initialized!
+[INFO ] 2015-09-22 18:55:54.391 [main] SEMP - SEMP receiver thread listening on http://192.168.178.30:8080/semp
+[INFO ] 2015-09-22 18:55:54.391 [main] SEMP - SEMP Gateway started succesfully!
+[DEBUG] 2015-09-22 18:55:54.391 [Timer-1] SEMP - Send SSDP NOTIFY messages to 239.255.255.250:1900
+[INFO ] 2015-09-22 18:55:54.391 [Thread-5] SEMP - SSDP Receiver thread listening on: 239.255.255.250:1900 - Waiting for incoming data...
+[TRACE] 2015-09-22 18:55:54.422 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: upnp:rootdevice
+USN: uuid:f83ed2fc-4388-4cfe-a31a-5dc1d46b2a05::upnp:rootdevice
+
+
+[TRACE] 2015-09-22 18:55:54.422 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: uuid:f83ed2fc-4388-4cfe-a31a-5dc1d46b2a05
+USN: uuid:f83ed2fc-4388-4cfe-a31a-5dc1d46b2a05
+
+
+[TRACE] 2015-09-22 18:55:54.422 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2015-09-22 18:55:54.422 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age = 1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGateway SSDP Server/1.0.0
+NTS: ssdp:alive
+LOCATION: http://192.168.178.30:8080/semp/description.xml
+NT: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:f83ed2fc-4388-4cfe-a31a-5dc1d46b2a05::urn:schemas-simple-energy-management-protocol:device:Gateway:1
+
+
+[TRACE] 2015-09-22 18:55:54.422 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2015-09-22 18:55:54.422 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[INFO ] 2015-09-22 20:26:22.113 [main] SEMP - >>>>>>   START  <<<<<<<
+[WARN ] 2015-09-22 20:26:22.129 [main] SEMP - No method for config param: SEMP_GW_DEVICE_ID=auto
+[INFO ] 2015-09-22 20:26:22.129 [main] SEMP - >>>>>>   STOP   <<<<<<<
+[INFO ] 2015-09-22 20:29:44.550 [main] SEMP - >>>>>>   START  <<<<<<<
+[INFO ] 2015-09-22 20:29:44.566 [main] SEMP - >>>>>>   STOP   <<<<<<<
+[INFO ] 2015-09-22 20:34:20.178 [main] SEMP - >>>>>>   START  <<<<<<<
+[INFO ] 2015-09-22 20:34:20.194 [main] SEMP - >>>>>>   STOP   <<<<<<<
+[INFO ] 2015-09-22 20:36:31.699 [main] SEMP - >>>>>>   START  <<<<<<<
+[INFO ] 2015-09-22 20:36:31.715 [main] SEMP - >>>>>>   STOP   <<<<<<<
+[INFO ] 2015-09-22 20:39:10.456 [main] SEMP - >>>>>>   START  <<<<<<<
+[INFO ] 2015-09-22 20:39:10.472 [main] SEMP - >>>>>>   STOP   <<<<<<<
+[INFO ] 2015-09-22 20:42:06.001 [main] SEMP - >>>>>>   START  <<<<<<<
+[INFO ] 2015-09-22 20:42:06.017 [main] SEMP - >>>>>>   STOP   <<<<<<<
+[INFO ] 2015-09-22 20:43:18.518 [main] SEMP - >>>>>>   START  <<<<<<<
+[INFO ] 2015-09-22 20:43:18.534 [main] SEMP - >>>>>>   STOP   <<<<<<<
+[INFO ] 2015-09-22 20:45:07.345 [main] SEMP - >>>>>>   START  <<<<<<<
+[INFO ] 2015-09-22 20:45:07.361 [main] SEMP - >>>>>>   STOP   <<<<<<<
+[INFO ] 2015-09-22 20:54:33.431 [main] SEMP - >>>>>>   START  <<<<<<<
+[INFO ] 2015-09-22 20:54:33.447 [main] SEMP - >>>>>>   STOP   <<<<<<<
+[INFO ] 2015-09-22 20:55:19.955 [main] SEMP - >>>>>>   START  <<<<<<<
+[INFO ] 2015-09-22 20:55:19.971 [main] SEMP - SEMP Gateway initialized!
+[INFO ] 2015-09-22 20:55:19.971 [main] SEMP - >>>>>>   STOP   <<<<<<<
+[INFO ] 2015-09-22 20:58:08.972 [main] SEMP - >>>>>>   START  <<<<<<<
+[INFO ] 2015-09-22 20:58:08.987 [main] SEMP - SEMP Gateway initialized!
+[INFO ] 2015-09-22 20:58:08.987 [main] SEMP - >>>>>>   STOP   <<<<<<<
+[INFO ] 2015-09-22 21:05:41.244 [main] SEMP - >>>>>>   START  <<<<<<<
+[INFO ] 2015-09-22 21:05:41.260 [main] SEMP - SEMP Gateway initialized!
+[WARN ] 2015-09-22 21:05:42.088 [main] SEMP - SEMP message validation: s4s-elt-character: In anderen Schemaelementen als "xs:appinfo" und "xs:documentation" sind nur Leerstellen zulässig. "auto" gefunden.
+<?xml version="1.0" encoding="UTF-8"?>
+<Device2EM xmlns="http://www.sma.de/communication/schema/SEMP/v1">
+<DeviceInfo>
+  <Identification>
+    <DeviceId>SEMP_GW_DEVICE_ID1</DeviceId>
+    <DeviceName>Device 1</DeviceName>
+    <DeviceType>HeatPump</DeviceType>
+    <DeviceSerial>2332532423</DeviceSerial>
+    <DeviceVendor>Some Vendor</DeviceVendor>
+  </Identification>
+  <Characteristics>
+    <MaxPowerConsumption>1500</MaxPowerConsumption>
+    <MinOnTime>60</MinOnTime>
+    <MinOffTime>60</MinOffTime>
+  </Characteristics>
+  <Capabilities>
+    <CurrentPower><Method>Estimation</Method></CurrentPower>
+    <Timestamps><AbsoluteTimestamps>false</AbsoluteTimestamps></Timestamps>
+    <Interruptions><InterruptionsAllowed>false</InterruptionsAllowed></Interruptions>
+    <Requests><OptionalEnergy>true</OptionalEnergy></Requests>
+  </Capabilities>
+</DeviceInfo>
+<DeviceInfo>
+  <Identification>
+    <DeviceId>SEMP_GW_DEVICE_ID2</DeviceId>
+    <DeviceName>Device 2</DeviceName>
+    <DeviceType>DishWasher</DeviceType>
+    <DeviceSerial>2332532423</DeviceSerial>
+    <DeviceVendor>Some Vendor</DeviceVendor>
+  </Identification>
+  <Characteristics>
+    <MaxPowerConsumption>1500</MaxPowerConsumption>
+    <MinOnTime>60</MinOnTime>
+    <MinOffTime>60</MinOffTime>
+  </Characteristics>
+  <Capabilities>
+    <CurrentPower><Method>Estimation</Method></CurrentPower>
+    <Timestamps><AbsoluteTimestamps>false</AbsoluteTimestamps></Timestamps>
+    <Interruptions><InterruptionsAllowed>false</InterruptionsAllowed></Interruptions>
+    <Requests><OptionalEnergy>true</OptionalEnergy></Requests>
+  </Capabilities>
+</DeviceInfo>
+<DeviceStatus>
+  <DeviceId>SEMP_GW_DEVICE_ID1</DeviceId>
+  <EMSignalsAccepted>true</EMSignalsAccepted>
+  <Status>Off</Status>
+  <PowerConsumption>
+    <PowerInfo>
+      <AveragePower>1000</AveragePower>
+      <Timestamp>0</Timestamp>
+     <AveragingInterval>60</AveragingInterval>
+    </PowerInfo>
+  </PowerConsumption>
+</DeviceStatus>
+<PlanningRequest>
+   <Timeframe>
+    <DeviceId>SEMP_GW_DEVICE_ID1</DeviceId>
+    <EarliestStart>0</EarliestStart>
+    <LatestEnd>10800</LatestEnd>
+    <MinRunningTime>0</MinRunningTime>
+    <MaxRunningTime>1800</MaxRunningTime>
+   </Timeframe>
+</PlanningRequest>
+<DeviceStatus>
+  <DeviceId>SEMP_GW_DEVICE_ID2</DeviceId>
+  <EMSignalsAccepted>true</EMSignalsAccepted>
+  <Status>Off</Status>
+  <PowerConsumption>
+    <PowerInfo>
+      <AveragePower>1000</AveragePower>
+      <Timestamp>0</Timestamp>
+     <AveragingInterval>60</AveragingInterval>
+    </PowerInfo>
+  </PowerConsumption>
+</DeviceStatus>
+<PlanningRequest>
+   <Timeframe>
+    <DeviceId>SEMP_GW_DEVICE_ID2</DeviceId>
+    <EarliestStart>0</EarliestStart>
+    <LatestEnd>10800</LatestEnd>
+    <MinRunningTime>0</MinRunningTime>
+    <MaxRunningTime>1800</MaxRunningTime>
+   </Timeframe>
+</PlanningRequest>
+</Device2EM>
+[INFO ] 2015-09-22 21:05:42.088 [main] SEMP - >>>>>>   STOP   <<<<<<<
+[INFO ] 2015-09-22 21:10:18.533 [main] SEMP - >>>>>>   START  <<<<<<<
+[INFO ] 2015-09-22 21:10:18.549 [main] SEMP - SEMP Gateway initialized!
+[WARN ] 2015-09-22 21:10:19.377 [main] SEMP - SEMP message validation: s4s-elt-character: In anderen Schemaelementen als "xs:appinfo" und "xs:documentation" sind nur Leerstellen zulässig. "auto" gefunden.
+<?xml version="1.0" encoding="UTF-8"?>
+<Device2EM xmlns="http://www.sma.de/communication/schema/SEMP/v1">
+<DeviceInfo>
+  <Identification>
+    <DeviceId>SEMP_GW_DEVICE_ID1</DeviceId>
+    <DeviceName>Device 1</DeviceName>
+    <DeviceType>HeatPump</DeviceType>
+    <DeviceSerial>2332532423</DeviceSerial>
+    <DeviceVendor>Some Vendor</DeviceVendor>
+  </Identification>
+  <Characteristics>
+    <MaxPowerConsumption>1500</MaxPowerConsumption>
+    <MinOnTime>60</MinOnTime>
+    <MinOffTime>60</MinOffTime>
+  </Characteristics>
+  <Capabilities>
+    <CurrentPower><Method>Estimation</Method></CurrentPower>
+    <Timestamps><AbsoluteTimestamps>false</AbsoluteTimestamps></Timestamps>
+    <Interruptions><InterruptionsAllowed>false</InterruptionsAllowed></Interruptions>
+    <Requests><OptionalEnergy>true</OptionalEnergy></Requests>
+  </Capabilities>
+</DeviceInfo>
+<DeviceStatus>
+  <DeviceId>SEMP_GW_DEVICE_ID1</DeviceId>
+  <EMSignalsAccepted>true</EMSignalsAccepted>
+  <Status>Off</Status>
+  <PowerConsumption>
+    <PowerInfo>
+      <AveragePower>1000</AveragePower>
+      <Timestamp>0</Timestamp>
+     <AveragingInterval>60</AveragingInterval>
+    </PowerInfo>
+  </PowerConsumption>
+</DeviceStatus>
+<PlanningRequest>
+   <Timeframe>
+    <DeviceId>SEMP_GW_DEVICE_ID1</DeviceId>
+    <EarliestStart>0</EarliestStart>
+    <LatestEnd>10800</LatestEnd>
+    <MinRunningTime>0</MinRunningTime>
+    <MaxRunningTime>1800</MaxRunningTime>
+   </Timeframe>
+</PlanningRequest>
+</Device2EM>
+[INFO ] 2015-09-22 21:10:19.377 [main] SEMP - >>>>>>   STOP   <<<<<<<
+[INFO ] 2015-09-22 21:15:52.798 [main] SEMP - >>>>>>   START  <<<<<<<
+[INFO ] 2015-09-22 21:15:52.844 [main] SEMP - SEMP Gateway initialized!
+[WARN ] 2015-09-22 21:15:53.860 [main] SEMP - SEMP message validation: s4s-elt-character: In anderen Schemaelementen als "xs:appinfo" und "xs:documentation" sind nur Leerstellen zulässig. "auto" gefunden.
+<?xml version="1.0" encoding="UTF-8"?>
+<Device2EM xmlns="http://www.sma.de/communication/schema/SEMP/v1">
+<DeviceInfo>
+  <Identification>
+    <DeviceId>F-11223344-112233445566-001</DeviceId>
+    <DeviceName>Device 1</DeviceName>
+    <DeviceType>HeatPump</DeviceType>
+    <DeviceSerial>2332532423</DeviceSerial>
+    <DeviceVendor>Some Vendor</DeviceVendor>
+  </Identification>
+  <Characteristics>
+    <MaxPowerConsumption>1500</MaxPowerConsumption>
+    <MinOnTime>60</MinOnTime>
+    <MinOffTime>60</MinOffTime>
+  </Characteristics>
+  <Capabilities>
+    <CurrentPower><Method>Estimation</Method></CurrentPower>
+    <Timestamps><AbsoluteTimestamps>false</AbsoluteTimestamps></Timestamps>
+    <Interruptions><InterruptionsAllowed>false</InterruptionsAllowed></Interruptions>
+    <Requests><OptionalEnergy>true</OptionalEnergy></Requests>
+  </Capabilities>
+</DeviceInfo>
+<DeviceStatus>
+  <DeviceId>F-11223344-112233445566-001</DeviceId>
+  <EMSignalsAccepted>true</EMSignalsAccepted>
+  <Status>Off</Status>
+  <PowerConsumption>
+    <PowerInfo>
+      <AveragePower>1000</AveragePower>
+      <Timestamp>0</Timestamp>
+     <AveragingInterval>60</AveragingInterval>
+    </PowerInfo>
+  </PowerConsumption>
+</DeviceStatus>
+<PlanningRequest>
+   <Timeframe>
+    <DeviceId>F-11223344-112233445566-001</DeviceId>
+    <EarliestStart>0</EarliestStart>
+    <LatestEnd>10800</LatestEnd>
+    <MinRunningTime>0</MinRunningTime>
+    <MaxRunningTime>1800</MaxRunningTime>
+   </Timeframe>
+</PlanningRequest>
+</Device2EM>
+[INFO ] 2015-09-22 21:15:53.860 [main] SEMP - >>>>>>   STOP   <<<<<<<
+[INFO ] 2015-09-22 21:18:20.502 [main] SEMP - >>>>>>   START  <<<<<<<
+[INFO ] 2015-09-22 21:18:20.517 [main] SEMP - SEMP Gateway initialized!
+[WARN ] 2015-09-22 21:18:20.564 [main] SEMP - SEMP message validation: cvc-pattern-valid: Wert "F-11223344-112233445566-001" ist nicht Facet-gültig in Bezug auf Muster "[a-fA-F0-9]{1}-[a-fA-F0-9]{8}-[a-fA-F0-9]{12}-[a-fA-F0-9]{2}" für Typ "DeviceIdType".
+<?xml version="1.0" encoding="UTF-8"?>
+<Device2EM xmlns="http://www.sma.de/communication/schema/SEMP/v1">
+<DeviceInfo>
+  <Identification>
+    <DeviceId>F-11223344-112233445566-001</DeviceId>
+    <DeviceName>Device 1</DeviceName>
+    <DeviceType>HeatPump</DeviceType>
+    <DeviceSerial>2332532423</DeviceSerial>
+    <DeviceVendor>Some Vendor</DeviceVendor>
+  </Identification>
+  <Characteristics>
+    <MaxPowerConsumption>1500</MaxPowerConsumption>
+    <MinOnTime>60</MinOnTime>
+    <MinOffTime>60</MinOffTime>
+  </Characteristics>
+  <Capabilities>
+    <CurrentPower><Method>Estimation</Method></CurrentPower>
+    <Timestamps><AbsoluteTimestamps>false</AbsoluteTimestamps></Timestamps>
+    <Interruptions><InterruptionsAllowed>false</InterruptionsAllowed></Interruptions>
+    <Requests><OptionalEnergy>true</OptionalEnergy></Requests>
+  </Capabilities>
+</DeviceInfo>
+<DeviceStatus>
+  <DeviceId>F-11223344-112233445566-001</DeviceId>
+  <EMSignalsAccepted>true</EMSignalsAccepted>
+  <Status>Off</Status>
+  <PowerConsumption>
+    <PowerInfo>
+      <AveragePower>1000</AveragePower>
+      <Timestamp>0</Timestamp>
+     <AveragingInterval>60</AveragingInterval>
+    </PowerInfo>
+  </PowerConsumption>
+</DeviceStatus>
+<PlanningRequest>
+   <Timeframe>
+    <DeviceId>F-11223344-112233445566-001</DeviceId>
+    <EarliestStart>0</EarliestStart>
+    <LatestEnd>10800</LatestEnd>
+    <MinRunningTime>0</MinRunningTime>
+    <MaxRunningTime>1800</MaxRunningTime>
+   </Timeframe>
+</PlanningRequest>
+</Device2EM>
+[INFO ] 2015-09-22 21:18:20.564 [main] SEMP - >>>>>>   STOP   <<<<<<<
+[INFO ] 2015-09-22 21:18:45.060 [main] SEMP - >>>>>>   START  <<<<<<<
+[INFO ] 2015-09-22 21:18:45.075 [main] SEMP - SEMP Gateway initialized!
+[TRACE] 2015-09-22 21:18:45.122 [main] SEMP - SEMP message validation: OK!
+<?xml version="1.0" encoding="UTF-8"?>
+<Device2EM xmlns="http://www.sma.de/communication/schema/SEMP/v1">
+<DeviceInfo>
+  <Identification>
+    <DeviceId>F-11223344-112233445566-01</DeviceId>
+    <DeviceName>Device 1</DeviceName>
+    <DeviceType>HeatPump</DeviceType>
+    <DeviceSerial>2332532423</DeviceSerial>
+    <DeviceVendor>Some Vendor</DeviceVendor>
+  </Identification>
+  <Characteristics>
+    <MaxPowerConsumption>1500</MaxPowerConsumption>
+    <MinOnTime>60</MinOnTime>
+    <MinOffTime>60</MinOffTime>
+  </Characteristics>
+  <Capabilities>
+    <CurrentPower><Method>Estimation</Method></CurrentPower>
+    <Timestamps><AbsoluteTimestamps>false</AbsoluteTimestamps></Timestamps>
+    <Interruptions><InterruptionsAllowed>false</InterruptionsAllowed></Interruptions>
+    <Requests><OptionalEnergy>true</OptionalEnergy></Requests>
+  </Capabilities>
+</DeviceInfo>
+<DeviceStatus>
+  <DeviceId>F-11223344-112233445566-01</DeviceId>
+  <EMSignalsAccepted>true</EMSignalsAccepted>
+  <Status>Off</Status>
+  <PowerConsumption>
+    <PowerInfo>
+      <AveragePower>1000</AveragePower>
+      <Timestamp>0</Timestamp>
+     <AveragingInterval>60</AveragingInterval>
+    </PowerInfo>
+  </PowerConsumption>
+</DeviceStatus>
+<PlanningRequest>
+   <Timeframe>
+    <DeviceId>F-11223344-112233445566-01</DeviceId>
+    <EarliestStart>0</EarliestStart>
+    <LatestEnd>10800</LatestEnd>
+    <MinRunningTime>0</MinRunningTime>
+    <MaxRunningTime>1800</MaxRunningTime>
+   </Timeframe>
+</PlanningRequest>
+</Device2EM>
+[INFO ] 2015-09-22 21:18:45.122 [main] SEMP - >>>>>>   STOP   <<<<<<<
+[INFO ] 2015-09-22 21:22:14.446 [main] SEMP - >>>>>>   START  <<<<<<<
+[INFO ] 2015-09-22 21:22:14.462 [main] SEMP - SEMP Gateway initialized!
+[TRACE] 2015-09-22 21:22:14.509 [main] SEMP - SEMP message validation: OK!
+<?xml version="1.0" encoding="UTF-8"?>
+<Device2EM xmlns="http://www.sma.de/communication/schema/SEMP/v1">
+<DeviceInfo>
+  <Identification>
+    <DeviceId>F-11223344-112233445566-01</DeviceId>
+    <DeviceName>Device 1</DeviceName>
+    <DeviceType>HeatPump</DeviceType>
+    <DeviceSerial>2332532423</DeviceSerial>
+    <DeviceVendor>Some Vendor</DeviceVendor>
+  </Identification>
+  <Characteristics>
+    <MaxPowerConsumption>1500</MaxPowerConsumption>
+    <MinOnTime>60</MinOnTime>
+    <MinOffTime>60</MinOffTime>
+  </Characteristics>
+  <Capabilities>
+    <CurrentPower><Method>Estimation</Method></CurrentPower>
+    <Timestamps><AbsoluteTimestamps>false</AbsoluteTimestamps></Timestamps>
+    <Interruptions><InterruptionsAllowed>false</InterruptionsAllowed></Interruptions>
+    <Requests><OptionalEnergy>true</OptionalEnergy></Requests>
+  </Capabilities>
+</DeviceInfo>
+<DeviceStatus>
+  <DeviceId>F-11223344-112233445566-01</DeviceId>
+  <EMSignalsAccepted>true</EMSignalsAccepted>
+  <Status>Off</Status>
+  <PowerConsumption>
+    <PowerInfo>
+      <AveragePower>1000</AveragePower>
+      <Timestamp>0</Timestamp>
+     <AveragingInterval>60</AveragingInterval>
+    </PowerInfo>
+  </PowerConsumption>
+</DeviceStatus>
+<PlanningRequest>
+   <Timeframe>
+    <DeviceId>F-11223344-112233445566-01</DeviceId>
+    <EarliestStart>0</EarliestStart>
+    <LatestEnd>10800</LatestEnd>
+    <MinRunningTime>0</MinRunningTime>
+    <MaxRunningTime>1800</MaxRunningTime>
+   </Timeframe>
+</PlanningRequest>
+</Device2EM>
+[INFO ] 2015-09-22 21:22:14.509 [main] SEMP - >>>>>>   STOP   <<<<<<<
+[INFO ] 2015-09-22 21:24:46.682 [main] SEMP - >>>>>>   START  <<<<<<<
+[INFO ] 2015-09-22 21:24:46.697 [main] SEMP - SEMP Gateway initialized!
+[TRACE] 2015-09-22 21:24:46.744 [main] SEMP - SEMP message validation: OK!
+<?xml version="1.0" encoding="UTF-8"?>
+<Device2EM xmlns="http://www.sma.de/communication/schema/SEMP/v1">
+<DeviceInfo>
+  <Identification>
+    <DeviceId>F-11223344-112233445566-01</DeviceId>
+    <DeviceName>Device 1</DeviceName>
+    <DeviceType>HeatPump</DeviceType>
+    <DeviceSerial>2332532423</DeviceSerial>
+    <DeviceVendor>Some Vendor</DeviceVendor>
+  </Identification>
+  <Characteristics>
+    <MaxPowerConsumption>1500</MaxPowerConsumption>
+  </Characteristics>
+  <Capabilities>
+    <CurrentPower><Method>Estimation</Method></CurrentPower>
+    <Timestamps><AbsoluteTimestamps>false</AbsoluteTimestamps></Timestamps>
+    <Interruptions><InterruptionsAllowed>false</InterruptionsAllowed></Interruptions>
+    <Requests><OptionalEnergy>true</OptionalEnergy></Requests>
+  </Capabilities>
+</DeviceInfo>
+<DeviceStatus>
+  <DeviceId>F-11223344-112233445566-01</DeviceId>
+  <EMSignalsAccepted>true</EMSignalsAccepted>
+  <Status>Off</Status>
+  <PowerConsumption>
+    <PowerInfo>
+      <AveragePower>1000</AveragePower>
+      <Timestamp>0</Timestamp>
+     <AveragingInterval>60</AveragingInterval>
+    </PowerInfo>
+  </PowerConsumption>
+</DeviceStatus>
+<PlanningRequest>
+   <Timeframe>
+    <DeviceId>F-11223344-112233445566-01</DeviceId>
+    <EarliestStart>0</EarliestStart>
+    <LatestEnd>10800</LatestEnd>
+    <MinRunningTime>0</MinRunningTime>
+    <MaxRunningTime>1800</MaxRunningTime>
+   </Timeframe>
+</PlanningRequest>
+</Device2EM>
+[INFO ] 2015-09-22 21:24:46.744 [main] SEMP - >>>>>>   STOP   <<<<<<<
+[INFO ] 2015-09-22 21:34:20.450 [main] SEMP - >>>>>>   START  <<<<<<<
+[INFO ] 2015-09-22 21:34:20.465 [main] SEMP - SEMP Gateway initialized!
+[TRACE] 2015-09-22 21:34:20.512 [main] SEMP - SEMP message validation: OK!
+<?xml version="1.0" encoding="UTF-8"?>
+<Device2EM xmlns="http://www.sma.de/communication/schema/SEMP/v1">
+<DeviceInfo>
+  <Identification>
+    <DeviceId>F-11223344-112233445566-01</DeviceId>
+    <DeviceName>Device 1</DeviceName>
+    <DeviceType>HeatPump</DeviceType>
+    <DeviceSerial>2332532423</DeviceSerial>
+    <DeviceVendor>Some Vendor</DeviceVendor>
+  </Identification>
+  <Characteristics>
+    <MaxPowerConsumption>1500</MaxPowerConsumption>
+  </Characteristics>
+  <Capabilities>
+    <CurrentPower><Method>Measurement</Method></CurrentPower>
+    <Timestamps><AbsoluteTimestamps>false</AbsoluteTimestamps></Timestamps>
+    <Interruptions><InterruptionsAllowed>true</InterruptionsAllowed></Interruptions>
+    <Requests><OptionalEnergy>false</OptionalEnergy></Requests>
+  </Capabilities>
+</DeviceInfo>
+<DeviceStatus>
+  <DeviceId>F-11223344-112233445566-01</DeviceId>
+  <EMSignalsAccepted>true</EMSignalsAccepted>
+  <Status>Offline</Status>
+  <PowerConsumption>
+    <PowerInfo>
+      <AveragePower>1000</AveragePower>
+      <Timestamp>0</Timestamp>
+     <AveragingInterval>60</AveragingInterval>
+    </PowerInfo>
+  </PowerConsumption>
+</DeviceStatus>
+<PlanningRequest>
+   <Timeframe>
+    <DeviceId>F-11223344-112233445566-01</DeviceId>
+    <EarliestStart>0</EarliestStart>
+    <LatestEnd>10800</LatestEnd>
+    <MinRunningTime>0</MinRunningTime>
+    <MaxRunningTime>1800</MaxRunningTime>
+   </Timeframe>
+</PlanningRequest>
+</Device2EM>
+[INFO ] 2015-09-22 21:34:20.512 [main] SEMP - >>>>>>   STOP   <<<<<<<
+[INFO ] 2015-09-22 21:36:20.106 [main] SEMP - >>>>>>   START  <<<<<<<
+[INFO ] 2015-09-22 21:36:20.122 [main] SEMP - >>>>>>   STOP   <<<<<<<
+[INFO ] 2015-09-22 21:38:35.147 [main] SEMP - >>>>>>   START  <<<<<<<
+[INFO ] 2015-09-22 21:38:35.162 [main] SEMP - SEMP Gateway initialized!
+[TRACE] 2015-09-22 21:38:35.209 [main] SEMP - SEMP message validation: OK!
+<?xml version="1.0" encoding="UTF-8"?>
+<Device2EM xmlns="http://www.sma.de/communication/schema/SEMP/v1">
+<DeviceInfo>
+  <Identification>
+    <DeviceId>F-11223344-112233445566-01</DeviceId>
+    <DeviceName>Device 1</DeviceName>
+    <DeviceType>HeatPump</DeviceType>
+    <DeviceSerial>2332532423</DeviceSerial>
+    <DeviceVendor>Some Vendor</DeviceVendor>
+  </Identification>
+  <Characteristics>
+    <MaxPowerConsumption>1500</MaxPowerConsumption>
+  </Characteristics>
+  <Capabilities>
+    <CurrentPower><Method>Measurement</Method></CurrentPower>
+    <Timestamps><AbsoluteTimestamps>false</AbsoluteTimestamps></Timestamps>
+    <Interruptions><InterruptionsAllowed>true</InterruptionsAllowed></Interruptions>
+    <Requests><OptionalEnergy>false</OptionalEnergy></Requests>
+  </Capabilities>
+</DeviceInfo>
+<DeviceStatus>
+  <DeviceId>F-11223344-112233445566-01</DeviceId>
+  <EMSignalsAccepted>true</EMSignalsAccepted>
+  <Status>Offline</Status>
+  <PowerConsumption>
+    <PowerInfo>
+      <AveragePower>1000</AveragePower>
+      <Timestamp>0</Timestamp>
+     <AveragingInterval>60</AveragingInterval>
+    </PowerInfo>
+  </PowerConsumption>
+</DeviceStatus>
+<PlanningRequest>
+   <Timeframe>
+    <DeviceId>F-11223344-112233445566-01</DeviceId>
+    <EarliestStart>0</EarliestStart>
+    <LatestEnd>10800</LatestEnd>
+    <MinRunningTime>0</MinRunningTime>
+    <MaxRunningTime>1800</MaxRunningTime>
+   </Timeframe>
+</PlanningRequest>
+</Device2EM>
+[INFO ] 2015-09-22 21:43:45.516 [main] SEMP - >>>>>>   START  <<<<<<<
+[INFO ] 2015-09-22 21:43:45.547 [main] SEMP - SEMP Gateway initialized!
+[TRACE] 2015-09-22 21:43:45.578 [main] SEMP - SEMP message validation: OK!
+<?xml version="1.0" encoding="UTF-8"?>
+<Device2EM xmlns="http://www.sma.de/communication/schema/SEMP/v1">
+<DeviceInfo>
+  <Identification>
+    <DeviceId>F-11223344-112233445566-01</DeviceId>
+    <DeviceName>Device 1</DeviceName>
+    <DeviceType>HeatPump</DeviceType>
+    <DeviceSerial>2332532423</DeviceSerial>
+    <DeviceVendor>Some Vendor</DeviceVendor>
+  </Identification>
+  <Characteristics>
+    <MaxPowerConsumption>1500</MaxPowerConsumption>
+  </Characteristics>
+  <Capabilities>
+    <CurrentPower><Method>Measurement</Method></CurrentPower>
+    <Timestamps><AbsoluteTimestamps>false</AbsoluteTimestamps></Timestamps>
+    <Interruptions><InterruptionsAllowed>true</InterruptionsAllowed></Interruptions>
+    <Requests><OptionalEnergy>false</OptionalEnergy></Requests>
+  </Capabilities>
+</DeviceInfo>
+<DeviceStatus>
+  <DeviceId>F-11223344-112233445566-01</DeviceId>
+  <EMSignalsAccepted>true</EMSignalsAccepted>
+  <Status>Offline</Status>
+  <PowerConsumption>
+    <PowerInfo>
+      <AveragePower>1000</AveragePower>
+      <Timestamp>0</Timestamp>
+     <AveragingInterval>60</AveragingInterval>
+    </PowerInfo>
+  </PowerConsumption>
+</DeviceStatus>
+<PlanningRequest>
+   <Timeframe>
+    <DeviceId>F-11223344-112233445566-01</DeviceId>
+    <EarliestStart>0</EarliestStart>
+    <LatestEnd>10800</LatestEnd>
+    <MinRunningTime>0</MinRunningTime>
+    <MaxRunningTime>1800</MaxRunningTime>
+   </Timeframe>
+</PlanningRequest>
+</Device2EM>
+[INFO ] 2015-09-22 21:43:45.578 [main] SEMP - >>>>>>   STOP   <<<<<<<
+[INFO ] 2015-09-22 21:46:53.178 [main] SEMP - >>>>>>   START  <<<<<<<
+[INFO ] 2015-09-22 21:46:53.194 [main] SEMP - SEMP Gateway initialized!
+[TRACE] 2015-09-22 21:46:53.225 [main] SEMP - SEMP message validation: OK!
+<?xml version="1.0" encoding="UTF-8"?>
+<Device2EM xmlns="http://www.sma.de/communication/schema/SEMP/v1">
+<DeviceInfo>
+  <Identification>
+    <DeviceId>F-11223344-112233445566-01</DeviceId>
+    <DeviceName>Device 1</DeviceName>
+    <DeviceType>HeatPump</DeviceType>
+    <DeviceSerial>2332532423</DeviceSerial>
+    <DeviceVendor>Some Vendor</DeviceVendor>
+  </Identification>
+  <Characteristics>
+    <MaxPowerConsumption>1500</MaxPowerConsumption>
+  </Characteristics>
+  <Capabilities>
+    <CurrentPower><Method>Measurement</Method></CurrentPower>
+    <Timestamps><AbsoluteTimestamps>false</AbsoluteTimestamps></Timestamps>
+    <Interruptions><InterruptionsAllowed>true</InterruptionsAllowed></Interruptions>
+    <Requests><OptionalEnergy>false</OptionalEnergy></Requests>
+  </Capabilities>
+</DeviceInfo>
+<DeviceStatus>
+  <DeviceId>F-11223344-112233445566-01</DeviceId>
+  <EMSignalsAccepted>true</EMSignalsAccepted>
+  <Status>Offline</Status>
+  <PowerConsumption>
+    <PowerInfo>
+      <AveragePower>1000</AveragePower>
+      <Timestamp>0</Timestamp>
+     <AveragingInterval>60</AveragingInterval>
+    </PowerInfo>
+  </PowerConsumption>
+</DeviceStatus>
+<PlanningRequest>
+   <Timeframe>
+    <DeviceId>F-11223344-112233445566-01</DeviceId>
+    <EarliestStart>0</EarliestStart>
+    <LatestEnd>10800</LatestEnd>
+    <MinRunningTime>0</MinRunningTime>
+    <MaxRunningTime>1800</MaxRunningTime>
+   </Timeframe>
+</PlanningRequest>
+</Device2EM>
+[INFO ] 2015-09-22 21:46:53.225 [main] SEMP - >>>>>>   STOP   <<<<<<<
+[INFO ] 2015-09-22 21:50:04.796 [main] SEMP - >>>>>>   START  <<<<<<<
+[INFO ] 2015-09-22 21:50:04.812 [main] SEMP - SEMP Gateway initialized!
+[TRACE] 2015-09-22 21:50:04.859 [main] SEMP - SEMP message validation: OK!
+<?xml version="1.0" encoding="UTF-8"?>
+<Device2EM xmlns="http://www.sma.de/communication/schema/SEMP/v1">
+<DeviceInfo>
+  <Identification>
+    <DeviceId>F-11223344-112233445566-01</DeviceId>
+    <DeviceName>Device 1</DeviceName>
+    <DeviceType>HeatPump</DeviceType>
+    <DeviceSerial>2332532423</DeviceSerial>
+    <DeviceVendor>Some Vendor</DeviceVendor>
+  </Identification>
+  <Characteristics>
+    <MaxPowerConsumption>1500</MaxPowerConsumption>
+  </Characteristics>
+  <Capabilities>
+    <CurrentPower><Method>Measurement</Method></CurrentPower>
+    <Timestamps><AbsoluteTimestamps>false</AbsoluteTimestamps></Timestamps>
+    <Interruptions><InterruptionsAllowed>true</InterruptionsAllowed></Interruptions>
+    <Requests><OptionalEnergy>false</OptionalEnergy></Requests>
+  </Capabilities>
+</DeviceInfo>
+<DeviceStatus>
+  <DeviceId>F-11223344-112233445566-01</DeviceId>
+  <EMSignalsAccepted>true</EMSignalsAccepted>
+  <Status>On</Status>
+  <PowerConsumption>
+    <PowerInfo>
+      <AveragePower>1000</AveragePower>
+      <Timestamp>0</Timestamp>
+     <AveragingInterval>60</AveragingInterval>
+    </PowerInfo>
+  </PowerConsumption>
+</DeviceStatus>
+<PlanningRequest>
+   <Timeframe>
+    <DeviceId>F-11223344-112233445566-01</DeviceId>
+    <EarliestStart>0</EarliestStart>
+    <LatestEnd>10800</LatestEnd>
+    <MinRunningTime>0</MinRunningTime>
+    <MaxRunningTime>1800</MaxRunningTime>
+   </Timeframe>
+</PlanningRequest>
+</Device2EM>
+[INFO ] 2015-09-22 21:50:04.859 [main] SEMP - >>>>>>   STOP   <<<<<<<
+[INFO ] 2015-09-22 21:53:25.253 [main] SEMP - >>>>>>   START  <<<<<<<
+[INFO ] 2015-09-22 21:53:25.268 [main] SEMP - SEMP Gateway initialized!
+[TRACE] 2015-09-22 21:53:25.315 [main] SEMP - SEMP message validation: OK!
+<?xml version="1.0" encoding="UTF-8"?>
+<Device2EM xmlns="http://www.sma.de/communication/schema/SEMP/v1">
+<DeviceInfo>
+  <Identification>
+    <DeviceId>F-11223344-112233445566-01</DeviceId>
+    <DeviceName>Device 1</DeviceName>
+    <DeviceType>HeatPump</DeviceType>
+    <DeviceSerial>2332532423</DeviceSerial>
+    <DeviceVendor>Some Vendor</DeviceVendor>
+  </Identification>
+  <Characteristics>
+    <MaxPowerConsumption>1500</MaxPowerConsumption>
+  </Characteristics>
+  <Capabilities>
+    <CurrentPower><Method>Measurement</Method></CurrentPower>
+    <Timestamps><AbsoluteTimestamps>false</AbsoluteTimestamps></Timestamps>
+    <Interruptions><InterruptionsAllowed>true</InterruptionsAllowed></Interruptions>
+    <Requests><OptionalEnergy>false</OptionalEnergy></Requests>
+  </Capabilities>
+</DeviceInfo>
+<DeviceStatus>
+  <DeviceId>F-11223344-112233445566-01</DeviceId>
+  <EMSignalsAccepted>true</EMSignalsAccepted>
+  <Status>On</Status>
+  <PowerConsumption>
+    <PowerInfo>
+      <AveragePower>1000</AveragePower>
+      <Timestamp>0</Timestamp>
+     <AveragingInterval>60</AveragingInterval>
+    </PowerInfo>
+  </PowerConsumption>
+</DeviceStatus>
+<PlanningRequest>
+   <Timeframe>
+    <DeviceId>F-11223344-112233445566-01</DeviceId>
+    <EarliestStart>0</EarliestStart>
+    <LatestEnd>10800</LatestEnd>
+    <MinRunningTime>0</MinRunningTime>
+    <MaxRunningTime>1800</MaxRunningTime>
+   </Timeframe>
+</PlanningRequest>
+</Device2EM>
+[INFO ] 2015-09-22 21:53:25.315 [main] SEMP - >>>>>>   STOP   <<<<<<<

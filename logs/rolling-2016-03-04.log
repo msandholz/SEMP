@@ -1,0 +1,2532 @@
+[INFO ] 2016-03-04 21:55:30.780 [main] SEMP - >>>>>>   START V1.2 <<<<<<<
+[INFO ] 2016-03-04 21:55:30.859 [main] SEMP - SEMP Gateway initialized!
+[INFO ] 2016-03-04 21:55:30.905 [main] SEMP - SEMP receiver thread listening on http://192.168.178.42:8080/semp
+[INFO ] 2016-03-04 21:55:30.921 [main] SEMP - SEMP Gateway started succesfully!
+[INFO ] 2016-03-04 21:55:30.921 [Thread-5] SEMP - SSDP Receiver thread listening on: 239.255.255.250:1900 - Waiting for incoming data...
+[INFO ] 2016-03-04 21:55:30.921 [main] SEMP - >>>>>>   ENDE V1.2 <<<<<<<
+[DEBUG] 2016-03-04 21:55:31.171 [Timer-1] SEMP - Send SSDP NOTIFY messages to 239.255.255.250:1900
+[TRACE] 2016-03-04 21:55:31.202 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: upnp:rootdevice
+USN: uuid:5011ceb2-c9ab-44cd-b795-43cdc38453c4::upnp:rootdevice
+
+
+[TRACE] 2016-03-04 21:55:31.202 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: uuid:5011ceb2-c9ab-44cd-b795-43cdc38453c4
+USN: uuid:5011ceb2-c9ab-44cd-b795-43cdc38453c4
+
+
+[TRACE] 2016-03-04 21:55:31.202 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-04 21:55:31.202 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-04 21:55:31.202 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:5011ceb2-c9ab-44cd-b795-43cdc38453c4::urn:schemas-simple-energy-management-protocol:device:Gateway:1
+
+
+[TRACE] 2016-03-04 21:55:31.202 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[DEBUG] 2016-03-04 21:55:52.483 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-04 21:55:52.484 [Thread-4] SEMP - ##############  Request CSS or JPG-File ##############/status
+[TRACE] 2016-03-04 21:55:52.485 [Thread-4] SEMP - <html><head><title>JavaGateway</title>
+<link rel='stylesheet' href='semp.css'>
+<script type='text/JavaScript'>
+<!-- function timer() {setTimeout('location.reload(true);',10000);}window.onload = timer();  --></script></head><body><div style='float:left;'><h2>JavaGateway</h2><h3>by Markus</h3></div>
+<div style='float:right;'><img src='logo.jpg'></div></div><div style='clear: both;'/><table><thead><tr><th>Verbraucher</th><th>Betriebsmodus</th><th>Aktueller Verbrauch</th></tr></thead><tbody><tr><td>DeviceA</td><td><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/on'>Einschalten</a><a class='btn btn-off' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/off'>Ausschalten</a><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/auto'>Automatisch</a><div class='status'><div class='dot-off'></div>Ausgeschaltet</div><div style='clear: both;'/><td>100 W</td></tr>
+</tbody></table><hr><div style='text-align: center; width: 100%'>04.03.2016 21:55:52</div></body></html></body></html>
+[DEBUG] 2016-03-04 21:55:53.164 [Thread-4] SEMP - HTTP GET: /semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-04 21:55:53.166 [Thread-4] SEMP - 404 (Not found): the requested URL /logo.jpg is not supported! Client: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-04 21:55:53.172 [Thread-4] SEMP - 404 (Not found): the requested URL /logo.jpg is not supported! Client: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-04 21:55:53.193 [Thread-4] SEMP - 404 (Not found): the requested URL /favicon.ico is not supported! Client: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-04 21:55:53.197 [Thread-4] SEMP - 404 (Not found): the requested URL /favicon.ico is not supported! Client: Desktop-PC.fritz.box [192.168.178.42]
+[INFO ] 2016-03-04 21:57:31.917 [main] SEMP - >>>>>>   START V1.2 <<<<<<<
+[INFO ] 2016-03-04 21:57:31.980 [main] SEMP - SEMP Gateway initialized!
+[INFO ] 2016-03-04 21:57:32.027 [main] SEMP - SEMP receiver thread listening on http://192.168.178.42:8080/semp
+[INFO ] 2016-03-04 21:57:32.027 [main] SEMP - SEMP Gateway started succesfully!
+[INFO ] 2016-03-04 21:57:32.027 [Thread-5] SEMP - SSDP Receiver thread listening on: 239.255.255.250:1900 - Waiting for incoming data...
+[INFO ] 2016-03-04 21:57:32.027 [main] SEMP - >>>>>>   ENDE V1.2 <<<<<<<
+[DEBUG] 2016-03-04 21:57:32.277 [Timer-1] SEMP - Send SSDP NOTIFY messages to 239.255.255.250:1900
+[TRACE] 2016-03-04 21:57:32.308 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: upnp:rootdevice
+USN: uuid:e7513d6b-408e-4694-abe7-9582b0ed52f6::upnp:rootdevice
+
+
+[TRACE] 2016-03-04 21:57:32.308 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: uuid:e7513d6b-408e-4694-abe7-9582b0ed52f6
+USN: uuid:e7513d6b-408e-4694-abe7-9582b0ed52f6
+
+
+[TRACE] 2016-03-04 21:57:32.308 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-04 21:57:32.308 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:e7513d6b-408e-4694-abe7-9582b0ed52f6::urn:schemas-simple-energy-management-protocol:device:Gateway:1
+
+
+[TRACE] 2016-03-04 21:57:32.308 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-04 21:57:32.308 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[DEBUG] 2016-03-04 21:57:36.527 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-04 21:57:36.527 [Thread-4] SEMP - ##############  Request CSS or JPG-File ##############/status
+[TRACE] 2016-03-04 21:57:36.527 [Thread-4] SEMP - <html><head><title>JavaGateway</title>
+<link rel='stylesheet' href='/status/semp.css'>
+<script type='text/JavaScript'>
+<!-- function timer() {setTimeout('location.reload(true);',10000);}window.onload = timer();  --></script></head><body><div style='float:left;'><h2>JavaGateway</h2><h3>by Markus</h3></div>
+<div style='float:right;'><img src='/status/logo.jpg'></div></div><div style='clear: both;'/><table><thead><tr><th>Verbraucher</th><th>Betriebsmodus</th><th>Aktueller Verbrauch</th></tr></thead><tbody><tr><td>DeviceA</td><td><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/on'>Einschalten</a><a class='btn btn-off' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/off'>Ausschalten</a><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/auto'>Automatisch</a><div class='status'><div class='dot-off'></div>Ausgeschaltet</div><div style='clear: both;'/><td>100 W</td></tr>
+</tbody></table><hr><div style='text-align: center; width: 100%'>04.03.2016 21:57:36</div></body></html></body></html>
+[DEBUG] 2016-03-04 21:57:36.542 [Thread-4] SEMP - HTTP GET: /status/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[TRACE] 2016-03-04 21:57:36.542 [Thread-4] SEMP - <html><head><title>JavaGateway</title>
+<link rel='stylesheet' href='/status/semp.css'>
+<script type='text/JavaScript'>
+<!-- function timer() {setTimeout('location.reload(true);',10000);}window.onload = timer();  --></script></head><body><div style='float:left;'><h2>JavaGateway</h2><h3>by Markus</h3></div>
+<div style='float:right;'><img src='/status/logo.jpg'></div></div><div style='clear: both;'/><table><thead><tr><th>Verbraucher</th><th>Betriebsmodus</th><th>Aktueller Verbrauch</th></tr></thead><tbody><tr><td>DeviceA</td><td><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/on'>Einschalten</a><a class='btn btn-off' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/off'>Ausschalten</a><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/auto'>Automatisch</a><div class='status'><div class='dot-off'></div>Ausgeschaltet</div><div style='clear: both;'/><td>100 W</td></tr>
+</tbody></table><hr><div style='text-align: center; width: 100%'>04.03.2016 21:57:36</div></body></html></body></html>
+[DEBUG] 2016-03-04 21:57:36.558 [Thread-4] SEMP - HTTP GET: /status/logo.jpg from: Desktop-PC.fritz.box [192.168.178.42]
+[TRACE] 2016-03-04 21:57:36.558 [Thread-4] SEMP - <html><head><title>JavaGateway</title>
+<link rel='stylesheet' href='/status/semp.css'>
+<script type='text/JavaScript'>
+<!-- function timer() {setTimeout('location.reload(true);',10000);}window.onload = timer();  --></script></head><body><div style='float:left;'><h2>JavaGateway</h2><h3>by Markus</h3></div>
+<div style='float:right;'><img src='/status/logo.jpg'></div></div><div style='clear: both;'/><table><thead><tr><th>Verbraucher</th><th>Betriebsmodus</th><th>Aktueller Verbrauch</th></tr></thead><tbody><tr><td>DeviceA</td><td><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/on'>Einschalten</a><a class='btn btn-off' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/off'>Ausschalten</a><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/auto'>Automatisch</a><div class='status'><div class='dot-off'></div>Ausgeschaltet</div><div style='clear: both;'/><td>100 W</td></tr>
+</tbody></table><hr><div style='text-align: center; width: 100%'>04.03.2016 21:57:36</div></body></html></body></html>
+[DEBUG] 2016-03-04 21:57:43.136 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-04 21:57:43.136 [Thread-4] SEMP - ##############  Request CSS or JPG-File ##############/status
+[TRACE] 2016-03-04 21:57:43.136 [Thread-4] SEMP - <html><head><title>JavaGateway</title>
+<link rel='stylesheet' href='/status/semp.css'>
+<script type='text/JavaScript'>
+<!-- function timer() {setTimeout('location.reload(true);',10000);}window.onload = timer();  --></script></head><body><div style='float:left;'><h2>JavaGateway</h2><h3>by Markus</h3></div>
+<div style='float:right;'><img src='/status/logo.jpg'></div></div><div style='clear: both;'/><table><thead><tr><th>Verbraucher</th><th>Betriebsmodus</th><th>Aktueller Verbrauch</th></tr></thead><tbody><tr><td>DeviceA</td><td><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/on'>Einschalten</a><a class='btn btn-off' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/off'>Ausschalten</a><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/auto'>Automatisch</a><div class='status'><div class='dot-off'></div>Ausgeschaltet</div><div style='clear: both;'/><td>100 W</td></tr>
+</tbody></table><hr><div style='text-align: center; width: 100%'>04.03.2016 21:57:43</div></body></html></body></html>
+[DEBUG] 2016-03-04 21:57:43.152 [Thread-4] SEMP - HTTP GET: /status/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[TRACE] 2016-03-04 21:57:43.152 [Thread-4] SEMP - <html><head><title>JavaGateway</title>
+<link rel='stylesheet' href='/status/semp.css'>
+<script type='text/JavaScript'>
+<!-- function timer() {setTimeout('location.reload(true);',10000);}window.onload = timer();  --></script></head><body><div style='float:left;'><h2>JavaGateway</h2><h3>by Markus</h3></div>
+<div style='float:right;'><img src='/status/logo.jpg'></div></div><div style='clear: both;'/><table><thead><tr><th>Verbraucher</th><th>Betriebsmodus</th><th>Aktueller Verbrauch</th></tr></thead><tbody><tr><td>DeviceA</td><td><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/on'>Einschalten</a><a class='btn btn-off' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/off'>Ausschalten</a><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/auto'>Automatisch</a><div class='status'><div class='dot-off'></div>Ausgeschaltet</div><div style='clear: both;'/><td>100 W</td></tr>
+</tbody></table><hr><div style='text-align: center; width: 100%'>04.03.2016 21:57:43</div></body></html></body></html>
+[DEBUG] 2016-03-04 21:57:43.152 [Thread-4] SEMP - HTTP GET: /status/logo.jpg from: Desktop-PC.fritz.box [192.168.178.42]
+[TRACE] 2016-03-04 21:57:43.152 [Thread-4] SEMP - <html><head><title>JavaGateway</title>
+<link rel='stylesheet' href='/status/semp.css'>
+<script type='text/JavaScript'>
+<!-- function timer() {setTimeout('location.reload(true);',10000);}window.onload = timer();  --></script></head><body><div style='float:left;'><h2>JavaGateway</h2><h3>by Markus</h3></div>
+<div style='float:right;'><img src='/status/logo.jpg'></div></div><div style='clear: both;'/><table><thead><tr><th>Verbraucher</th><th>Betriebsmodus</th><th>Aktueller Verbrauch</th></tr></thead><tbody><tr><td>DeviceA</td><td><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/on'>Einschalten</a><a class='btn btn-off' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/off'>Ausschalten</a><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/auto'>Automatisch</a><div class='status'><div class='dot-off'></div>Ausgeschaltet</div><div style='clear: both;'/><td>100 W</td></tr>
+</tbody></table><hr><div style='text-align: center; width: 100%'>04.03.2016 21:57:43</div></body></html></body></html>
+[DEBUG] 2016-03-04 21:57:43.199 [Thread-4] SEMP - HTTP GET: /status/logo.jpg from: Desktop-PC.fritz.box [192.168.178.42]
+[TRACE] 2016-03-04 21:57:43.199 [Thread-4] SEMP - <html><head><title>JavaGateway</title>
+<link rel='stylesheet' href='/status/semp.css'>
+<script type='text/JavaScript'>
+<!-- function timer() {setTimeout('location.reload(true);',10000);}window.onload = timer();  --></script></head><body><div style='float:left;'><h2>JavaGateway</h2><h3>by Markus</h3></div>
+<div style='float:right;'><img src='/status/logo.jpg'></div></div><div style='clear: both;'/><table><thead><tr><th>Verbraucher</th><th>Betriebsmodus</th><th>Aktueller Verbrauch</th></tr></thead><tbody><tr><td>DeviceA</td><td><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/on'>Einschalten</a><a class='btn btn-off' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/off'>Ausschalten</a><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/auto'>Automatisch</a><div class='status'><div class='dot-off'></div>Ausgeschaltet</div><div style='clear: both;'/><td>100 W</td></tr>
+</tbody></table><hr><div style='text-align: center; width: 100%'>04.03.2016 21:57:43</div></body></html></body></html>
+[INFO ] 2016-03-04 21:58:02.888 [main] SEMP - >>>>>>   START V1.2 <<<<<<<
+[INFO ] 2016-03-04 21:58:02.966 [main] SEMP - SEMP Gateway initialized!
+[INFO ] 2016-03-04 21:58:03.013 [main] SEMP - SEMP receiver thread listening on http://192.168.178.42:8080/semp
+[INFO ] 2016-03-04 21:58:03.028 [main] SEMP - SEMP Gateway started succesfully!
+[INFO ] 2016-03-04 21:58:03.028 [Thread-5] SEMP - SSDP Receiver thread listening on: 239.255.255.250:1900 - Waiting for incoming data...
+[INFO ] 2016-03-04 21:58:03.028 [main] SEMP - >>>>>>   ENDE V1.2 <<<<<<<
+[DEBUG] 2016-03-04 21:58:03.278 [Timer-1] SEMP - Send SSDP NOTIFY messages to 239.255.255.250:1900
+[TRACE] 2016-03-04 21:58:03.325 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: upnp:rootdevice
+USN: uuid:b6c1a440-92b5-4d65-92d1-6f80f0045d2f::upnp:rootdevice
+
+
+[TRACE] 2016-03-04 21:58:03.325 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: uuid:b6c1a440-92b5-4d65-92d1-6f80f0045d2f
+USN: uuid:b6c1a440-92b5-4d65-92d1-6f80f0045d2f
+
+
+[TRACE] 2016-03-04 21:58:03.325 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-04 21:58:03.325 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:b6c1a440-92b5-4d65-92d1-6f80f0045d2f::urn:schemas-simple-energy-management-protocol:device:Gateway:1
+
+
+[TRACE] 2016-03-04 21:58:03.325 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-04 21:58:03.325 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[DEBUG] 2016-03-04 21:58:31.702 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-04 21:58:31.702 [Thread-4] SEMP - ##############  Request CSS or JPG-File ##############/status
+[TRACE] 2016-03-04 21:58:31.702 [Thread-4] SEMP - <html><head><title>JavaGateway</title>
+<link rel='stylesheet' href='/status/semp.css'>
+<script type='text/JavaScript'>
+<!-- function timer() {setTimeout('location.reload(true);',10000);}window.onload = timer();  --></script></head><body><div style='float:left;'><h2>JavaGateway</h2><h3>by Markus</h3></div>
+<div style='float:right;'><img src='/status/logo.jpg'></div></div><div style='clear: both;'/><table><thead><tr><th>Verbraucher</th><th>Betriebsmodus</th><th>Aktueller Verbrauch</th></tr></thead><tbody><tr><td>DeviceA</td><td><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/on'>Einschalten</a><a class='btn btn-off' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/off'>Ausschalten</a><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/auto'>Automatisch</a><div class='status'><div class='dot-off'></div>Ausgeschaltet</div><div style='clear: both;'/><td>100 W</td></tr>
+</tbody></table><hr><div style='text-align: center; width: 100%'>04.03.2016 21:58:31</div></body></html></body></html>
+[DEBUG] 2016-03-04 21:58:31.717 [Thread-4] SEMP - HTTP GET: /status/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[TRACE] 2016-03-04 21:58:31.717 [Thread-4] SEMP - <html><head><title>JavaGateway</title>
+<link rel='stylesheet' href='/status/semp.css'>
+<script type='text/JavaScript'>
+<!-- function timer() {setTimeout('location.reload(true);',10000);}window.onload = timer();  --></script></head><body><div style='float:left;'><h2>JavaGateway</h2><h3>by Markus</h3></div>
+<div style='float:right;'><img src='/status/logo.jpg'></div></div><div style='clear: both;'/><table><thead><tr><th>Verbraucher</th><th>Betriebsmodus</th><th>Aktueller Verbrauch</th></tr></thead><tbody><tr><td>DeviceA</td><td><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/on'>Einschalten</a><a class='btn btn-off' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/off'>Ausschalten</a><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/auto'>Automatisch</a><div class='status'><div class='dot-off'></div>Ausgeschaltet</div><div style='clear: both;'/><td>100 W</td></tr>
+</tbody></table><hr><div style='text-align: center; width: 100%'>04.03.2016 21:58:31</div></body></html></body></html>
+[DEBUG] 2016-03-04 21:58:31.717 [Thread-4] SEMP - HTTP GET: /status/logo.jpg from: Desktop-PC.fritz.box [192.168.178.42]
+[TRACE] 2016-03-04 21:58:31.717 [Thread-4] SEMP - <html><head><title>JavaGateway</title>
+<link rel='stylesheet' href='/status/semp.css'>
+<script type='text/JavaScript'>
+<!-- function timer() {setTimeout('location.reload(true);',10000);}window.onload = timer();  --></script></head><body><div style='float:left;'><h2>JavaGateway</h2><h3>by Markus</h3></div>
+<div style='float:right;'><img src='/status/logo.jpg'></div></div><div style='clear: both;'/><table><thead><tr><th>Verbraucher</th><th>Betriebsmodus</th><th>Aktueller Verbrauch</th></tr></thead><tbody><tr><td>DeviceA</td><td><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/on'>Einschalten</a><a class='btn btn-off' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/off'>Ausschalten</a><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/auto'>Automatisch</a><div class='status'><div class='dot-off'></div>Ausgeschaltet</div><div style='clear: both;'/><td>100 W</td></tr>
+</tbody></table><hr><div style='text-align: center; width: 100%'>04.03.2016 21:58:31</div></body></html></body></html>
+[DEBUG] 2016-03-04 21:59:46.518 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-04 21:59:46.518 [Thread-4] SEMP - ##############  Request CSS or JPG-File ##############/status
+[TRACE] 2016-03-04 21:59:46.518 [Thread-4] SEMP - <html><head><title>JavaGateway</title>
+<link rel='stylesheet' href='/status/semp.css'>
+<script type='text/JavaScript'>
+<!-- function timer() {setTimeout('location.reload(true);',10000);}window.onload = timer();  --></script></head><body><div style='float:left;'><h2>JavaGateway</h2><h3>by Markus</h3></div>
+<div style='float:right;'><img src='/status/logo.jpg'></div></div><div style='clear: both;'/><table><thead><tr><th>Verbraucher</th><th>Betriebsmodus</th><th>Aktueller Verbrauch</th></tr></thead><tbody><tr><td>DeviceA</td><td><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/on'>Einschalten</a><a class='btn btn-off' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/off'>Ausschalten</a><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/auto'>Automatisch</a><div class='status'><div class='dot-off'></div>Ausgeschaltet</div><div style='clear: both;'/><td>100 W</td></tr>
+</tbody></table><hr><div style='text-align: center; width: 100%'>04.03.2016 21:59:46</div></body></html></body></html>
+[DEBUG] 2016-03-04 21:59:46.534 [Thread-4] SEMP - HTTP GET: /status/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[TRACE] 2016-03-04 21:59:46.534 [Thread-4] SEMP - <html><head><title>JavaGateway</title>
+<link rel='stylesheet' href='/status/semp.css'>
+<script type='text/JavaScript'>
+<!-- function timer() {setTimeout('location.reload(true);',10000);}window.onload = timer();  --></script></head><body><div style='float:left;'><h2>JavaGateway</h2><h3>by Markus</h3></div>
+<div style='float:right;'><img src='/status/logo.jpg'></div></div><div style='clear: both;'/><table><thead><tr><th>Verbraucher</th><th>Betriebsmodus</th><th>Aktueller Verbrauch</th></tr></thead><tbody><tr><td>DeviceA</td><td><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/on'>Einschalten</a><a class='btn btn-off' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/off'>Ausschalten</a><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/auto'>Automatisch</a><div class='status'><div class='dot-off'></div>Ausgeschaltet</div><div style='clear: both;'/><td>100 W</td></tr>
+</tbody></table><hr><div style='text-align: center; width: 100%'>04.03.2016 21:59:46</div></body></html></body></html>
+[DEBUG] 2016-03-04 21:59:46.534 [Thread-4] SEMP - HTTP GET: /status/logo.jpg from: Desktop-PC.fritz.box [192.168.178.42]
+[TRACE] 2016-03-04 21:59:46.534 [Thread-4] SEMP - <html><head><title>JavaGateway</title>
+<link rel='stylesheet' href='/status/semp.css'>
+<script type='text/JavaScript'>
+<!-- function timer() {setTimeout('location.reload(true);',10000);}window.onload = timer();  --></script></head><body><div style='float:left;'><h2>JavaGateway</h2><h3>by Markus</h3></div>
+<div style='float:right;'><img src='/status/logo.jpg'></div></div><div style='clear: both;'/><table><thead><tr><th>Verbraucher</th><th>Betriebsmodus</th><th>Aktueller Verbrauch</th></tr></thead><tbody><tr><td>DeviceA</td><td><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/on'>Einschalten</a><a class='btn btn-off' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/off'>Ausschalten</a><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/auto'>Automatisch</a><div class='status'><div class='dot-off'></div>Ausgeschaltet</div><div style='clear: both;'/><td>100 W</td></tr>
+</tbody></table><hr><div style='text-align: center; width: 100%'>04.03.2016 21:59:46</div></body></html></body></html>
+[DEBUG] 2016-03-04 21:59:46.549 [Thread-4] SEMP - HTTP GET: /status/logo.jpg from: Desktop-PC.fritz.box [192.168.178.42]
+[TRACE] 2016-03-04 21:59:46.549 [Thread-4] SEMP - <html><head><title>JavaGateway</title>
+<link rel='stylesheet' href='/status/semp.css'>
+<script type='text/JavaScript'>
+<!-- function timer() {setTimeout('location.reload(true);',10000);}window.onload = timer();  --></script></head><body><div style='float:left;'><h2>JavaGateway</h2><h3>by Markus</h3></div>
+<div style='float:right;'><img src='/status/logo.jpg'></div></div><div style='clear: both;'/><table><thead><tr><th>Verbraucher</th><th>Betriebsmodus</th><th>Aktueller Verbrauch</th></tr></thead><tbody><tr><td>DeviceA</td><td><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/on'>Einschalten</a><a class='btn btn-off' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/off'>Ausschalten</a><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/auto'>Automatisch</a><div class='status'><div class='dot-off'></div>Ausgeschaltet</div><div style='clear: both;'/><td>100 W</td></tr>
+</tbody></table><hr><div style='text-align: center; width: 100%'>04.03.2016 21:59:46</div></body></html></body></html>
+[DEBUG] 2016-03-04 22:00:19.473 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-04 22:00:19.473 [Thread-4] SEMP - ##############  Request CSS or JPG-File ##############/status
+[TRACE] 2016-03-04 22:00:19.473 [Thread-4] SEMP - <html><head><title>JavaGateway</title>
+<link rel='stylesheet' href='/status/semp.css'>
+<script type='text/JavaScript'>
+<!-- function timer() {setTimeout('location.reload(true);',10000);}window.onload = timer();  --></script></head><body><div style='float:left;'><h2>JavaGateway</h2><h3>by Markus</h3></div>
+<div style='float:right;'><img src='/status/logo.jpg'></div></div><div style='clear: both;'/><table><thead><tr><th>Verbraucher</th><th>Betriebsmodus</th><th>Aktueller Verbrauch</th></tr></thead><tbody><tr><td>DeviceA</td><td><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/on'>Einschalten</a><a class='btn btn-off' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/off'>Ausschalten</a><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/auto'>Automatisch</a><div class='status'><div class='dot-off'></div>Ausgeschaltet</div><div style='clear: both;'/><td>100 W</td></tr>
+</tbody></table><hr><div style='text-align: center; width: 100%'>04.03.2016 22:00:19</div></body></html></body></html>
+[DEBUG] 2016-03-04 22:00:19.504 [Thread-4] SEMP - HTTP GET: /status/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[TRACE] 2016-03-04 22:00:19.504 [Thread-4] SEMP - <html><head><title>JavaGateway</title>
+<link rel='stylesheet' href='/status/semp.css'>
+<script type='text/JavaScript'>
+<!-- function timer() {setTimeout('location.reload(true);',10000);}window.onload = timer();  --></script></head><body><div style='float:left;'><h2>JavaGateway</h2><h3>by Markus</h3></div>
+<div style='float:right;'><img src='/status/logo.jpg'></div></div><div style='clear: both;'/><table><thead><tr><th>Verbraucher</th><th>Betriebsmodus</th><th>Aktueller Verbrauch</th></tr></thead><tbody><tr><td>DeviceA</td><td><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/on'>Einschalten</a><a class='btn btn-off' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/off'>Ausschalten</a><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/auto'>Automatisch</a><div class='status'><div class='dot-off'></div>Ausgeschaltet</div><div style='clear: both;'/><td>100 W</td></tr>
+</tbody></table><hr><div style='text-align: center; width: 100%'>04.03.2016 22:00:19</div></body></html></body></html>
+[DEBUG] 2016-03-04 22:00:19.504 [Thread-4] SEMP - HTTP GET: /status/logo.jpg from: Desktop-PC.fritz.box [192.168.178.42]
+[TRACE] 2016-03-04 22:00:19.504 [Thread-4] SEMP - <html><head><title>JavaGateway</title>
+<link rel='stylesheet' href='/status/semp.css'>
+<script type='text/JavaScript'>
+<!-- function timer() {setTimeout('location.reload(true);',10000);}window.onload = timer();  --></script></head><body><div style='float:left;'><h2>JavaGateway</h2><h3>by Markus</h3></div>
+<div style='float:right;'><img src='/status/logo.jpg'></div></div><div style='clear: both;'/><table><thead><tr><th>Verbraucher</th><th>Betriebsmodus</th><th>Aktueller Verbrauch</th></tr></thead><tbody><tr><td>DeviceA</td><td><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/on'>Einschalten</a><a class='btn btn-off' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/off'>Ausschalten</a><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/auto'>Automatisch</a><div class='status'><div class='dot-off'></div>Ausgeschaltet</div><div style='clear: both;'/><td>100 W</td></tr>
+</tbody></table><hr><div style='text-align: center; width: 100%'>04.03.2016 22:00:19</div></body></html></body></html>
+[DEBUG] 2016-03-04 22:00:19.520 [Thread-4] SEMP - HTTP GET: /status/logo.jpg from: Desktop-PC.fritz.box [192.168.178.42]
+[TRACE] 2016-03-04 22:00:19.520 [Thread-4] SEMP - <html><head><title>JavaGateway</title>
+<link rel='stylesheet' href='/status/semp.css'>
+<script type='text/JavaScript'>
+<!-- function timer() {setTimeout('location.reload(true);',10000);}window.onload = timer();  --></script></head><body><div style='float:left;'><h2>JavaGateway</h2><h3>by Markus</h3></div>
+<div style='float:right;'><img src='/status/logo.jpg'></div></div><div style='clear: both;'/><table><thead><tr><th>Verbraucher</th><th>Betriebsmodus</th><th>Aktueller Verbrauch</th></tr></thead><tbody><tr><td>DeviceA</td><td><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/on'>Einschalten</a><a class='btn btn-off' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/off'>Ausschalten</a><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/auto'>Automatisch</a><div class='status'><div class='dot-off'></div>Ausgeschaltet</div><div style='clear: both;'/><td>100 W</td></tr>
+</tbody></table><hr><div style='text-align: center; width: 100%'>04.03.2016 22:00:19</div></body></html></body></html>
+[INFO ] 2016-03-04 22:01:39.805 [main] SEMP - >>>>>>   START V1.2 <<<<<<<
+[INFO ] 2016-03-04 22:01:39.821 [main] SEMP - SEMP Gateway initialized!
+[INFO ] 2016-03-04 22:01:39.852 [main] SEMP - SEMP receiver thread listening on http://192.168.178.42:8080/semp
+[INFO ] 2016-03-04 22:01:39.868 [main] SEMP - SEMP Gateway started succesfully!
+[INFO ] 2016-03-04 22:01:39.868 [Thread-5] SEMP - SSDP Receiver thread listening on: 239.255.255.250:1900 - Waiting for incoming data...
+[INFO ] 2016-03-04 22:01:39.868 [main] SEMP - >>>>>>   ENDE V1.2 <<<<<<<
+[DEBUG] 2016-03-04 22:01:40.118 [Timer-1] SEMP - Send SSDP NOTIFY messages to 239.255.255.250:1900
+[TRACE] 2016-03-04 22:01:40.165 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: upnp:rootdevice
+USN: uuid:2de8f37c-9781-42f5-a2fb-8f27d6869c6e::upnp:rootdevice
+
+
+[TRACE] 2016-03-04 22:01:40.165 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: uuid:2de8f37c-9781-42f5-a2fb-8f27d6869c6e
+USN: uuid:2de8f37c-9781-42f5-a2fb-8f27d6869c6e
+
+
+[TRACE] 2016-03-04 22:01:40.165 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-04 22:01:40.165 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:2de8f37c-9781-42f5-a2fb-8f27d6869c6e::urn:schemas-simple-energy-management-protocol:device:Gateway:1
+
+
+[TRACE] 2016-03-04 22:01:40.165 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-04 22:01:40.165 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[DEBUG] 2016-03-04 22:01:45.587 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[TRACE] 2016-03-04 22:01:45.587 [Thread-4] SEMP - <html><head><title>JavaGateway</title>
+<link rel='stylesheet' href='/status/semp.css'>
+<script type='text/JavaScript'>
+<!-- function timer() {setTimeout('location.reload(true);',10000);}window.onload = timer();  --></script></head><body><div style='float:left;'><h2>JavaGateway</h2><h3>by Markus</h3></div>
+<div style='float:right;'><img src='/status/logo.jpg'></div></div><div style='clear: both;'/><table><thead><tr><th>Verbraucher</th><th>Betriebsmodus</th><th>Aktueller Verbrauch</th></tr></thead><tbody><tr><td>DeviceA</td><td><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/on'>Einschalten</a><a class='btn btn-off' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/off'>Ausschalten</a><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/auto'>Automatisch</a><div class='status'><div class='dot-off'></div>Ausgeschaltet</div><div style='clear: both;'/><td>100 W</td></tr>
+</tbody></table><hr><div style='text-align: center; width: 100%'>04.03.2016 22:01:45</div></body></html></body></html>
+[DEBUG] 2016-03-04 22:01:45.618 [Thread-4] SEMP - HTTP GET: /status/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[TRACE] 2016-03-04 22:01:45.618 [Thread-4] SEMP - <html><head><title>JavaGateway</title>
+<link rel='stylesheet' href='/status/semp.css'>
+<script type='text/JavaScript'>
+<!-- function timer() {setTimeout('location.reload(true);',10000);}window.onload = timer();  --></script></head><body><div style='float:left;'><h2>JavaGateway</h2><h3>by Markus</h3></div>
+<div style='float:right;'><img src='/status/logo.jpg'></div></div><div style='clear: both;'/><table><thead><tr><th>Verbraucher</th><th>Betriebsmodus</th><th>Aktueller Verbrauch</th></tr></thead><tbody><tr><td>DeviceA</td><td><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/on'>Einschalten</a><a class='btn btn-off' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/off'>Ausschalten</a><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/auto'>Automatisch</a><div class='status'><div class='dot-off'></div>Ausgeschaltet</div><div style='clear: both;'/><td>100 W</td></tr>
+</tbody></table><hr><div style='text-align: center; width: 100%'>04.03.2016 22:01:45</div></body></html></body></html>
+[DEBUG] 2016-03-04 22:01:45.618 [Thread-4] SEMP - HTTP GET: /status/logo.jpg from: Desktop-PC.fritz.box [192.168.178.42]
+[TRACE] 2016-03-04 22:01:45.618 [Thread-4] SEMP - <html><head><title>JavaGateway</title>
+<link rel='stylesheet' href='/status/semp.css'>
+<script type='text/JavaScript'>
+<!-- function timer() {setTimeout('location.reload(true);',10000);}window.onload = timer();  --></script></head><body><div style='float:left;'><h2>JavaGateway</h2><h3>by Markus</h3></div>
+<div style='float:right;'><img src='/status/logo.jpg'></div></div><div style='clear: both;'/><table><thead><tr><th>Verbraucher</th><th>Betriebsmodus</th><th>Aktueller Verbrauch</th></tr></thead><tbody><tr><td>DeviceA</td><td><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/on'>Einschalten</a><a class='btn btn-off' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/off'>Ausschalten</a><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/auto'>Automatisch</a><div class='status'><div class='dot-off'></div>Ausgeschaltet</div><div style='clear: both;'/><td>100 W</td></tr>
+</tbody></table><hr><div style='text-align: center; width: 100%'>04.03.2016 22:01:45</div></body></html></body></html>
+[DEBUG] 2016-03-04 22:01:45.634 [Thread-4] SEMP - HTTP GET: /status/logo.jpg from: Desktop-PC.fritz.box [192.168.178.42]
+[TRACE] 2016-03-04 22:01:45.634 [Thread-4] SEMP - <html><head><title>JavaGateway</title>
+<link rel='stylesheet' href='/status/semp.css'>
+<script type='text/JavaScript'>
+<!-- function timer() {setTimeout('location.reload(true);',10000);}window.onload = timer();  --></script></head><body><div style='float:left;'><h2>JavaGateway</h2><h3>by Markus</h3></div>
+<div style='float:right;'><img src='/status/logo.jpg'></div></div><div style='clear: both;'/><table><thead><tr><th>Verbraucher</th><th>Betriebsmodus</th><th>Aktueller Verbrauch</th></tr></thead><tbody><tr><td>DeviceA</td><td><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/on'>Einschalten</a><a class='btn btn-off' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/off'>Ausschalten</a><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/auto'>Automatisch</a><div class='status'><div class='dot-off'></div>Ausgeschaltet</div><div style='clear: both;'/><td>100 W</td></tr>
+</tbody></table><hr><div style='text-align: center; width: 100%'>04.03.2016 22:01:45</div></body></html></body></html>
+[DEBUG] 2016-03-04 22:05:00.484 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[TRACE] 2016-03-04 22:05:00.484 [Thread-4] SEMP - <html><head><title>JavaGateway</title>
+<link rel='stylesheet' href='/status/semp.css'>
+<script type='text/JavaScript'>
+<!-- function timer() {setTimeout('location.reload(true);',10000);}window.onload = timer();  --></script></head><body><div style='float:left;'><h2>JavaGateway</h2><h3>by Markus</h3></div>
+<div style='float:right;'><img src='/status/logo.jpg'></div></div><div style='clear: both;'/><table><thead><tr><th>Verbraucher</th><th>Betriebsmodus</th><th>Aktueller Verbrauch</th></tr></thead><tbody><tr><td>DeviceA</td><td><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/on'>Einschalten</a><a class='btn btn-off' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/off'>Ausschalten</a><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/auto'>Automatisch</a><div class='status'><div class='dot-off'></div>Ausgeschaltet</div><div style='clear: both;'/><td>100 W</td></tr>
+</tbody></table><hr><div style='text-align: center; width: 100%'>04.03.2016 22:05:00</div></body></html></body></html>
+[DEBUG] 2016-03-04 22:05:00.541 [Thread-4] SEMP - HTTP GET: /status/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[TRACE] 2016-03-04 22:05:00.541 [Thread-4] SEMP - <html><head><title>JavaGateway</title>
+<link rel='stylesheet' href='/status/semp.css'>
+<script type='text/JavaScript'>
+<!-- function timer() {setTimeout('location.reload(true);',10000);}window.onload = timer();  --></script></head><body><div style='float:left;'><h2>JavaGateway</h2><h3>by Markus</h3></div>
+<div style='float:right;'><img src='/status/logo.jpg'></div></div><div style='clear: both;'/><table><thead><tr><th>Verbraucher</th><th>Betriebsmodus</th><th>Aktueller Verbrauch</th></tr></thead><tbody><tr><td>DeviceA</td><td><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/on'>Einschalten</a><a class='btn btn-off' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/off'>Ausschalten</a><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/auto'>Automatisch</a><div class='status'><div class='dot-off'></div>Ausgeschaltet</div><div style='clear: both;'/><td>100 W</td></tr>
+</tbody></table><hr><div style='text-align: center; width: 100%'>04.03.2016 22:05:00</div></body></html></body></html>
+[DEBUG] 2016-03-04 22:05:00.543 [Thread-4] SEMP - HTTP GET: /status/logo.jpg from: Desktop-PC.fritz.box [192.168.178.42]
+[TRACE] 2016-03-04 22:05:00.544 [Thread-4] SEMP - <html><head><title>JavaGateway</title>
+<link rel='stylesheet' href='/status/semp.css'>
+<script type='text/JavaScript'>
+<!-- function timer() {setTimeout('location.reload(true);',10000);}window.onload = timer();  --></script></head><body><div style='float:left;'><h2>JavaGateway</h2><h3>by Markus</h3></div>
+<div style='float:right;'><img src='/status/logo.jpg'></div></div><div style='clear: both;'/><table><thead><tr><th>Verbraucher</th><th>Betriebsmodus</th><th>Aktueller Verbrauch</th></tr></thead><tbody><tr><td>DeviceA</td><td><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/on'>Einschalten</a><a class='btn btn-off' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/off'>Ausschalten</a><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/auto'>Automatisch</a><div class='status'><div class='dot-off'></div>Ausgeschaltet</div><div style='clear: both;'/><td>100 W</td></tr>
+</tbody></table><hr><div style='text-align: center; width: 100%'>04.03.2016 22:05:00</div></body></html></body></html>
+[DEBUG] 2016-03-04 22:05:00.562 [Thread-4] SEMP - HTTP GET: /status/logo.jpg from: Desktop-PC.fritz.box [192.168.178.42]
+[TRACE] 2016-03-04 22:05:00.563 [Thread-4] SEMP - <html><head><title>JavaGateway</title>
+<link rel='stylesheet' href='/status/semp.css'>
+<script type='text/JavaScript'>
+<!-- function timer() {setTimeout('location.reload(true);',10000);}window.onload = timer();  --></script></head><body><div style='float:left;'><h2>JavaGateway</h2><h3>by Markus</h3></div>
+<div style='float:right;'><img src='/status/logo.jpg'></div></div><div style='clear: both;'/><table><thead><tr><th>Verbraucher</th><th>Betriebsmodus</th><th>Aktueller Verbrauch</th></tr></thead><tbody><tr><td>DeviceA</td><td><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/on'>Einschalten</a><a class='btn btn-off' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/off'>Ausschalten</a><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/auto'>Automatisch</a><div class='status'><div class='dot-off'></div>Ausgeschaltet</div><div style='clear: both;'/><td>100 W</td></tr>
+</tbody></table><hr><div style='text-align: center; width: 100%'>04.03.2016 22:05:00</div></body></html></body></html>
+[DEBUG] 2016-03-04 22:05:11.333 [Thread-4] SEMP - HTTP GET: /status/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[TRACE] 2016-03-04 22:05:11.333 [Thread-4] SEMP - <html><head><title>JavaGateway</title>
+<link rel='stylesheet' href='/status/semp.css'>
+<script type='text/JavaScript'>
+<!-- function timer() {setTimeout('location.reload(true);',10000);}window.onload = timer();  --></script></head><body><div style='float:left;'><h2>JavaGateway</h2><h3>by Markus</h3></div>
+<div style='float:right;'><img src='/status/logo.jpg'></div></div><div style='clear: both;'/><table><thead><tr><th>Verbraucher</th><th>Betriebsmodus</th><th>Aktueller Verbrauch</th></tr></thead><tbody><tr><td>DeviceA</td><td><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/on'>Einschalten</a><a class='btn btn-off' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/off'>Ausschalten</a><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/auto'>Automatisch</a><div class='status'><div class='dot-off'></div>Ausgeschaltet</div><div style='clear: both;'/><td>100 W</td></tr>
+</tbody></table><hr><div style='text-align: center; width: 100%'>04.03.2016 22:05:11</div></body></html></body></html>
+[DEBUG] 2016-03-04 22:05:11.383 [Thread-4] SEMP - HTTP GET: /status/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[TRACE] 2016-03-04 22:05:11.384 [Thread-4] SEMP - <html><head><title>JavaGateway</title>
+<link rel='stylesheet' href='/status/semp.css'>
+<script type='text/JavaScript'>
+<!-- function timer() {setTimeout('location.reload(true);',10000);}window.onload = timer();  --></script></head><body><div style='float:left;'><h2>JavaGateway</h2><h3>by Markus</h3></div>
+<div style='float:right;'><img src='/status/logo.jpg'></div></div><div style='clear: both;'/><table><thead><tr><th>Verbraucher</th><th>Betriebsmodus</th><th>Aktueller Verbrauch</th></tr></thead><tbody><tr><td>DeviceA</td><td><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/on'>Einschalten</a><a class='btn btn-off' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/off'>Ausschalten</a><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/auto'>Automatisch</a><div class='status'><div class='dot-off'></div>Ausgeschaltet</div><div style='clear: both;'/><td>100 W</td></tr>
+</tbody></table><hr><div style='text-align: center; width: 100%'>04.03.2016 22:05:11</div></body></html></body></html>
+[DEBUG] 2016-03-04 22:05:11.385 [Thread-4] SEMP - HTTP GET: /status/logo.jpg from: Desktop-PC.fritz.box [192.168.178.42]
+[TRACE] 2016-03-04 22:05:11.385 [Thread-4] SEMP - <html><head><title>JavaGateway</title>
+<link rel='stylesheet' href='/status/semp.css'>
+<script type='text/JavaScript'>
+<!-- function timer() {setTimeout('location.reload(true);',10000);}window.onload = timer();  --></script></head><body><div style='float:left;'><h2>JavaGateway</h2><h3>by Markus</h3></div>
+<div style='float:right;'><img src='/status/logo.jpg'></div></div><div style='clear: both;'/><table><thead><tr><th>Verbraucher</th><th>Betriebsmodus</th><th>Aktueller Verbrauch</th></tr></thead><tbody><tr><td>DeviceA</td><td><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/on'>Einschalten</a><a class='btn btn-off' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/off'>Ausschalten</a><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/auto'>Automatisch</a><div class='status'><div class='dot-off'></div>Ausgeschaltet</div><div style='clear: both;'/><td>100 W</td></tr>
+</tbody></table><hr><div style='text-align: center; width: 100%'>04.03.2016 22:05:11</div></body></html></body></html>
+[DEBUG] 2016-03-04 22:05:11.433 [Thread-4] SEMP - HTTP GET: /status/logo.jpg from: Desktop-PC.fritz.box [192.168.178.42]
+[TRACE] 2016-03-04 22:05:11.434 [Thread-4] SEMP - <html><head><title>JavaGateway</title>
+<link rel='stylesheet' href='/status/semp.css'>
+<script type='text/JavaScript'>
+<!-- function timer() {setTimeout('location.reload(true);',10000);}window.onload = timer();  --></script></head><body><div style='float:left;'><h2>JavaGateway</h2><h3>by Markus</h3></div>
+<div style='float:right;'><img src='/status/logo.jpg'></div></div><div style='clear: both;'/><table><thead><tr><th>Verbraucher</th><th>Betriebsmodus</th><th>Aktueller Verbrauch</th></tr></thead><tbody><tr><td>DeviceA</td><td><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/on'>Einschalten</a><a class='btn btn-off' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/off'>Ausschalten</a><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/auto'>Automatisch</a><div class='status'><div class='dot-off'></div>Ausgeschaltet</div><div style='clear: both;'/><td>100 W</td></tr>
+</tbody></table><hr><div style='text-align: center; width: 100%'>04.03.2016 22:05:11</div></body></html></body></html>
+[INFO ] 2016-03-04 22:08:41.430 [main] SEMP - >>>>>>   START V1.2 <<<<<<<
+[INFO ] 2016-03-04 22:08:41.508 [main] SEMP - SEMP Gateway initialized!
+[ERROR] 2016-03-04 22:08:41.524 [main] SEMP - Address already in use: bind
+[INFO ] 2016-03-04 22:08:41.540 [main] SEMP - SEMP Gateway started succesfully!
+[INFO ] 2016-03-04 22:08:41.540 [Thread-3] SEMP - SSDP Receiver thread listening on: 239.255.255.250:1900 - Waiting for incoming data...
+[INFO ] 2016-03-04 22:08:41.540 [main] SEMP - >>>>>>   ENDE V1.2 <<<<<<<
+[DEBUG] 2016-03-04 22:08:41.790 [Timer-1] SEMP - Send SSDP NOTIFY messages to 239.255.255.250:1900
+[TRACE] 2016-03-04 22:08:41.852 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: upnp:rootdevice
+USN: uuid:e957368d-79a8-441e-aade-2654090d321d::upnp:rootdevice
+
+
+[TRACE] 2016-03-04 22:08:41.852 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: uuid:e957368d-79a8-441e-aade-2654090d321d
+USN: uuid:e957368d-79a8-441e-aade-2654090d321d
+
+
+[TRACE] 2016-03-04 22:08:41.852 [Thread-3] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-04 22:08:41.852 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-04 22:08:41.852 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:e957368d-79a8-441e-aade-2654090d321d::urn:schemas-simple-energy-management-protocol:device:Gateway:1
+
+
+[TRACE] 2016-03-04 22:08:41.852 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-04 22:08:41.852 [Thread-3] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-04 22:08:41.852 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-04 22:08:41.852 [Thread-3] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[INFO ] 2016-03-04 22:10:12.685 [main] SEMP - >>>>>>   START V1.2 <<<<<<<
+[INFO ] 2016-03-04 22:10:12.763 [main] SEMP - SEMP Gateway initialized!
+[INFO ] 2016-03-04 22:10:12.810 [main] SEMP - SEMP receiver thread listening on http://192.168.178.42:8080/semp
+[INFO ] 2016-03-04 22:10:12.810 [main] SEMP - SEMP Gateway started succesfully!
+[INFO ] 2016-03-04 22:10:12.810 [Thread-5] SEMP - SSDP Receiver thread listening on: 239.255.255.250:1900 - Waiting for incoming data...
+[INFO ] 2016-03-04 22:10:12.810 [main] SEMP - >>>>>>   ENDE V1.2 <<<<<<<
+[DEBUG] 2016-03-04 22:10:13.060 [Timer-1] SEMP - Send SSDP NOTIFY messages to 239.255.255.250:1900
+[TRACE] 2016-03-04 22:10:13.107 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: upnp:rootdevice
+USN: uuid:eef8f426-d1d5-40a0-b619-9151766c325c::upnp:rootdevice
+
+
+[TRACE] 2016-03-04 22:10:13.107 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: uuid:eef8f426-d1d5-40a0-b619-9151766c325c
+USN: uuid:eef8f426-d1d5-40a0-b619-9151766c325c
+
+
+[TRACE] 2016-03-04 22:10:13.107 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-04 22:10:13.107 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-04 22:10:13.107 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:eef8f426-d1d5-40a0-b619-9151766c325c::urn:schemas-simple-energy-management-protocol:device:Gateway:1
+
+
+[TRACE] 2016-03-04 22:10:13.122 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[DEBUG] 2016-03-04 22:10:19.712 [Thread-4] SEMP - HTTP GET: /status/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-04 22:10:19.712 [Thread-4] SEMP - ########## REQUEST URI: /status/semp.css
+[TRACE] 2016-03-04 22:10:19.713 [Thread-4] SEMP - <html><head><title>JavaGateway</title>
+<link rel='stylesheet' href='/status/semp.css'>
+<script type='text/JavaScript'>
+<!-- function timer() {setTimeout('location.reload(true);',10000);}window.onload = timer();  --></script></head><body><div style='float:left;'><h2>JavaGateway</h2><h3>by Markus</h3></div>
+<div style='float:right;'><img src='/status/logo.jpg'></div></div><div style='clear: both;'/><table><thead><tr><th>Verbraucher</th><th>Betriebsmodus</th><th>Aktueller Verbrauch</th></tr></thead><tbody><tr><td>DeviceA</td><td><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/on'>Einschalten</a><a class='btn btn-off' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/off'>Ausschalten</a><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/auto'>Automatisch</a><div class='status'><div class='dot-off'></div>Ausgeschaltet</div><div style='clear: both;'/><td>100 W</td></tr>
+</tbody></table><hr><div style='text-align: center; width: 100%'>04.03.2016 22:10:19</div></body></html></body></html>
+[DEBUG] 2016-03-04 22:10:19.759 [Thread-4] SEMP - HTTP GET: /status/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-04 22:10:19.759 [Thread-4] SEMP - ########## REQUEST URI: /status/semp.css
+[TRACE] 2016-03-04 22:10:19.760 [Thread-4] SEMP - <html><head><title>JavaGateway</title>
+<link rel='stylesheet' href='/status/semp.css'>
+<script type='text/JavaScript'>
+<!-- function timer() {setTimeout('location.reload(true);',10000);}window.onload = timer();  --></script></head><body><div style='float:left;'><h2>JavaGateway</h2><h3>by Markus</h3></div>
+<div style='float:right;'><img src='/status/logo.jpg'></div></div><div style='clear: both;'/><table><thead><tr><th>Verbraucher</th><th>Betriebsmodus</th><th>Aktueller Verbrauch</th></tr></thead><tbody><tr><td>DeviceA</td><td><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/on'>Einschalten</a><a class='btn btn-off' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/off'>Ausschalten</a><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/auto'>Automatisch</a><div class='status'><div class='dot-off'></div>Ausgeschaltet</div><div style='clear: both;'/><td>100 W</td></tr>
+</tbody></table><hr><div style='text-align: center; width: 100%'>04.03.2016 22:10:19</div></body></html></body></html>
+[DEBUG] 2016-03-04 22:10:19.761 [Thread-4] SEMP - HTTP GET: /status/logo.jpg from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-04 22:10:19.761 [Thread-4] SEMP - ########## REQUEST URI: /status/logo.jpg
+[TRACE] 2016-03-04 22:10:19.761 [Thread-4] SEMP - <html><head><title>JavaGateway</title>
+<link rel='stylesheet' href='/status/semp.css'>
+<script type='text/JavaScript'>
+<!-- function timer() {setTimeout('location.reload(true);',10000);}window.onload = timer();  --></script></head><body><div style='float:left;'><h2>JavaGateway</h2><h3>by Markus</h3></div>
+<div style='float:right;'><img src='/status/logo.jpg'></div></div><div style='clear: both;'/><table><thead><tr><th>Verbraucher</th><th>Betriebsmodus</th><th>Aktueller Verbrauch</th></tr></thead><tbody><tr><td>DeviceA</td><td><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/on'>Einschalten</a><a class='btn btn-off' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/off'>Ausschalten</a><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/auto'>Automatisch</a><div class='status'><div class='dot-off'></div>Ausgeschaltet</div><div style='clear: both;'/><td>100 W</td></tr>
+</tbody></table><hr><div style='text-align: center; width: 100%'>04.03.2016 22:10:19</div></body></html></body></html>
+[DEBUG] 2016-03-04 22:10:19.792 [Thread-4] SEMP - HTTP GET: /status/logo.jpg from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-04 22:10:19.792 [Thread-4] SEMP - ########## REQUEST URI: /status/logo.jpg
+[TRACE] 2016-03-04 22:10:19.792 [Thread-4] SEMP - <html><head><title>JavaGateway</title>
+<link rel='stylesheet' href='/status/semp.css'>
+<script type='text/JavaScript'>
+<!-- function timer() {setTimeout('location.reload(true);',10000);}window.onload = timer();  --></script></head><body><div style='float:left;'><h2>JavaGateway</h2><h3>by Markus</h3></div>
+<div style='float:right;'><img src='/status/logo.jpg'></div></div><div style='clear: both;'/><table><thead><tr><th>Verbraucher</th><th>Betriebsmodus</th><th>Aktueller Verbrauch</th></tr></thead><tbody><tr><td>DeviceA</td><td><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/on'>Einschalten</a><a class='btn btn-off' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/off'>Ausschalten</a><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/auto'>Automatisch</a><div class='status'><div class='dot-off'></div>Ausgeschaltet</div><div style='clear: both;'/><td>100 W</td></tr>
+</tbody></table><hr><div style='text-align: center; width: 100%'>04.03.2016 22:10:19</div></body></html></body></html>
+[INFO ] 2016-03-04 22:13:25.336 [main] SEMP - >>>>>>   START V1.2 <<<<<<<
+[INFO ] 2016-03-04 22:13:25.399 [main] SEMP - SEMP Gateway initialized!
+[INFO ] 2016-03-04 22:13:25.446 [main] SEMP - SEMP receiver thread listening on http://192.168.178.42:8080/semp
+[INFO ] 2016-03-04 22:13:25.461 [main] SEMP - SEMP Gateway started succesfully!
+[INFO ] 2016-03-04 22:13:25.461 [Thread-5] SEMP - SSDP Receiver thread listening on: 239.255.255.250:1900 - Waiting for incoming data...
+[INFO ] 2016-03-04 22:13:25.461 [main] SEMP - >>>>>>   ENDE V1.2 <<<<<<<
+[DEBUG] 2016-03-04 22:13:25.711 [Timer-1] SEMP - Send SSDP NOTIFY messages to 239.255.255.250:1900
+[TRACE] 2016-03-04 22:13:25.758 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: upnp:rootdevice
+USN: uuid:1833eeac-3029-40c9-866a-b9ddedf3de55::upnp:rootdevice
+
+
+[TRACE] 2016-03-04 22:13:25.758 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: uuid:1833eeac-3029-40c9-866a-b9ddedf3de55
+USN: uuid:1833eeac-3029-40c9-866a-b9ddedf3de55
+
+
+[TRACE] 2016-03-04 22:13:25.758 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-04 22:13:25.758 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:1833eeac-3029-40c9-866a-b9ddedf3de55::urn:schemas-simple-energy-management-protocol:device:Gateway:1
+
+
+[TRACE] 2016-03-04 22:13:25.758 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-04 22:13:25.758 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[INFO ] 2016-03-04 22:14:40.340 [main] SEMP - >>>>>>   START V1.2 <<<<<<<
+[INFO ] 2016-03-04 22:14:40.403 [main] SEMP - SEMP Gateway initialized!
+[INFO ] 2016-03-04 22:14:40.465 [main] SEMP - SEMP receiver thread listening on http://192.168.178.42:8080/semp
+[INFO ] 2016-03-04 22:14:40.465 [main] SEMP - SEMP Gateway started succesfully!
+[INFO ] 2016-03-04 22:14:40.465 [Thread-5] SEMP - SSDP Receiver thread listening on: 239.255.255.250:1900 - Waiting for incoming data...
+[INFO ] 2016-03-04 22:14:40.465 [main] SEMP - >>>>>>   ENDE V1.2 <<<<<<<
+[DEBUG] 2016-03-04 22:14:40.715 [Timer-1] SEMP - Send SSDP NOTIFY messages to 239.255.255.250:1900
+[TRACE] 2016-03-04 22:14:40.778 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: upnp:rootdevice
+USN: uuid:28cfb1a1-ce48-4215-92f5-4502f4c21cf2::upnp:rootdevice
+
+
+[TRACE] 2016-03-04 22:14:40.778 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: uuid:28cfb1a1-ce48-4215-92f5-4502f4c21cf2
+USN: uuid:28cfb1a1-ce48-4215-92f5-4502f4c21cf2
+
+
+[TRACE] 2016-03-04 22:14:40.778 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-04 22:14:40.778 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-04 22:14:40.778 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:28cfb1a1-ce48-4215-92f5-4502f4c21cf2::urn:schemas-simple-energy-management-protocol:device:Gateway:1
+
+
+[TRACE] 2016-03-04 22:14:40.778 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[DEBUG] 2016-03-04 22:15:19.133 [Thread-4] SEMP - HTTP GET: /status/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-04 22:15:19.133 [Thread-4] SEMP - ########## REQUEST URI: /status/semp.css
+[DEBUG] 2016-03-04 22:15:19.134 [Thread-4] SEMP - >>> CSS 
+[TRACE] 2016-03-04 22:15:19.135 [Thread-4] SEMP - <html><head><title>JavaGateway</title>
+<link rel='stylesheet' href='/status/semp.css'>
+<script type='text/JavaScript'>
+<!-- function timer() {setTimeout('location.reload(true);',10000);}window.onload = timer();  --></script></head><body><div style='float:left;'><h2>JavaGateway</h2><h3>by Markus</h3></div>
+<div style='float:right;'><img src='/status/logo.jpg'></div></div><div style='clear: both;'/><table><thead><tr><th>Verbraucher</th><th>Betriebsmodus</th><th>Aktueller Verbrauch</th></tr></thead><tbody><tr><td>DeviceA</td><td><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/on'>Einschalten</a><a class='btn btn-off' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/off'>Ausschalten</a><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/auto'>Automatisch</a><div class='status'><div class='dot-off'></div>Ausgeschaltet</div><div style='clear: both;'/><td>100 W</td></tr>
+</tbody></table><hr><div style='text-align: center; width: 100%'>04.03.2016 22:15:19</div></body></html></body></html>
+[DEBUG] 2016-03-04 22:15:19.165 [Thread-4] SEMP - HTTP GET: /status/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-04 22:15:19.166 [Thread-4] SEMP - ########## REQUEST URI: /status/semp.css
+[DEBUG] 2016-03-04 22:15:19.166 [Thread-4] SEMP - >>> CSS 
+[TRACE] 2016-03-04 22:15:19.166 [Thread-4] SEMP - <html><head><title>JavaGateway</title>
+<link rel='stylesheet' href='/status/semp.css'>
+<script type='text/JavaScript'>
+<!-- function timer() {setTimeout('location.reload(true);',10000);}window.onload = timer();  --></script></head><body><div style='float:left;'><h2>JavaGateway</h2><h3>by Markus</h3></div>
+<div style='float:right;'><img src='/status/logo.jpg'></div></div><div style='clear: both;'/><table><thead><tr><th>Verbraucher</th><th>Betriebsmodus</th><th>Aktueller Verbrauch</th></tr></thead><tbody><tr><td>DeviceA</td><td><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/on'>Einschalten</a><a class='btn btn-off' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/off'>Ausschalten</a><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/auto'>Automatisch</a><div class='status'><div class='dot-off'></div>Ausgeschaltet</div><div style='clear: both;'/><td>100 W</td></tr>
+</tbody></table><hr><div style='text-align: center; width: 100%'>04.03.2016 22:15:19</div></body></html></body></html>
+[DEBUG] 2016-03-04 22:15:19.168 [Thread-4] SEMP - HTTP GET: /status/logo.jpg from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-04 22:15:19.168 [Thread-4] SEMP - ########## REQUEST URI: /status/logo.jpg
+[DEBUG] 2016-03-04 22:15:19.168 [Thread-4] SEMP - >>> JPG 
+[TRACE] 2016-03-04 22:15:19.168 [Thread-4] SEMP - <html><head><title>JavaGateway</title>
+<link rel='stylesheet' href='/status/semp.css'>
+<script type='text/JavaScript'>
+<!-- function timer() {setTimeout('location.reload(true);',10000);}window.onload = timer();  --></script></head><body><div style='float:left;'><h2>JavaGateway</h2><h3>by Markus</h3></div>
+<div style='float:right;'><img src='/status/logo.jpg'></div></div><div style='clear: both;'/><table><thead><tr><th>Verbraucher</th><th>Betriebsmodus</th><th>Aktueller Verbrauch</th></tr></thead><tbody><tr><td>DeviceA</td><td><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/on'>Einschalten</a><a class='btn btn-off' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/off'>Ausschalten</a><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/auto'>Automatisch</a><div class='status'><div class='dot-off'></div>Ausgeschaltet</div><div style='clear: both;'/><td>100 W</td></tr>
+</tbody></table><hr><div style='text-align: center; width: 100%'>04.03.2016 22:15:19</div></body></html></body></html>
+[DEBUG] 2016-03-04 22:15:19.183 [Thread-4] SEMP - HTTP GET: /status/logo.jpg from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-04 22:15:19.184 [Thread-4] SEMP - ########## REQUEST URI: /status/logo.jpg
+[DEBUG] 2016-03-04 22:15:19.184 [Thread-4] SEMP - >>> JPG 
+[TRACE] 2016-03-04 22:15:19.184 [Thread-4] SEMP - <html><head><title>JavaGateway</title>
+<link rel='stylesheet' href='/status/semp.css'>
+<script type='text/JavaScript'>
+<!-- function timer() {setTimeout('location.reload(true);',10000);}window.onload = timer();  --></script></head><body><div style='float:left;'><h2>JavaGateway</h2><h3>by Markus</h3></div>
+<div style='float:right;'><img src='/status/logo.jpg'></div></div><div style='clear: both;'/><table><thead><tr><th>Verbraucher</th><th>Betriebsmodus</th><th>Aktueller Verbrauch</th></tr></thead><tbody><tr><td>DeviceA</td><td><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/on'>Einschalten</a><a class='btn btn-off' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/off'>Ausschalten</a><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/auto'>Automatisch</a><div class='status'><div class='dot-off'></div>Ausgeschaltet</div><div style='clear: both;'/><td>100 W</td></tr>
+</tbody></table><hr><div style='text-align: center; width: 100%'>04.03.2016 22:15:19</div></body></html></body></html>
+[DEBUG] 2016-03-04 22:29:40.724 [Timer-1] SEMP - Send SSDP NOTIFY messages to 239.255.255.250:1900
+[TRACE] 2016-03-04 22:29:40.724 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: upnp:rootdevice
+USN: uuid:28cfb1a1-ce48-4215-92f5-4502f4c21cf2::upnp:rootdevice
+
+
+[TRACE] 2016-03-04 22:29:40.724 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-04 22:29:40.724 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: uuid:28cfb1a1-ce48-4215-92f5-4502f4c21cf2
+USN: uuid:28cfb1a1-ce48-4215-92f5-4502f4c21cf2
+
+
+[TRACE] 2016-03-04 22:29:40.724 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-04 22:29:40.724 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:28cfb1a1-ce48-4215-92f5-4502f4c21cf2::urn:schemas-simple-energy-management-protocol:device:Gateway:1
+
+
+[TRACE] 2016-03-04 22:29:40.724 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[INFO ] 2016-03-04 22:33:06.326 [main] SEMP - >>>>>>   START V1.2 <<<<<<<
+[INFO ] 2016-03-04 22:33:06.402 [main] SEMP - SEMP Gateway initialized!
+[ERROR] 2016-03-04 22:33:06.420 [main] SEMP - Address already in use: bind
+[INFO ] 2016-03-04 22:33:06.427 [main] SEMP - SEMP Gateway started succesfully!
+[INFO ] 2016-03-04 22:33:06.427 [Thread-3] SEMP - SSDP Receiver thread listening on: 239.255.255.250:1900 - Waiting for incoming data...
+[INFO ] 2016-03-04 22:33:06.427 [main] SEMP - >>>>>>   ENDE V1.2 <<<<<<<
+[DEBUG] 2016-03-04 22:33:06.678 [Timer-1] SEMP - Send SSDP NOTIFY messages to 239.255.255.250:1900
+[TRACE] 2016-03-04 22:33:06.723 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: upnp:rootdevice
+USN: uuid:7c8632e4-fead-49d0-a90d-d5af3868294e::upnp:rootdevice
+
+
+[TRACE] 2016-03-04 22:33:06.724 [Thread-3] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-04 22:33:06.724 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: uuid:7c8632e4-fead-49d0-a90d-d5af3868294e
+USN: uuid:7c8632e4-fead-49d0-a90d-d5af3868294e
+
+
+[TRACE] 2016-03-04 22:33:06.724 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-04 22:33:06.725 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-04 22:33:06.725 [Thread-3] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-04 22:33:06.725 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:7c8632e4-fead-49d0-a90d-d5af3868294e::urn:schemas-simple-energy-management-protocol:device:Gateway:1
+
+
+[TRACE] 2016-03-04 22:33:06.725 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-04 22:33:06.726 [Thread-3] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[INFO ] 2016-03-04 22:33:18.657 [main] SEMP - >>>>>>   START V1.2 <<<<<<<
+[INFO ] 2016-03-04 22:33:18.725 [main] SEMP - SEMP Gateway initialized!
+[INFO ] 2016-03-04 22:33:18.771 [main] SEMP - SEMP receiver thread listening on http://192.168.178.42:8080/semp
+[INFO ] 2016-03-04 22:33:18.778 [main] SEMP - SEMP Gateway started succesfully!
+[INFO ] 2016-03-04 22:33:18.778 [Thread-5] SEMP - SSDP Receiver thread listening on: 239.255.255.250:1900 - Waiting for incoming data...
+[INFO ] 2016-03-04 22:33:18.778 [main] SEMP - >>>>>>   ENDE V1.2 <<<<<<<
+[DEBUG] 2016-03-04 22:33:19.028 [Timer-1] SEMP - Send SSDP NOTIFY messages to 239.255.255.250:1900
+[TRACE] 2016-03-04 22:33:19.088 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: upnp:rootdevice
+USN: uuid:ace18b8c-713f-435a-85ca-9c78e35f99ae::upnp:rootdevice
+
+
+[TRACE] 2016-03-04 22:33:19.089 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: uuid:ace18b8c-713f-435a-85ca-9c78e35f99ae
+USN: uuid:ace18b8c-713f-435a-85ca-9c78e35f99ae
+
+
+[TRACE] 2016-03-04 22:33:19.089 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-04 22:33:19.089 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-04 22:33:19.090 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:ace18b8c-713f-435a-85ca-9c78e35f99ae::urn:schemas-simple-energy-management-protocol:device:Gateway:1
+
+
+[TRACE] 2016-03-04 22:33:19.090 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[DEBUG] 2016-03-04 22:33:26.875 [Thread-4] SEMP - HTTP GET: /status/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-04 22:33:26.875 [Thread-4] SEMP - >>> CSS 
+[DEBUG] 2016-03-04 22:33:54.278 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-04 22:34:12.682 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-04 22:34:13.874 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-04 22:34:14.274 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[INFO ] 2016-03-04 22:36:08.832 [main] SEMP - >>>>>>   START V1.2 <<<<<<<
+[INFO ] 2016-03-04 22:36:08.894 [main] SEMP - SEMP Gateway initialized!
+[INFO ] 2016-03-04 22:36:08.941 [main] SEMP - SEMP receiver thread listening on http://192.168.178.42:8080/semp
+[INFO ] 2016-03-04 22:36:08.957 [main] SEMP - SEMP Gateway started succesfully!
+[INFO ] 2016-03-04 22:36:08.957 [Thread-5] SEMP - SSDP Receiver thread listening on: 239.255.255.250:1900 - Waiting for incoming data...
+[INFO ] 2016-03-04 22:36:08.957 [main] SEMP - >>>>>>   ENDE V1.2 <<<<<<<
+[DEBUG] 2016-03-04 22:36:09.207 [Timer-1] SEMP - Send SSDP NOTIFY messages to 239.255.255.250:1900
+[TRACE] 2016-03-04 22:36:09.269 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: upnp:rootdevice
+USN: uuid:0f14b872-bb96-4847-9904-71e849b513fb::upnp:rootdevice
+
+
+[TRACE] 2016-03-04 22:36:09.269 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: uuid:0f14b872-bb96-4847-9904-71e849b513fb
+USN: uuid:0f14b872-bb96-4847-9904-71e849b513fb
+
+
+[TRACE] 2016-03-04 22:36:09.269 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-04 22:36:09.269 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:0f14b872-bb96-4847-9904-71e849b513fb::urn:schemas-simple-energy-management-protocol:device:Gateway:1
+
+
+[TRACE] 2016-03-04 22:36:09.269 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-04 22:36:09.269 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[DEBUG] 2016-03-04 22:36:14.347 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-04 22:36:14.347 [Thread-4] SEMP - >>> /status
+[INFO ] 2016-03-04 22:37:41.602 [main] SEMP - >>>>>>   START V1.2 <<<<<<<
+[INFO ] 2016-03-04 22:37:41.664 [main] SEMP - SEMP Gateway initialized!
+[INFO ] 2016-03-04 22:37:41.711 [main] SEMP - SEMP receiver thread listening on http://192.168.178.42:8080/semp
+[INFO ] 2016-03-04 22:37:41.727 [main] SEMP - SEMP Gateway started succesfully!
+[INFO ] 2016-03-04 22:37:41.727 [Thread-5] SEMP - SSDP Receiver thread listening on: 239.255.255.250:1900 - Waiting for incoming data...
+[INFO ] 2016-03-04 22:37:41.727 [main] SEMP - >>>>>>   ENDE V1.2 <<<<<<<
+[DEBUG] 2016-03-04 22:37:41.977 [Timer-1] SEMP - Send SSDP NOTIFY messages to 239.255.255.250:1900
+[TRACE] 2016-03-04 22:37:42.024 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: upnp:rootdevice
+USN: uuid:cc4e0975-5a6b-460a-90be-f23c0baf6e23::upnp:rootdevice
+
+
+[TRACE] 2016-03-04 22:37:42.024 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: uuid:cc4e0975-5a6b-460a-90be-f23c0baf6e23
+USN: uuid:cc4e0975-5a6b-460a-90be-f23c0baf6e23
+
+
+[TRACE] 2016-03-04 22:37:42.024 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-04 22:37:42.024 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:cc4e0975-5a6b-460a-90be-f23c0baf6e23::urn:schemas-simple-energy-management-protocol:device:Gateway:1
+
+
+[TRACE] 2016-03-04 22:37:42.024 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-04 22:37:42.024 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[DEBUG] 2016-03-04 22:37:46.212 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-04 22:37:46.212 [Thread-4] SEMP - >>> /status
+[INFO ] 2016-03-04 22:38:49.902 [main] SEMP - >>>>>>   START V1.2 <<<<<<<
+[INFO ] 2016-03-04 22:38:49.965 [main] SEMP - SEMP Gateway initialized!
+[INFO ] 2016-03-04 22:38:50.027 [main] SEMP - SEMP receiver thread listening on http://192.168.178.42:8080/semp
+[INFO ] 2016-03-04 22:38:50.027 [main] SEMP - SEMP Gateway started succesfully!
+[INFO ] 2016-03-04 22:38:50.027 [Thread-5] SEMP - SSDP Receiver thread listening on: 239.255.255.250:1900 - Waiting for incoming data...
+[INFO ] 2016-03-04 22:38:50.027 [main] SEMP - >>>>>>   ENDE V1.2 <<<<<<<
+[DEBUG] 2016-03-04 22:38:50.277 [Timer-1] SEMP - Send SSDP NOTIFY messages to 239.255.255.250:1900
+[TRACE] 2016-03-04 22:38:50.309 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: upnp:rootdevice
+USN: uuid:6077b739-2c4d-45ce-a2a5-ca56b0a33139::upnp:rootdevice
+
+
+[TRACE] 2016-03-04 22:38:50.324 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: uuid:6077b739-2c4d-45ce-a2a5-ca56b0a33139
+USN: uuid:6077b739-2c4d-45ce-a2a5-ca56b0a33139
+
+
+[TRACE] 2016-03-04 22:38:50.324 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-04 22:38:50.324 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-04 22:38:50.324 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:6077b739-2c4d-45ce-a2a5-ca56b0a33139::urn:schemas-simple-energy-management-protocol:device:Gateway:1
+
+
+[TRACE] 2016-03-04 22:38:50.324 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[DEBUG] 2016-03-04 22:38:57.137 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-04 22:38:57.137 [Thread-4] SEMP - >>> /status
+[DEBUG] 2016-03-04 22:38:57.137 [Thread-4] SEMP - >>> status 
+[TRACE] 2016-03-04 22:38:57.137 [Thread-4] SEMP - <html><head><title>JavaGateway</title>
+<link rel='stylesheet' href='/status/semp.css'>
+<script type='text/JavaScript'>
+<!-- function timer() {setTimeout('location.reload(true);',10000);}window.onload = timer();  --></script></head><body><div style='float:left;'><h2>JavaGateway</h2><h3>by SANDHOLZ ENGINEERING</h3></div>
+<div style='float:right;'><img src='/status/logo.jpg'></div></div><div style='clear: both;'/><table><thead><tr><th>Verbraucher</th><th>Betriebsmodus</th><th>Aktueller Verbrauch</th></tr></thead><tbody><tr><td>DeviceA</td><td><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/on'>Einschalten</a><a class='btn btn-off' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/off'>Ausschalten</a><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/auto'>Automatisch</a><div class='status'><div class='dot-off'></div>Ausgeschaltet</div><div style='clear: both;'/><td>100 W</td></tr>
+</tbody></table><hr><div style='text-align: center; width: 100%'>04.03.2016 22:38:57</div></body></html></body></html>
+[DEBUG] 2016-03-04 22:38:57.168 [Thread-4] SEMP - HTTP GET: /status/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-04 22:38:57.168 [Thread-4] SEMP - >>> /status/semp.css
+[DEBUG] 2016-03-04 22:38:57.168 [Thread-4] SEMP - >>> status 
+[TRACE] 2016-03-04 22:38:57.168 [Thread-4] SEMP - <html><head><title>JavaGateway</title>
+<link rel='stylesheet' href='/status/semp.css'>
+<script type='text/JavaScript'>
+<!-- function timer() {setTimeout('location.reload(true);',10000);}window.onload = timer();  --></script></head><body><div style='float:left;'><h2>JavaGateway</h2><h3>by SANDHOLZ ENGINEERING</h3></div>
+<div style='float:right;'><img src='/status/logo.jpg'></div></div><div style='clear: both;'/><table><thead><tr><th>Verbraucher</th><th>Betriebsmodus</th><th>Aktueller Verbrauch</th></tr></thead><tbody><tr><td>DeviceA</td><td><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/on'>Einschalten</a><a class='btn btn-off' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/off'>Ausschalten</a><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/auto'>Automatisch</a><div class='status'><div class='dot-off'></div>Ausgeschaltet</div><div style='clear: both;'/><td>100 W</td></tr>
+</tbody></table><hr><div style='text-align: center; width: 100%'>04.03.2016 22:38:57</div></body></html></body></html>
+[DEBUG] 2016-03-04 22:38:57.168 [Thread-4] SEMP - HTTP GET: /status/logo.jpg from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-04 22:38:57.168 [Thread-4] SEMP - >>> /status/logo.jpg
+[DEBUG] 2016-03-04 22:38:57.168 [Thread-4] SEMP - >>> status 
+[TRACE] 2016-03-04 22:38:57.168 [Thread-4] SEMP - <html><head><title>JavaGateway</title>
+<link rel='stylesheet' href='/status/semp.css'>
+<script type='text/JavaScript'>
+<!-- function timer() {setTimeout('location.reload(true);',10000);}window.onload = timer();  --></script></head><body><div style='float:left;'><h2>JavaGateway</h2><h3>by SANDHOLZ ENGINEERING</h3></div>
+<div style='float:right;'><img src='/status/logo.jpg'></div></div><div style='clear: both;'/><table><thead><tr><th>Verbraucher</th><th>Betriebsmodus</th><th>Aktueller Verbrauch</th></tr></thead><tbody><tr><td>DeviceA</td><td><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/on'>Einschalten</a><a class='btn btn-off' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/off'>Ausschalten</a><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/auto'>Automatisch</a><div class='status'><div class='dot-off'></div>Ausgeschaltet</div><div style='clear: both;'/><td>100 W</td></tr>
+</tbody></table><hr><div style='text-align: center; width: 100%'>04.03.2016 22:38:57</div></body></html></body></html>
+[DEBUG] 2016-03-04 22:38:57.200 [Thread-4] SEMP - HTTP GET: /status/logo.jpg from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-04 22:38:57.200 [Thread-4] SEMP - >>> /status/logo.jpg
+[DEBUG] 2016-03-04 22:38:57.200 [Thread-4] SEMP - >>> status 
+[TRACE] 2016-03-04 22:38:57.200 [Thread-4] SEMP - <html><head><title>JavaGateway</title>
+<link rel='stylesheet' href='/status/semp.css'>
+<script type='text/JavaScript'>
+<!-- function timer() {setTimeout('location.reload(true);',10000);}window.onload = timer();  --></script></head><body><div style='float:left;'><h2>JavaGateway</h2><h3>by SANDHOLZ ENGINEERING</h3></div>
+<div style='float:right;'><img src='/status/logo.jpg'></div></div><div style='clear: both;'/><table><thead><tr><th>Verbraucher</th><th>Betriebsmodus</th><th>Aktueller Verbrauch</th></tr></thead><tbody><tr><td>DeviceA</td><td><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/on'>Einschalten</a><a class='btn btn-off' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/off'>Ausschalten</a><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/auto'>Automatisch</a><div class='status'><div class='dot-off'></div>Ausgeschaltet</div><div style='clear: both;'/><td>100 W</td></tr>
+</tbody></table><hr><div style='text-align: center; width: 100%'>04.03.2016 22:38:57</div></body></html></body></html>
+[INFO ] 2016-03-04 22:40:09.688 [main] SEMP - >>>>>>   START V1.2 <<<<<<<
+[INFO ] 2016-03-04 22:40:09.766 [main] SEMP - SEMP Gateway initialized!
+[INFO ] 2016-03-04 22:40:09.813 [main] SEMP - SEMP receiver thread listening on http://192.168.178.42:8080/semp
+[INFO ] 2016-03-04 22:40:09.813 [main] SEMP - SEMP Gateway started succesfully!
+[INFO ] 2016-03-04 22:40:09.813 [Thread-5] SEMP - SSDP Receiver thread listening on: 239.255.255.250:1900 - Waiting for incoming data...
+[INFO ] 2016-03-04 22:40:09.813 [main] SEMP - >>>>>>   ENDE V1.2 <<<<<<<
+[DEBUG] 2016-03-04 22:40:10.063 [Timer-1] SEMP - Send SSDP NOTIFY messages to 239.255.255.250:1900
+[TRACE] 2016-03-04 22:40:10.110 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: upnp:rootdevice
+USN: uuid:46037579-ed52-473b-b6bd-1ab21c9bfa79::upnp:rootdevice
+
+
+[TRACE] 2016-03-04 22:40:10.110 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: uuid:46037579-ed52-473b-b6bd-1ab21c9bfa79
+USN: uuid:46037579-ed52-473b-b6bd-1ab21c9bfa79
+
+
+[TRACE] 2016-03-04 22:40:10.110 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-04 22:40:10.110 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-04 22:40:10.110 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:46037579-ed52-473b-b6bd-1ab21c9bfa79::urn:schemas-simple-energy-management-protocol:device:Gateway:1
+
+
+[TRACE] 2016-03-04 22:40:10.110 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[DEBUG] 2016-03-04 22:40:15.251 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-04 22:40:15.251 [Thread-4] SEMP - >>> /status
+[DEBUG] 2016-03-04 22:40:30.111 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-04 22:40:30.111 [Thread-4] SEMP - >>> /status
+[INFO ] 2016-03-04 22:43:16.104 [main] SEMP - >>>>>>   START V1.2 <<<<<<<
+[INFO ] 2016-03-04 22:43:16.182 [main] SEMP - SEMP Gateway initialized!
+[INFO ] 2016-03-04 22:43:16.229 [main] SEMP - SEMP receiver thread listening on http://192.168.178.42:8080/semp
+[INFO ] 2016-03-04 22:43:16.229 [main] SEMP - SEMP Gateway started succesfully!
+[INFO ] 2016-03-04 22:43:16.229 [Thread-5] SEMP - SSDP Receiver thread listening on: 239.255.255.250:1900 - Waiting for incoming data...
+[INFO ] 2016-03-04 22:43:16.229 [main] SEMP - >>>>>>   ENDE V1.2 <<<<<<<
+[DEBUG] 2016-03-04 22:43:16.479 [Timer-1] SEMP - Send SSDP NOTIFY messages to 239.255.255.250:1900
+[TRACE] 2016-03-04 22:43:16.526 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: upnp:rootdevice
+USN: uuid:c523b130-e7a7-4843-bc69-bd1b77fa8226::upnp:rootdevice
+
+
+[TRACE] 2016-03-04 22:43:16.526 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: uuid:c523b130-e7a7-4843-bc69-bd1b77fa8226
+USN: uuid:c523b130-e7a7-4843-bc69-bd1b77fa8226
+
+
+[TRACE] 2016-03-04 22:43:16.526 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-04 22:43:16.526 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-04 22:43:16.526 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:c523b130-e7a7-4843-bc69-bd1b77fa8226::urn:schemas-simple-energy-management-protocol:device:Gateway:1
+
+
+[TRACE] 2016-03-04 22:43:16.526 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[DEBUG] 2016-03-04 22:43:21.292 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-04 22:43:21.292 [Thread-4] SEMP - >>> /status
+[DEBUG] 2016-03-04 22:43:39.043 [Thread-4] SEMP - HTTP GET: /status/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-04 22:43:39.043 [Thread-4] SEMP - >>> /status/semp.css
+[DEBUG] 2016-03-04 22:43:39.043 [Thread-4] SEMP - >>> CSS 
+[DEBUG] 2016-03-04 22:43:39.043 [Thread-4] SEMP - >>> status 
+[TRACE] 2016-03-04 22:43:39.043 [Thread-4] SEMP - <html><head><title>JavaGateway</title>
+<link rel='stylesheet' href='/status/semp.css'>
+<script type='text/JavaScript'>
+<!-- function timer() {setTimeout('location.reload(true);',10000);}window.onload = timer();  --></script></head><body><div style='float:left;'><h2>JavaGateway</h2><h3>by SANDHOLZ ENGINEERING</h3></div>
+<div style='float:right;'><img src='/status/logo.jpg'></div></div><div style='clear: both;'/><table><thead><tr><th>Verbraucher</th><th>Betriebsmodus</th><th>Aktueller Verbrauch</th></tr></thead><tbody><tr><td>DeviceA</td><td><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/on'>Einschalten</a><a class='btn btn-off' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/off'>Ausschalten</a><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/auto'>Automatisch</a><div class='status'><div class='dot-off'></div>Ausgeschaltet</div><div style='clear: both;'/><td>100 W</td></tr>
+</tbody></table><hr><div style='text-align: center; width: 100%'>04.03.2016 22:43:39</div></body></html></body></html>
+[DEBUG] 2016-03-04 22:43:39.089 [Thread-4] SEMP - HTTP GET: /status/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-04 22:43:39.089 [Thread-4] SEMP - >>> /status/semp.css
+[DEBUG] 2016-03-04 22:43:39.089 [Thread-4] SEMP - >>> CSS 
+[DEBUG] 2016-03-04 22:43:39.089 [Thread-4] SEMP - >>> status 
+[TRACE] 2016-03-04 22:43:39.089 [Thread-4] SEMP - <html><head><title>JavaGateway</title>
+<link rel='stylesheet' href='/status/semp.css'>
+<script type='text/JavaScript'>
+<!-- function timer() {setTimeout('location.reload(true);',10000);}window.onload = timer();  --></script></head><body><div style='float:left;'><h2>JavaGateway</h2><h3>by SANDHOLZ ENGINEERING</h3></div>
+<div style='float:right;'><img src='/status/logo.jpg'></div></div><div style='clear: both;'/><table><thead><tr><th>Verbraucher</th><th>Betriebsmodus</th><th>Aktueller Verbrauch</th></tr></thead><tbody><tr><td>DeviceA</td><td><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/on'>Einschalten</a><a class='btn btn-off' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/off'>Ausschalten</a><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/auto'>Automatisch</a><div class='status'><div class='dot-off'></div>Ausgeschaltet</div><div style='clear: both;'/><td>100 W</td></tr>
+</tbody></table><hr><div style='text-align: center; width: 100%'>04.03.2016 22:43:39</div></body></html></body></html>
+[DEBUG] 2016-03-04 22:43:39.089 [Thread-4] SEMP - HTTP GET: /status/logo.jpg from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-04 22:43:39.089 [Thread-4] SEMP - >>> /status/logo.jpg
+[DEBUG] 2016-03-04 22:43:39.089 [Thread-4] SEMP - >>> JPG 
+[DEBUG] 2016-03-04 22:43:39.089 [Thread-4] SEMP - >>> status 
+[TRACE] 2016-03-04 22:43:39.089 [Thread-4] SEMP - <html><head><title>JavaGateway</title>
+<link rel='stylesheet' href='/status/semp.css'>
+<script type='text/JavaScript'>
+<!-- function timer() {setTimeout('location.reload(true);',10000);}window.onload = timer();  --></script></head><body><div style='float:left;'><h2>JavaGateway</h2><h3>by SANDHOLZ ENGINEERING</h3></div>
+<div style='float:right;'><img src='/status/logo.jpg'></div></div><div style='clear: both;'/><table><thead><tr><th>Verbraucher</th><th>Betriebsmodus</th><th>Aktueller Verbrauch</th></tr></thead><tbody><tr><td>DeviceA</td><td><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/on'>Einschalten</a><a class='btn btn-off' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/off'>Ausschalten</a><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/auto'>Automatisch</a><div class='status'><div class='dot-off'></div>Ausgeschaltet</div><div style='clear: both;'/><td>100 W</td></tr>
+</tbody></table><hr><div style='text-align: center; width: 100%'>04.03.2016 22:43:39</div></body></html></body></html>
+[DEBUG] 2016-03-04 22:43:39.136 [Thread-4] SEMP - HTTP GET: /status/logo.jpg from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-04 22:43:39.136 [Thread-4] SEMP - >>> /status/logo.jpg
+[DEBUG] 2016-03-04 22:43:39.136 [Thread-4] SEMP - >>> JPG 
+[DEBUG] 2016-03-04 22:43:39.136 [Thread-4] SEMP - >>> status 
+[TRACE] 2016-03-04 22:43:39.152 [Thread-4] SEMP - <html><head><title>JavaGateway</title>
+<link rel='stylesheet' href='/status/semp.css'>
+<script type='text/JavaScript'>
+<!-- function timer() {setTimeout('location.reload(true);',10000);}window.onload = timer();  --></script></head><body><div style='float:left;'><h2>JavaGateway</h2><h3>by SANDHOLZ ENGINEERING</h3></div>
+<div style='float:right;'><img src='/status/logo.jpg'></div></div><div style='clear: both;'/><table><thead><tr><th>Verbraucher</th><th>Betriebsmodus</th><th>Aktueller Verbrauch</th></tr></thead><tbody><tr><td>DeviceA</td><td><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/on'>Einschalten</a><a class='btn btn-off' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/off'>Ausschalten</a><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/auto'>Automatisch</a><div class='status'><div class='dot-off'></div>Ausgeschaltet</div><div style='clear: both;'/><td>100 W</td></tr>
+</tbody></table><hr><div style='text-align: center; width: 100%'>04.03.2016 22:43:39</div></body></html></body></html>
+[INFO ] 2016-03-04 22:44:43.405 [main] SEMP - >>>>>>   START V1.2 <<<<<<<
+[INFO ] 2016-03-04 22:44:43.468 [main] SEMP - SEMP Gateway initialized!
+[INFO ] 2016-03-04 22:44:43.515 [main] SEMP - SEMP receiver thread listening on http://192.168.178.42:8080/semp
+[INFO ] 2016-03-04 22:44:43.515 [main] SEMP - SEMP Gateway started succesfully!
+[INFO ] 2016-03-04 22:44:43.515 [Thread-5] SEMP - SSDP Receiver thread listening on: 239.255.255.250:1900 - Waiting for incoming data...
+[INFO ] 2016-03-04 22:44:43.515 [main] SEMP - >>>>>>   ENDE V1.2 <<<<<<<
+[DEBUG] 2016-03-04 22:44:43.765 [Timer-1] SEMP - Send SSDP NOTIFY messages to 239.255.255.250:1900
+[TRACE] 2016-03-04 22:44:43.827 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: upnp:rootdevice
+USN: uuid:98114fb1-f63a-46cf-963f-d39fb0f2aadd::upnp:rootdevice
+
+
+[TRACE] 2016-03-04 22:44:43.827 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: uuid:98114fb1-f63a-46cf-963f-d39fb0f2aadd
+USN: uuid:98114fb1-f63a-46cf-963f-d39fb0f2aadd
+
+
+[TRACE] 2016-03-04 22:44:43.827 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-04 22:44:43.827 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-04 22:44:43.827 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:98114fb1-f63a-46cf-963f-d39fb0f2aadd::urn:schemas-simple-energy-management-protocol:device:Gateway:1
+
+
+[TRACE] 2016-03-04 22:44:43.827 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[DEBUG] 2016-03-04 22:44:50.202 [Thread-4] SEMP - HTTP GET: /status/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-04 22:44:50.202 [Thread-4] SEMP - >>> /status/semp.css
+[DEBUG] 2016-03-04 22:44:50.202 [Thread-4] SEMP - >>> CSS 
+[DEBUG] 2016-03-04 22:44:50.202 [Thread-4] SEMP - >>> status 
+[TRACE] 2016-03-04 22:44:50.202 [Thread-4] SEMP - <html><head><title>JavaGateway</title>
+<link rel='stylesheet' href='/status/semp.css'>
+<script type='text/JavaScript'>
+<!-- function timer() {setTimeout('location.reload(true);',10000);}window.onload = timer();  --></script></head><body><div style='float:left;'><h2>JavaGateway</h2><h3>by SANDHOLZ ENGINEERING</h3></div>
+<div style='float:right;'><img src='/status/logo.jpg'></div></div><div style='clear: both;'/><table><thead><tr><th>Verbraucher</th><th>Betriebsmodus</th><th>Aktueller Verbrauch</th></tr></thead><tbody><tr><td>DeviceA</td><td><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/on'>Einschalten</a><a class='btn btn-off' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/off'>Ausschalten</a><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/auto'>Automatisch</a><div class='status'><div class='dot-off'></div>Ausgeschaltet</div><div style='clear: both;'/><td>100 W</td></tr>
+</tbody></table><hr><div style='text-align: center; width: 100%'>04.03.2016 22:44:50</div></body></html></body></html>
+[DEBUG] 2016-03-04 22:44:50.234 [Thread-4] SEMP - HTTP GET: /status/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-04 22:44:50.234 [Thread-4] SEMP - >>> /status/semp.css
+[DEBUG] 2016-03-04 22:44:50.234 [Thread-4] SEMP - >>> CSS 
+[DEBUG] 2016-03-04 22:44:50.234 [Thread-4] SEMP - >>> status 
+[TRACE] 2016-03-04 22:44:50.234 [Thread-4] SEMP - <html><head><title>JavaGateway</title>
+<link rel='stylesheet' href='/status/semp.css'>
+<script type='text/JavaScript'>
+<!-- function timer() {setTimeout('location.reload(true);',10000);}window.onload = timer();  --></script></head><body><div style='float:left;'><h2>JavaGateway</h2><h3>by SANDHOLZ ENGINEERING</h3></div>
+<div style='float:right;'><img src='/status/logo.jpg'></div></div><div style='clear: both;'/><table><thead><tr><th>Verbraucher</th><th>Betriebsmodus</th><th>Aktueller Verbrauch</th></tr></thead><tbody><tr><td>DeviceA</td><td><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/on'>Einschalten</a><a class='btn btn-off' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/off'>Ausschalten</a><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/auto'>Automatisch</a><div class='status'><div class='dot-off'></div>Ausgeschaltet</div><div style='clear: both;'/><td>100 W</td></tr>
+</tbody></table><hr><div style='text-align: center; width: 100%'>04.03.2016 22:44:50</div></body></html></body></html>
+[DEBUG] 2016-03-04 22:44:50.234 [Thread-4] SEMP - HTTP GET: /status/logo.jpg from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-04 22:44:50.234 [Thread-4] SEMP - >>> /status/logo.jpg
+[DEBUG] 2016-03-04 22:44:50.234 [Thread-4] SEMP - >>> JPG 
+[DEBUG] 2016-03-04 22:44:50.234 [Thread-4] SEMP - >>> status 
+[TRACE] 2016-03-04 22:44:50.234 [Thread-4] SEMP - <html><head><title>JavaGateway</title>
+<link rel='stylesheet' href='/status/semp.css'>
+<script type='text/JavaScript'>
+<!-- function timer() {setTimeout('location.reload(true);',10000);}window.onload = timer();  --></script></head><body><div style='float:left;'><h2>JavaGateway</h2><h3>by SANDHOLZ ENGINEERING</h3></div>
+<div style='float:right;'><img src='/status/logo.jpg'></div></div><div style='clear: both;'/><table><thead><tr><th>Verbraucher</th><th>Betriebsmodus</th><th>Aktueller Verbrauch</th></tr></thead><tbody><tr><td>DeviceA</td><td><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/on'>Einschalten</a><a class='btn btn-off' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/off'>Ausschalten</a><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/auto'>Automatisch</a><div class='status'><div class='dot-off'></div>Ausgeschaltet</div><div style='clear: both;'/><td>100 W</td></tr>
+</tbody></table><hr><div style='text-align: center; width: 100%'>04.03.2016 22:44:50</div></body></html></body></html>
+[DEBUG] 2016-03-04 22:44:50.281 [Thread-4] SEMP - HTTP GET: /status/logo.jpg from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-04 22:44:50.281 [Thread-4] SEMP - >>> /status/logo.jpg
+[DEBUG] 2016-03-04 22:44:50.281 [Thread-4] SEMP - >>> JPG 
+[DEBUG] 2016-03-04 22:44:50.281 [Thread-4] SEMP - >>> status 
+[TRACE] 2016-03-04 22:44:50.281 [Thread-4] SEMP - <html><head><title>JavaGateway</title>
+<link rel='stylesheet' href='/status/semp.css'>
+<script type='text/JavaScript'>
+<!-- function timer() {setTimeout('location.reload(true);',10000);}window.onload = timer();  --></script></head><body><div style='float:left;'><h2>JavaGateway</h2><h3>by SANDHOLZ ENGINEERING</h3></div>
+<div style='float:right;'><img src='/status/logo.jpg'></div></div><div style='clear: both;'/><table><thead><tr><th>Verbraucher</th><th>Betriebsmodus</th><th>Aktueller Verbrauch</th></tr></thead><tbody><tr><td>DeviceA</td><td><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/on'>Einschalten</a><a class='btn btn-off' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/off'>Ausschalten</a><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/auto'>Automatisch</a><div class='status'><div class='dot-off'></div>Ausgeschaltet</div><div style='clear: both;'/><td>100 W</td></tr>
+</tbody></table><hr><div style='text-align: center; width: 100%'>04.03.2016 22:44:50</div></body></html></body></html>
+[DEBUG] 2016-03-04 22:45:16.032 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-04 22:45:16.032 [Thread-4] SEMP - >>> /status
+[DEBUG] 2016-03-04 22:45:16.032 [Thread-4] SEMP - >>> status 
+[TRACE] 2016-03-04 22:45:16.032 [Thread-4] SEMP - <html><head><title>JavaGateway</title>
+<link rel='stylesheet' href='/status/semp.css'>
+<script type='text/JavaScript'>
+<!-- function timer() {setTimeout('location.reload(true);',10000);}window.onload = timer();  --></script></head><body><div style='float:left;'><h2>JavaGateway</h2><h3>by SANDHOLZ ENGINEERING</h3></div>
+<div style='float:right;'><img src='/status/logo.jpg'></div></div><div style='clear: both;'/><table><thead><tr><th>Verbraucher</th><th>Betriebsmodus</th><th>Aktueller Verbrauch</th></tr></thead><tbody><tr><td>DeviceA</td><td><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/on'>Einschalten</a><a class='btn btn-off' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/off'>Ausschalten</a><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/auto'>Automatisch</a><div class='status'><div class='dot-off'></div>Ausgeschaltet</div><div style='clear: both;'/><td>100 W</td></tr>
+</tbody></table><hr><div style='text-align: center; width: 100%'>04.03.2016 22:45:16</div></body></html></body></html>
+[DEBUG] 2016-03-04 22:45:16.063 [Thread-4] SEMP - HTTP GET: /status/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-04 22:45:16.063 [Thread-4] SEMP - >>> /status/semp.css
+[DEBUG] 2016-03-04 22:45:16.063 [Thread-4] SEMP - >>> CSS 
+[DEBUG] 2016-03-04 22:45:16.063 [Thread-4] SEMP - >>> status 
+[TRACE] 2016-03-04 22:45:16.063 [Thread-4] SEMP - <html><head><title>JavaGateway</title>
+<link rel='stylesheet' href='/status/semp.css'>
+<script type='text/JavaScript'>
+<!-- function timer() {setTimeout('location.reload(true);',10000);}window.onload = timer();  --></script></head><body><div style='float:left;'><h2>JavaGateway</h2><h3>by SANDHOLZ ENGINEERING</h3></div>
+<div style='float:right;'><img src='/status/logo.jpg'></div></div><div style='clear: both;'/><table><thead><tr><th>Verbraucher</th><th>Betriebsmodus</th><th>Aktueller Verbrauch</th></tr></thead><tbody><tr><td>DeviceA</td><td><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/on'>Einschalten</a><a class='btn btn-off' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/off'>Ausschalten</a><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/auto'>Automatisch</a><div class='status'><div class='dot-off'></div>Ausgeschaltet</div><div style='clear: both;'/><td>100 W</td></tr>
+</tbody></table><hr><div style='text-align: center; width: 100%'>04.03.2016 22:45:16</div></body></html></body></html>
+[DEBUG] 2016-03-04 22:45:16.063 [Thread-4] SEMP - HTTP GET: /status/logo.jpg from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-04 22:45:16.063 [Thread-4] SEMP - >>> /status/logo.jpg
+[DEBUG] 2016-03-04 22:45:16.079 [Thread-4] SEMP - >>> JPG 
+[DEBUG] 2016-03-04 22:45:16.079 [Thread-4] SEMP - >>> status 
+[TRACE] 2016-03-04 22:45:16.079 [Thread-4] SEMP - <html><head><title>JavaGateway</title>
+<link rel='stylesheet' href='/status/semp.css'>
+<script type='text/JavaScript'>
+<!-- function timer() {setTimeout('location.reload(true);',10000);}window.onload = timer();  --></script></head><body><div style='float:left;'><h2>JavaGateway</h2><h3>by SANDHOLZ ENGINEERING</h3></div>
+<div style='float:right;'><img src='/status/logo.jpg'></div></div><div style='clear: both;'/><table><thead><tr><th>Verbraucher</th><th>Betriebsmodus</th><th>Aktueller Verbrauch</th></tr></thead><tbody><tr><td>DeviceA</td><td><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/on'>Einschalten</a><a class='btn btn-off' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/off'>Ausschalten</a><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/auto'>Automatisch</a><div class='status'><div class='dot-off'></div>Ausgeschaltet</div><div style='clear: both;'/><td>100 W</td></tr>
+</tbody></table><hr><div style='text-align: center; width: 100%'>04.03.2016 22:45:16</div></body></html></body></html>
+[DEBUG] 2016-03-04 22:45:16.094 [Thread-4] SEMP - HTTP GET: /status/logo.jpg from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-04 22:45:16.094 [Thread-4] SEMP - >>> /status/logo.jpg
+[DEBUG] 2016-03-04 22:45:16.094 [Thread-4] SEMP - >>> JPG 
+[DEBUG] 2016-03-04 22:45:16.094 [Thread-4] SEMP - >>> status 
+[TRACE] 2016-03-04 22:45:16.094 [Thread-4] SEMP - <html><head><title>JavaGateway</title>
+<link rel='stylesheet' href='/status/semp.css'>
+<script type='text/JavaScript'>
+<!-- function timer() {setTimeout('location.reload(true);',10000);}window.onload = timer();  --></script></head><body><div style='float:left;'><h2>JavaGateway</h2><h3>by SANDHOLZ ENGINEERING</h3></div>
+<div style='float:right;'><img src='/status/logo.jpg'></div></div><div style='clear: both;'/><table><thead><tr><th>Verbraucher</th><th>Betriebsmodus</th><th>Aktueller Verbrauch</th></tr></thead><tbody><tr><td>DeviceA</td><td><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/on'>Einschalten</a><a class='btn btn-off' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/off'>Ausschalten</a><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/auto'>Automatisch</a><div class='status'><div class='dot-off'></div>Ausgeschaltet</div><div style='clear: both;'/><td>100 W</td></tr>
+</tbody></table><hr><div style='text-align: center; width: 100%'>04.03.2016 22:45:16</div></body></html></body></html>
+[INFO ] 2016-03-04 22:47:16.945 [main] SEMP - >>>>>>   START V1.2 <<<<<<<
+[INFO ] 2016-03-04 22:47:17.007 [main] SEMP - SEMP Gateway initialized!
+[INFO ] 2016-03-04 22:47:17.054 [main] SEMP - SEMP receiver thread listening on http://192.168.178.42:8080/semp
+[INFO ] 2016-03-04 22:47:17.070 [main] SEMP - SEMP Gateway started succesfully!
+[INFO ] 2016-03-04 22:47:17.070 [Thread-5] SEMP - SSDP Receiver thread listening on: 239.255.255.250:1900 - Waiting for incoming data...
+[INFO ] 2016-03-04 22:47:17.070 [main] SEMP - >>>>>>   ENDE V1.2 <<<<<<<
+[DEBUG] 2016-03-04 22:47:17.320 [Timer-1] SEMP - Send SSDP NOTIFY messages to 239.255.255.250:1900
+[TRACE] 2016-03-04 22:47:17.366 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: upnp:rootdevice
+USN: uuid:903d3e57-58c5-4c5e-a191-0434b10dc2a4::upnp:rootdevice
+
+
+[TRACE] 2016-03-04 22:47:17.366 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: uuid:903d3e57-58c5-4c5e-a191-0434b10dc2a4
+USN: uuid:903d3e57-58c5-4c5e-a191-0434b10dc2a4
+
+
+[TRACE] 2016-03-04 22:47:17.366 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-04 22:47:17.366 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-04 22:47:17.366 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:903d3e57-58c5-4c5e-a191-0434b10dc2a4::urn:schemas-simple-energy-management-protocol:device:Gateway:1
+
+
+[TRACE] 2016-03-04 22:47:17.366 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[DEBUG] 2016-03-04 22:47:22.023 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-04 22:47:22.039 [Thread-4] SEMP - >>> /status
+[DEBUG] 2016-03-04 22:47:22.039 [Thread-4] SEMP - >>> status 
+[TRACE] 2016-03-04 22:47:22.039 [Thread-4] SEMP - <html><head><title>JavaGateway</title>
+<link rel='stylesheet' href='/status/semp.css'>
+<script type='text/JavaScript'>
+<!-- function timer() {setTimeout('location.reload(true);',10000);}window.onload = timer();  --></script></head><body><div style='float:left;'><h2>JavaGateway</h2><h3>by SANDHOLZ ENGINEERING</h3></div>
+<div style='float:right;'>Logo</div></div><div style='clear: both;'/><table><thead><tr><th>Verbraucher</th><th>Betriebsmodus</th><th>Aktueller Verbrauch</th></tr></thead><tbody><tr><td>DeviceA</td><td><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/on'>Einschalten</a><a class='btn btn-off' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/off'>Ausschalten</a><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/auto'>Automatisch</a><div class='status'><div class='dot-off'></div>Ausgeschaltet</div><div style='clear: both;'/><td>100 W</td></tr>
+</tbody></table><hr><div style='text-align: center; width: 100%'>04.03.2016 22:47:22</div></body></html></body></html>
+[DEBUG] 2016-03-04 22:47:22.070 [Thread-4] SEMP - HTTP GET: /status/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-04 22:47:22.070 [Thread-4] SEMP - >>> /status/semp.css
+[DEBUG] 2016-03-04 22:47:22.070 [Thread-4] SEMP - >>> CSS 
+[DEBUG] 2016-03-04 22:47:22.070 [Thread-4] SEMP - >>> status 
+[TRACE] 2016-03-04 22:47:22.070 [Thread-4] SEMP - <html><head><title>JavaGateway</title>
+<link rel='stylesheet' href='/status/semp.css'>
+<script type='text/JavaScript'>
+<!-- function timer() {setTimeout('location.reload(true);',10000);}window.onload = timer();  --></script></head><body><div style='float:left;'><h2>JavaGateway</h2><h3>by SANDHOLZ ENGINEERING</h3></div>
+<div style='float:right;'>Logo</div></div><div style='clear: both;'/><table><thead><tr><th>Verbraucher</th><th>Betriebsmodus</th><th>Aktueller Verbrauch</th></tr></thead><tbody><tr><td>DeviceA</td><td><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/on'>Einschalten</a><a class='btn btn-off' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/off'>Ausschalten</a><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/auto'>Automatisch</a><div class='status'><div class='dot-off'></div>Ausgeschaltet</div><div style='clear: both;'/><td>100 W</td></tr>
+</tbody></table><hr><div style='text-align: center; width: 100%'>04.03.2016 22:47:22</div></body></html></body></html>
+[INFO ] 2016-03-04 22:49:44.702 [main] SEMP - >>>>>>   START V1.2 <<<<<<<
+[INFO ] 2016-03-04 22:49:44.780 [main] SEMP - SEMP Gateway initialized!
+[INFO ] 2016-03-04 22:49:44.827 [main] SEMP - SEMP receiver thread listening on http://192.168.178.42:8080/semp
+[INFO ] 2016-03-04 22:49:44.843 [main] SEMP - SEMP Gateway started succesfully!
+[INFO ] 2016-03-04 22:49:44.843 [Thread-5] SEMP - SSDP Receiver thread listening on: 239.255.255.250:1900 - Waiting for incoming data...
+[INFO ] 2016-03-04 22:49:44.843 [main] SEMP - >>>>>>   ENDE V1.2 <<<<<<<
+[DEBUG] 2016-03-04 22:49:45.093 [Timer-1] SEMP - Send SSDP NOTIFY messages to 239.255.255.250:1900
+[TRACE] 2016-03-04 22:49:45.140 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: upnp:rootdevice
+USN: uuid:d8d79cbb-cef0-42ec-a835-6f2364892937::upnp:rootdevice
+
+
+[TRACE] 2016-03-04 22:49:45.140 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: uuid:d8d79cbb-cef0-42ec-a835-6f2364892937
+USN: uuid:d8d79cbb-cef0-42ec-a835-6f2364892937
+
+
+[TRACE] 2016-03-04 22:49:45.140 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-04 22:49:45.140 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:d8d79cbb-cef0-42ec-a835-6f2364892937::urn:schemas-simple-energy-management-protocol:device:Gateway:1
+
+
+[TRACE] 2016-03-04 22:49:45.140 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-04 22:49:45.155 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[DEBUG] 2016-03-04 22:49:50.781 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-04 22:49:50.781 [Thread-4] SEMP - >>> /status
+[DEBUG] 2016-03-04 22:49:50.781 [Thread-4] SEMP - >>> status 
+[TRACE] 2016-03-04 22:49:50.781 [Thread-4] SEMP - <html><head><title>JavaGateway</title>
+<link rel='stylesheet' href='/status/semp.css'>
+<script type='text/JavaScript'>
+<!-- function timer() {setTimeout('location.reload(true);',10000);}window.onload = timer();  --></script></head><body><div style='float:left;'><h2>JavaGateway</h2><h3>by SANDHOLZ ENGINEERING</h3></div>
+<div style='float:right;'>Logo</div></div><div style='clear: both;'/><table><thead><tr><th>Verbraucher</th><th>Betriebsmodus</th><th>Aktueller Verbrauch</th></tr></thead><tbody><tr><td>DeviceA</td><td><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/on'>Einschalten</a><a class='btn btn-off' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/off'>Ausschalten</a><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/auto'>Automatisch</a><div class='status'><div class='dot-off'></div>Ausgeschaltet</div><div style='clear: both;'/><td>100 W</td></tr>
+</tbody></table><hr><div style='text-align: center; width: 100%'>04.03.2016 22:49:50</div></body></html></body></html>
+[DEBUG] 2016-03-04 22:49:50.812 [Thread-4] SEMP - HTTP GET: /status/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-04 22:49:50.812 [Thread-4] SEMP - >>> /status/semp.css
+[DEBUG] 2016-03-04 22:49:50.812 [Thread-4] SEMP - >>> CSS 
+[DEBUG] 2016-03-04 22:52:58.572 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-04 22:52:58.572 [Thread-4] SEMP - >>> /status
+[DEBUG] 2016-03-04 22:52:58.572 [Thread-4] SEMP - >>> status 
+[TRACE] 2016-03-04 22:52:58.572 [Thread-4] SEMP - <html><head><title>JavaGateway</title>
+<link rel='stylesheet' href='/status/semp.css'>
+<script type='text/JavaScript'>
+<!-- function timer() {setTimeout('location.reload(true);',10000);}window.onload = timer();  --></script></head><body><div style='float:left;'><h2>JavaGateway</h2><h3>by SANDHOLZ ENGINEERING</h3></div>
+<div style='float:right;'>Logo</div></div><div style='clear: both;'/><table><thead><tr><th>Verbraucher</th><th>Betriebsmodus</th><th>Aktueller Verbrauch</th></tr></thead><tbody><tr><td>DeviceA</td><td><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/on'>Einschalten</a><a class='btn btn-off' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/off'>Ausschalten</a><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/auto'>Automatisch</a><div class='status'><div class='dot-off'></div>Ausgeschaltet</div><div style='clear: both;'/><td>100 W</td></tr>
+</tbody></table><hr><div style='text-align: center; width: 100%'>04.03.2016 22:52:58</div></body></html></body></html>
+[DEBUG] 2016-03-04 22:52:58.619 [Thread-4] SEMP - HTTP GET: /status/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-04 22:52:58.619 [Thread-4] SEMP - >>> /status/semp.css
+[DEBUG] 2016-03-04 22:52:58.619 [Thread-4] SEMP - >>> CSS 
+[INFO ] 2016-03-04 22:53:18.104 [main] SEMP - >>>>>>   START V1.2 <<<<<<<
+[INFO ] 2016-03-04 22:53:18.182 [main] SEMP - SEMP Gateway initialized!
+[INFO ] 2016-03-04 22:53:18.213 [main] SEMP - SEMP receiver thread listening on http://192.168.178.42:8080/semp
+[INFO ] 2016-03-04 22:53:18.229 [main] SEMP - SEMP Gateway started succesfully!
+[INFO ] 2016-03-04 22:53:18.229 [Thread-5] SEMP - SSDP Receiver thread listening on: 239.255.255.250:1900 - Waiting for incoming data...
+[INFO ] 2016-03-04 22:53:18.229 [main] SEMP - >>>>>>   ENDE V1.2 <<<<<<<
+[DEBUG] 2016-03-04 22:53:18.479 [Timer-1] SEMP - Send SSDP NOTIFY messages to 239.255.255.250:1900
+[TRACE] 2016-03-04 22:53:18.542 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: upnp:rootdevice
+USN: uuid:634886ca-b9f0-4b41-b2b1-7173bf73ba7a::upnp:rootdevice
+
+
+[TRACE] 2016-03-04 22:53:18.542 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: uuid:634886ca-b9f0-4b41-b2b1-7173bf73ba7a
+USN: uuid:634886ca-b9f0-4b41-b2b1-7173bf73ba7a
+
+
+[TRACE] 2016-03-04 22:53:18.542 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-04 22:53:18.542 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-04 22:53:18.542 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:634886ca-b9f0-4b41-b2b1-7173bf73ba7a::urn:schemas-simple-energy-management-protocol:device:Gateway:1
+
+
+[TRACE] 2016-03-04 22:53:18.542 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[DEBUG] 2016-03-04 22:53:25.089 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-04 22:53:25.089 [Thread-4] SEMP - >>> /status 7
+[DEBUG] 2016-03-04 22:53:25.089 [Thread-4] SEMP - >>> status 
+[TRACE] 2016-03-04 22:53:25.089 [Thread-4] SEMP - <html><head><title>JavaGateway</title>
+<link rel='stylesheet' href='/status/semp.css'>
+<script type='text/JavaScript'>
+<!-- function timer() {setTimeout('location.reload(true);',10000);}window.onload = timer();  --></script></head><body><div style='float:left;'><h2>JavaGateway</h2><h3>by SANDHOLZ ENGINEERING</h3></div>
+<div style='float:right;'>Logo</div></div><div style='clear: both;'/><table><thead><tr><th>Verbraucher</th><th>Betriebsmodus</th><th>Aktueller Verbrauch</th></tr></thead><tbody><tr><td>DeviceA</td><td><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/on'>Einschalten</a><a class='btn btn-off' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/off'>Ausschalten</a><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/auto'>Automatisch</a><div class='status'><div class='dot-off'></div>Ausgeschaltet</div><div style='clear: both;'/><td>100 W</td></tr>
+</tbody></table><hr><div style='text-align: center; width: 100%'>04.03.2016 22:53:25</div></body></html></body></html>
+[DEBUG] 2016-03-04 22:53:25.120 [Thread-4] SEMP - HTTP GET: /status/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-04 22:53:25.120 [Thread-4] SEMP - >>> /status/semp.css 16
+[DEBUG] 2016-03-04 22:53:25.120 [Thread-4] SEMP - >>> CSS 
+[INFO ] 2016-03-04 22:56:09.300 [main] SEMP - >>>>>>   START V1.2 <<<<<<<
+[INFO ] 2016-03-04 22:56:09.379 [main] SEMP - SEMP Gateway initialized!
+[INFO ] 2016-03-04 22:56:09.425 [main] SEMP - SEMP receiver thread listening on http://192.168.178.42:8080/semp
+[INFO ] 2016-03-04 22:56:09.441 [main] SEMP - SEMP Gateway started succesfully!
+[INFO ] 2016-03-04 22:56:09.441 [Thread-5] SEMP - SSDP Receiver thread listening on: 239.255.255.250:1900 - Waiting for incoming data...
+[INFO ] 2016-03-04 22:56:09.441 [main] SEMP - >>>>>>   ENDE V1.2 <<<<<<<
+[DEBUG] 2016-03-04 22:56:09.691 [Timer-1] SEMP - Send SSDP NOTIFY messages to 239.255.255.250:1900
+[TRACE] 2016-03-04 22:56:09.722 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: upnp:rootdevice
+USN: uuid:548bc1b0-966e-4a23-8ecf-88b6d5f6962b::upnp:rootdevice
+
+
+[TRACE] 2016-03-04 22:56:09.722 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: uuid:548bc1b0-966e-4a23-8ecf-88b6d5f6962b
+USN: uuid:548bc1b0-966e-4a23-8ecf-88b6d5f6962b
+
+
+[TRACE] 2016-03-04 22:56:09.722 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-04 22:56:09.722 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-04 22:56:09.722 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:548bc1b0-966e-4a23-8ecf-88b6d5f6962b::urn:schemas-simple-energy-management-protocol:device:Gateway:1
+
+
+[TRACE] 2016-03-04 22:56:09.722 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[DEBUG] 2016-03-04 22:56:13.394 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-04 22:56:13.394 [Thread-4] SEMP - >>> /status 2
+[DEBUG] 2016-03-04 22:56:13.394 [Thread-4] SEMP - >>> status 
+[TRACE] 2016-03-04 22:56:13.394 [Thread-4] SEMP - <html><head><title>JavaGateway</title>
+<link rel='stylesheet' href='/status/semp.css'>
+<script type='text/JavaScript'>
+<!-- function timer() {setTimeout('location.reload(true);',10000);}window.onload = timer();  --></script></head><body><div style='float:left;'><h2>JavaGateway</h2><h3>by SANDHOLZ ENGINEERING</h3></div>
+<div style='float:right;'>Logo</div></div><div style='clear: both;'/><table><thead><tr><th>Verbraucher</th><th>Betriebsmodus</th><th>Aktueller Verbrauch</th></tr></thead><tbody><tr><td>DeviceA</td><td><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/on'>Einschalten</a><a class='btn btn-off' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/off'>Ausschalten</a><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/auto'>Automatisch</a><div class='status'><div class='dot-off'></div>Ausgeschaltet</div><div style='clear: both;'/><td>100 W</td></tr>
+</tbody></table><hr><div style='text-align: center; width: 100%'>04.03.2016 22:56:13</div></body></html></body></html>
+[DEBUG] 2016-03-04 22:56:13.426 [Thread-4] SEMP - HTTP GET: /status/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-04 22:56:13.426 [Thread-4] SEMP - >>> /status/semp.css 3
+[DEBUG] 2016-03-04 22:56:13.426 [Thread-4] SEMP - >>> CSS 
+[DEBUG] 2016-03-04 22:57:25.226 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-04 22:57:25.226 [Thread-4] SEMP - >>> /status 2
+[DEBUG] 2016-03-04 22:57:25.226 [Thread-4] SEMP - >>> status 
+[TRACE] 2016-03-04 22:57:25.226 [Thread-4] SEMP - <html><head><title>JavaGateway</title>
+<link rel='stylesheet' href='/status/semp.css'>
+<script type='text/JavaScript'>
+<!-- function timer() {setTimeout('location.reload(true);',10000);}window.onload = timer();  --></script></head><body><div style='float:left;'><h2>JavaGateway</h2><h3>by SANDHOLZ ENGINEERING</h3></div>
+<div style='float:right;'>Logo</div></div><div style='clear: both;'/><table><thead><tr><th>Verbraucher</th><th>Betriebsmodus</th><th>Aktueller Verbrauch</th></tr></thead><tbody><tr><td>DeviceA</td><td><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/on'>Einschalten</a><a class='btn btn-off' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/off'>Ausschalten</a><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/auto'>Automatisch</a><div class='status'><div class='dot-off'></div>Ausgeschaltet</div><div style='clear: both;'/><td>100 W</td></tr>
+</tbody></table><hr><div style='text-align: center; width: 100%'>04.03.2016 22:57:25</div></body></html></body></html>
+[DEBUG] 2016-03-04 22:57:25.289 [Thread-4] SEMP - HTTP GET: /status/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-04 22:57:25.289 [Thread-4] SEMP - >>> /status/semp.css 3
+[DEBUG] 2016-03-04 22:57:25.289 [Thread-4] SEMP - >>> CSS 
+[DEBUG] 2016-03-04 22:57:29.977 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-04 22:57:29.977 [Thread-4] SEMP - >>> /status 2
+[DEBUG] 2016-03-04 22:57:29.977 [Thread-4] SEMP - >>> status 
+[TRACE] 2016-03-04 22:57:29.977 [Thread-4] SEMP - <html><head><title>JavaGateway</title>
+<link rel='stylesheet' href='/status/semp.css'>
+<script type='text/JavaScript'>
+<!-- function timer() {setTimeout('location.reload(true);',10000);}window.onload = timer();  --></script></head><body><div style='float:left;'><h2>JavaGateway</h2><h3>by SANDHOLZ ENGINEERING</h3></div>
+<div style='float:right;'>Logo</div></div><div style='clear: both;'/><table><thead><tr><th>Verbraucher</th><th>Betriebsmodus</th><th>Aktueller Verbrauch</th></tr></thead><tbody><tr><td>DeviceA</td><td><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/on'>Einschalten</a><a class='btn btn-off' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/off'>Ausschalten</a><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/auto'>Automatisch</a><div class='status'><div class='dot-off'></div>Ausgeschaltet</div><div style='clear: both;'/><td>100 W</td></tr>
+</tbody></table><hr><div style='text-align: center; width: 100%'>04.03.2016 22:57:29</div></body></html></body></html>
+[DEBUG] 2016-03-04 22:57:30.023 [Thread-4] SEMP - HTTP GET: /status/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-04 22:57:30.023 [Thread-4] SEMP - >>> /status/semp.css 3
+[DEBUG] 2016-03-04 22:57:30.023 [Thread-4] SEMP - >>> CSS 
+[DEBUG] 2016-03-04 22:57:46.712 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-04 22:57:46.712 [Thread-4] SEMP - >>> /status 2
+[DEBUG] 2016-03-04 22:57:46.712 [Thread-4] SEMP - >>> status 
+[TRACE] 2016-03-04 22:57:46.712 [Thread-4] SEMP - <html><head><title>JavaGateway</title>
+<link rel='stylesheet' href='/status/semp.css'>
+<script type='text/JavaScript'>
+<!-- function timer() {setTimeout('location.reload(true);',10000);}window.onload = timer();  --></script></head><body><div style='float:left;'><h2>JavaGateway</h2><h3>by SANDHOLZ ENGINEERING</h3></div>
+<div style='float:right;'>Logo</div></div><div style='clear: both;'/><table><thead><tr><th>Verbraucher</th><th>Betriebsmodus</th><th>Aktueller Verbrauch</th></tr></thead><tbody><tr><td>DeviceA</td><td><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/on'>Einschalten</a><a class='btn btn-off' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/off'>Ausschalten</a><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/auto'>Automatisch</a><div class='status'><div class='dot-off'></div>Ausgeschaltet</div><div style='clear: both;'/><td>100 W</td></tr>
+</tbody></table><hr><div style='text-align: center; width: 100%'>04.03.2016 22:57:46</div></body></html></body></html>
+[DEBUG] 2016-03-04 22:57:46.743 [Thread-4] SEMP - HTTP GET: /status/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-04 22:57:46.743 [Thread-4] SEMP - >>> /status/semp.css 3
+[DEBUG] 2016-03-04 22:57:46.743 [Thread-4] SEMP - >>> CSS 
+[INFO ] 2016-03-04 22:58:29.198 [main] SEMP - >>>>>>   START V1.2 <<<<<<<
+[INFO ] 2016-03-04 22:58:29.261 [main] SEMP - SEMP Gateway initialized!
+[INFO ] 2016-03-04 22:58:29.308 [main] SEMP - SEMP receiver thread listening on http://192.168.178.42:8080/semp
+[INFO ] 2016-03-04 22:58:29.323 [main] SEMP - SEMP Gateway started succesfully!
+[INFO ] 2016-03-04 22:58:29.323 [Thread-5] SEMP - SSDP Receiver thread listening on: 239.255.255.250:1900 - Waiting for incoming data...
+[INFO ] 2016-03-04 22:58:29.323 [main] SEMP - >>>>>>   ENDE V1.2 <<<<<<<
+[DEBUG] 2016-03-04 22:58:29.573 [Timer-1] SEMP - Send SSDP NOTIFY messages to 239.255.255.250:1900
+[TRACE] 2016-03-04 22:58:29.620 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: upnp:rootdevice
+USN: uuid:d508e3cd-5886-4bbc-a4c2-0d0fe551b18c::upnp:rootdevice
+
+
+[TRACE] 2016-03-04 22:58:29.620 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: uuid:d508e3cd-5886-4bbc-a4c2-0d0fe551b18c
+USN: uuid:d508e3cd-5886-4bbc-a4c2-0d0fe551b18c
+
+
+[TRACE] 2016-03-04 22:58:29.620 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-04 22:58:29.620 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-04 22:58:29.620 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:d508e3cd-5886-4bbc-a4c2-0d0fe551b18c::urn:schemas-simple-energy-management-protocol:device:Gateway:1
+
+
+[TRACE] 2016-03-04 22:58:29.620 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[DEBUG] 2016-03-04 22:58:33.230 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-04 22:58:33.230 [Thread-4] SEMP - >>> /status 2
+[DEBUG] 2016-03-04 22:58:33.230 [Thread-4] SEMP - >>> status 
+[INFO ] 2016-03-04 22:59:39.054 [main] SEMP - >>>>>>   START V1.2 <<<<<<<
+[INFO ] 2016-03-04 22:59:39.124 [main] SEMP - SEMP Gateway initialized!
+[INFO ] 2016-03-04 22:59:39.172 [main] SEMP - SEMP receiver thread listening on http://192.168.178.42:8080/semp
+[INFO ] 2016-03-04 22:59:39.179 [main] SEMP - SEMP Gateway started succesfully!
+[INFO ] 2016-03-04 22:59:39.179 [Thread-5] SEMP - SSDP Receiver thread listening on: 239.255.255.250:1900 - Waiting for incoming data...
+[INFO ] 2016-03-04 22:59:39.179 [main] SEMP - >>>>>>   ENDE V1.2 <<<<<<<
+[DEBUG] 2016-03-04 22:59:39.429 [Timer-1] SEMP - Send SSDP NOTIFY messages to 239.255.255.250:1900
+[TRACE] 2016-03-04 22:59:39.487 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: upnp:rootdevice
+USN: uuid:2b68171b-a4b0-4355-bdb1-5623e64483ca::upnp:rootdevice
+
+
+[TRACE] 2016-03-04 22:59:39.488 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-04 22:59:39.488 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: uuid:2b68171b-a4b0-4355-bdb1-5623e64483ca
+USN: uuid:2b68171b-a4b0-4355-bdb1-5623e64483ca
+
+
+[TRACE] 2016-03-04 22:59:39.488 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-04 22:59:39.488 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:2b68171b-a4b0-4355-bdb1-5623e64483ca::urn:schemas-simple-energy-management-protocol:device:Gateway:1
+
+
+[TRACE] 2016-03-04 22:59:39.489 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[DEBUG] 2016-03-04 22:59:43.028 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-04 22:59:43.029 [Thread-4] SEMP - >>> /status 2
+[DEBUG] 2016-03-04 22:59:43.029 [Thread-4] SEMP - >>> status 
+[INFO ] 2016-03-04 23:00:53.503 [main] SEMP - >>>>>>   START V1.2 <<<<<<<
+[INFO ] 2016-03-04 23:00:53.581 [main] SEMP - SEMP Gateway initialized!
+[INFO ] 2016-03-04 23:00:53.628 [main] SEMP - SEMP receiver thread listening on http://192.168.178.42:8080/semp
+[INFO ] 2016-03-04 23:00:53.628 [main] SEMP - SEMP Gateway started succesfully!
+[INFO ] 2016-03-04 23:00:53.628 [Thread-5] SEMP - SSDP Receiver thread listening on: 239.255.255.250:1900 - Waiting for incoming data...
+[INFO ] 2016-03-04 23:00:53.628 [main] SEMP - >>>>>>   ENDE V1.2 <<<<<<<
+[DEBUG] 2016-03-04 23:00:53.878 [Timer-1] SEMP - Send SSDP NOTIFY messages to 239.255.255.250:1900
+[TRACE] 2016-03-04 23:00:53.925 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: upnp:rootdevice
+USN: uuid:03f68f03-f368-4198-ac9e-f4d376cbbd2d::upnp:rootdevice
+
+
+[TRACE] 2016-03-04 23:00:53.925 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-04 23:00:53.925 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: uuid:03f68f03-f368-4198-ac9e-f4d376cbbd2d
+USN: uuid:03f68f03-f368-4198-ac9e-f4d376cbbd2d
+
+
+[TRACE] 2016-03-04 23:00:53.925 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-04 23:00:53.925 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:03f68f03-f368-4198-ac9e-f4d376cbbd2d::urn:schemas-simple-energy-management-protocol:device:Gateway:1
+
+
+[TRACE] 2016-03-04 23:00:53.925 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[DEBUG] 2016-03-04 23:00:57.972 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-04 23:00:57.972 [Thread-4] SEMP - >>> /status 2
+[INFO ] 2016-03-04 23:01:30.224 [main] SEMP - >>>>>>   START V1.2 <<<<<<<
+[INFO ] 2016-03-04 23:01:30.302 [main] SEMP - SEMP Gateway initialized!
+[INFO ] 2016-03-04 23:01:30.349 [main] SEMP - SEMP receiver thread listening on http://192.168.178.42:8080/semp
+[INFO ] 2016-03-04 23:01:30.349 [main] SEMP - SEMP Gateway started succesfully!
+[INFO ] 2016-03-04 23:01:30.349 [main] SEMP - >>>>>>   ENDE V1.2 <<<<<<<
+[INFO ] 2016-03-04 23:01:30.349 [Thread-5] SEMP - SSDP Receiver thread listening on: 239.255.255.250:1900 - Waiting for incoming data...
+[DEBUG] 2016-03-04 23:01:30.599 [Timer-1] SEMP - Send SSDP NOTIFY messages to 239.255.255.250:1900
+[TRACE] 2016-03-04 23:01:30.646 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: upnp:rootdevice
+USN: uuid:f8ad2128-65d3-42ea-a77f-f4c55765b512::upnp:rootdevice
+
+
+[TRACE] 2016-03-04 23:01:30.646 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: uuid:f8ad2128-65d3-42ea-a77f-f4c55765b512
+USN: uuid:f8ad2128-65d3-42ea-a77f-f4c55765b512
+
+
+[TRACE] 2016-03-04 23:01:30.646 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-04 23:01:30.646 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:f8ad2128-65d3-42ea-a77f-f4c55765b512::urn:schemas-simple-energy-management-protocol:device:Gateway:1
+
+
+[TRACE] 2016-03-04 23:01:30.646 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-04 23:01:30.646 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[DEBUG] 2016-03-04 23:01:33.661 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[INFO ] 2016-03-04 23:02:47.056 [main] SEMP - >>>>>>   START V1.2 <<<<<<<
+[INFO ] 2016-03-04 23:02:47.118 [main] SEMP - SEMP Gateway initialized!
+[INFO ] 2016-03-04 23:02:47.165 [main] SEMP - SEMP receiver thread listening on http://192.168.178.42:8080/semp
+[INFO ] 2016-03-04 23:02:47.181 [main] SEMP - SEMP Gateway started succesfully!
+[INFO ] 2016-03-04 23:02:47.181 [Thread-5] SEMP - SSDP Receiver thread listening on: 239.255.255.250:1900 - Waiting for incoming data...
+[INFO ] 2016-03-04 23:02:47.181 [main] SEMP - >>>>>>   ENDE V1.2 <<<<<<<
+[DEBUG] 2016-03-04 23:02:47.431 [Timer-1] SEMP - Send SSDP NOTIFY messages to 239.255.255.250:1900
+[TRACE] 2016-03-04 23:02:47.509 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: upnp:rootdevice
+USN: uuid:de8c7858-660a-44c8-9122-cf2f7d2ed7f3::upnp:rootdevice
+
+
+[TRACE] 2016-03-04 23:02:47.509 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: uuid:de8c7858-660a-44c8-9122-cf2f7d2ed7f3
+USN: uuid:de8c7858-660a-44c8-9122-cf2f7d2ed7f3
+
+
+[TRACE] 2016-03-04 23:02:47.509 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-04 23:02:47.509 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:de8c7858-660a-44c8-9122-cf2f7d2ed7f3::urn:schemas-simple-energy-management-protocol:device:Gateway:1
+
+
+[TRACE] 2016-03-04 23:02:47.509 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-04 23:02:47.509 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[DEBUG] 2016-03-04 23:02:51.822 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[INFO ] 2016-03-04 23:05:10.391 [main] SEMP - >>>>>>   START V1.2 <<<<<<<
+[INFO ] 2016-03-04 23:05:10.407 [main] SEMP - SEMP Gateway initialized!
+[INFO ] 2016-03-04 23:05:10.438 [main] SEMP - SEMP receiver thread listening on http://192.168.178.42:8080/semp
+[INFO ] 2016-03-04 23:05:10.438 [main] SEMP - SEMP Gateway started succesfully!
+[INFO ] 2016-03-04 23:05:10.438 [Thread-5] SEMP - SSDP Receiver thread listening on: 239.255.255.250:1900 - Waiting for incoming data...
+[INFO ] 2016-03-04 23:05:10.438 [main] SEMP - >>>>>>   ENDE V1.2 <<<<<<<
+[DEBUG] 2016-03-04 23:05:10.688 [Timer-1] SEMP - Send SSDP NOTIFY messages to 239.255.255.250:1900
+[TRACE] 2016-03-04 23:05:10.720 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: upnp:rootdevice
+USN: uuid:a42d6e91-aa90-4de0-8033-343669d2c19c::upnp:rootdevice
+
+
+[TRACE] 2016-03-04 23:05:10.720 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: uuid:a42d6e91-aa90-4de0-8033-343669d2c19c
+USN: uuid:a42d6e91-aa90-4de0-8033-343669d2c19c
+
+
+[TRACE] 2016-03-04 23:05:10.720 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-04 23:05:10.720 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:a42d6e91-aa90-4de0-8033-343669d2c19c::urn:schemas-simple-energy-management-protocol:device:Gateway:1
+
+
+[TRACE] 2016-03-04 23:05:10.720 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-04 23:05:10.720 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[DEBUG] 2016-03-04 23:05:33.424 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[INFO ] 2016-03-04 23:07:30.327 [main] SEMP - >>>>>>   START V1.2 <<<<<<<
+[INFO ] 2016-03-04 23:07:30.342 [main] SEMP - SEMP Gateway initialized!
+[INFO ] 2016-03-04 23:07:30.389 [main] SEMP - SEMP receiver thread listening on http://192.168.178.42:8080/semp
+[INFO ] 2016-03-04 23:07:30.389 [main] SEMP - SEMP Gateway started succesfully!
+[INFO ] 2016-03-04 23:07:30.389 [Thread-5] SEMP - SSDP Receiver thread listening on: 239.255.255.250:1900 - Waiting for incoming data...
+[INFO ] 2016-03-04 23:07:30.389 [main] SEMP - >>>>>>   ENDE V1.2 <<<<<<<
+[DEBUG] 2016-03-04 23:07:30.639 [Timer-1] SEMP - Send SSDP NOTIFY messages to 239.255.255.250:1900
+[TRACE] 2016-03-04 23:07:30.670 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: upnp:rootdevice
+USN: uuid:effab5a4-affd-44c4-a13c-687557d976cf::upnp:rootdevice
+
+
+[TRACE] 2016-03-04 23:07:30.670 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: uuid:effab5a4-affd-44c4-a13c-687557d976cf
+USN: uuid:effab5a4-affd-44c4-a13c-687557d976cf
+
+
+[TRACE] 2016-03-04 23:07:30.670 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-04 23:07:30.670 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-04 23:07:30.670 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:effab5a4-affd-44c4-a13c-687557d976cf::urn:schemas-simple-energy-management-protocol:device:Gateway:1
+
+
+[TRACE] 2016-03-04 23:07:30.670 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[DEBUG] 2016-03-04 23:07:35.968 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-04 23:07:59.145 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[INFO ] 2016-03-04 23:09:32.097 [main] SEMP - >>>>>>   START V1.2 <<<<<<<
+[INFO ] 2016-03-04 23:09:32.160 [main] SEMP - SEMP Gateway initialized!
+[INFO ] 2016-03-04 23:09:32.206 [main] SEMP - SEMP receiver thread listening on http://192.168.178.42:8080/semp
+[INFO ] 2016-03-04 23:09:32.222 [main] SEMP - SEMP Gateway started succesfully!
+[INFO ] 2016-03-04 23:09:32.222 [Thread-5] SEMP - SSDP Receiver thread listening on: 239.255.255.250:1900 - Waiting for incoming data...
+[INFO ] 2016-03-04 23:09:32.222 [main] SEMP - >>>>>>   ENDE V1.2 <<<<<<<
+[DEBUG] 2016-03-04 23:09:32.472 [Timer-1] SEMP - Send SSDP NOTIFY messages to 239.255.255.250:1900
+[TRACE] 2016-03-04 23:09:32.535 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: upnp:rootdevice
+USN: uuid:2cc8d7d7-2df4-43c3-861d-cc5c59d4cb66::upnp:rootdevice
+
+
+[TRACE] 2016-03-04 23:09:32.535 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: uuid:2cc8d7d7-2df4-43c3-861d-cc5c59d4cb66
+USN: uuid:2cc8d7d7-2df4-43c3-861d-cc5c59d4cb66
+
+
+[TRACE] 2016-03-04 23:09:32.535 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-04 23:09:32.535 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-04 23:09:32.535 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:2cc8d7d7-2df4-43c3-861d-cc5c59d4cb66::urn:schemas-simple-energy-management-protocol:device:Gateway:1
+
+
+[TRACE] 2016-03-04 23:09:32.535 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[DEBUG] 2016-03-04 23:09:40.941 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-04 23:09:40.941 [Thread-4] SEMP - >>> GET 
+[INFO ] 2016-03-04 23:10:14.662 [main] SEMP - >>>>>>   START V1.2 <<<<<<<
+[INFO ] 2016-03-04 23:10:14.724 [main] SEMP - SEMP Gateway initialized!
+[INFO ] 2016-03-04 23:10:14.771 [main] SEMP - SEMP receiver thread listening on http://192.168.178.42:8080/semp
+[INFO ] 2016-03-04 23:10:14.787 [main] SEMP - SEMP Gateway started succesfully!
+[INFO ] 2016-03-04 23:10:14.787 [Thread-5] SEMP - SSDP Receiver thread listening on: 239.255.255.250:1900 - Waiting for incoming data...
+[INFO ] 2016-03-04 23:10:14.787 [main] SEMP - >>>>>>   ENDE V1.2 <<<<<<<
+[DEBUG] 2016-03-04 23:10:15.037 [Timer-1] SEMP - Send SSDP NOTIFY messages to 239.255.255.250:1900
+[TRACE] 2016-03-04 23:10:15.068 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: upnp:rootdevice
+USN: uuid:a5f40921-4a5a-428f-b289-9a465575ce72::upnp:rootdevice
+
+
+[TRACE] 2016-03-04 23:10:15.068 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: uuid:a5f40921-4a5a-428f-b289-9a465575ce72
+USN: uuid:a5f40921-4a5a-428f-b289-9a465575ce72
+
+
+[TRACE] 2016-03-04 23:10:15.068 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-04 23:10:15.068 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:a5f40921-4a5a-428f-b289-9a465575ce72::urn:schemas-simple-energy-management-protocol:device:Gateway:1
+
+
+[TRACE] 2016-03-04 23:10:15.068 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-04 23:10:15.068 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[DEBUG] 2016-03-04 23:10:19.428 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-04 23:10:19.428 [Thread-4] SEMP - >>> /status 2
+[INFO ] 2016-03-04 23:11:12.306 [main] SEMP - >>>>>>   START V1.2 <<<<<<<
+[INFO ] 2016-03-04 23:11:12.368 [main] SEMP - SEMP Gateway initialized!
+[INFO ] 2016-03-04 23:11:12.415 [main] SEMP - SEMP receiver thread listening on http://192.168.178.42:8080/semp
+[INFO ] 2016-03-04 23:11:12.415 [main] SEMP - SEMP Gateway started succesfully!
+[INFO ] 2016-03-04 23:11:12.415 [Thread-5] SEMP - SSDP Receiver thread listening on: 239.255.255.250:1900 - Waiting for incoming data...
+[INFO ] 2016-03-04 23:11:12.415 [main] SEMP - >>>>>>   ENDE V1.2 <<<<<<<
+[DEBUG] 2016-03-04 23:11:12.665 [Timer-1] SEMP - Send SSDP NOTIFY messages to 239.255.255.250:1900
+[TRACE] 2016-03-04 23:11:12.728 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: upnp:rootdevice
+USN: uuid:7d9a6043-da66-464f-b817-06c0bcf64deb::upnp:rootdevice
+
+
+[TRACE] 2016-03-04 23:11:12.728 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: uuid:7d9a6043-da66-464f-b817-06c0bcf64deb
+USN: uuid:7d9a6043-da66-464f-b817-06c0bcf64deb
+
+
+[TRACE] 2016-03-04 23:11:12.728 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-04 23:11:12.728 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-04 23:11:12.728 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:7d9a6043-da66-464f-b817-06c0bcf64deb::urn:schemas-simple-energy-management-protocol:device:Gateway:1
+
+
+[TRACE] 2016-03-04 23:11:12.728 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[DEBUG] 2016-03-04 23:11:16.197 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-04 23:11:16.197 [Thread-4] SEMP - >>> /status 2
+[DEBUG] 2016-03-04 23:11:16.197 [Thread-4] SEMP - >>> Normal 
+[TRACE] 2016-03-04 23:11:16.197 [Thread-4] SEMP - <html><head><title>JavaGateway</title>
+</head><body><div style='float:left;'><h2>JavaGateway</h2><h3>by SANDHOLZ ENGINEERING</h3></div>
+<div style='float:right;'>Logo</div></div><div style='clear: both;'/><table><thead><tr><th>Verbraucher</th><th>Betriebsmodus</th><th>Aktueller Verbrauch</th></tr></thead><tbody><tr><td>DeviceA</td><td><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/on'>Einschalten</a><a class='btn btn-off' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/off'>Ausschalten</a><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/auto'>Automatisch</a><div class='status'><div class='dot-off'></div>Ausgeschaltet</div><div style='clear: both;'/><td>100 W</td></tr>
+</tbody></table><hr><div style='text-align: center; width: 100%'>04.03.2016 23:11:16</div></body></html></body></html>
+[DEBUG] 2016-03-04 23:11:16.275 [Thread-4] SEMP - 404 (Not found): the requested URL /favicon.ico is not supported! Client: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-04 23:11:16.290 [Thread-4] SEMP - 404 (Not found): the requested URL /favicon.ico is not supported! Client: Desktop-PC.fritz.box [192.168.178.42]
+[INFO ] 2016-03-04 23:19:22.544 [main] SEMP - >>>>>>   START V1.2 <<<<<<<
+[INFO ] 2016-03-04 23:19:22.622 [main] SEMP - SEMP Gateway initialized!
+[ERROR] 2016-03-04 23:19:22.669 [main] SEMP - Illegal value for path or protocol
+[INFO ] 2016-03-04 23:19:22.669 [main] SEMP - SEMP Gateway started succesfully!
+[INFO ] 2016-03-04 23:19:22.669 [main] SEMP - >>>>>>   ENDE V1.2 <<<<<<<
+[INFO ] 2016-03-04 23:19:22.669 [Thread-4] SEMP - SSDP Receiver thread listening on: 239.255.255.250:1900 - Waiting for incoming data...
+[DEBUG] 2016-03-04 23:19:22.919 [Timer-1] SEMP - Send SSDP NOTIFY messages to 239.255.255.250:1900
+[TRACE] 2016-03-04 23:19:22.981 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: upnp:rootdevice
+USN: uuid:027d3780-34c8-4639-bfbc-379b655c0534::upnp:rootdevice
+
+
+[TRACE] 2016-03-04 23:19:22.981 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: uuid:027d3780-34c8-4639-bfbc-379b655c0534
+USN: uuid:027d3780-34c8-4639-bfbc-379b655c0534
+
+
+[TRACE] 2016-03-04 23:19:22.981 [Thread-4] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-04 23:19:22.981 [Thread-4] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-04 23:19:22.981 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:027d3780-34c8-4639-bfbc-379b655c0534::urn:schemas-simple-energy-management-protocol:device:Gateway:1
+
+
+[TRACE] 2016-03-04 23:19:22.981 [Thread-4] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[INFO ] 2016-03-04 23:20:21.891 [main] SEMP - >>>>>>   START V1.2 <<<<<<<
+[INFO ] 2016-03-04 23:20:21.954 [main] SEMP - SEMP Gateway initialized!
+[INFO ] 2016-03-04 23:20:22.001 [main] SEMP - SEMP receiver thread listening on http://192.168.178.42:8080/semp
+[INFO ] 2016-03-04 23:20:22.016 [main] SEMP - SEMP Gateway started succesfully!
+[INFO ] 2016-03-04 23:20:22.016 [Thread-5] SEMP - SSDP Receiver thread listening on: 239.255.255.250:1900 - Waiting for incoming data...
+[INFO ] 2016-03-04 23:20:22.016 [main] SEMP - >>>>>>   ENDE V1.2 <<<<<<<
+[DEBUG] 2016-03-04 23:20:22.266 [Timer-1] SEMP - Send SSDP NOTIFY messages to 239.255.255.250:1900
+[TRACE] 2016-03-04 23:20:22.313 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: upnp:rootdevice
+USN: uuid:d6abb896-c2e2-4596-b1c0-e3beeae820fe::upnp:rootdevice
+
+
+[TRACE] 2016-03-04 23:20:22.313 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: uuid:d6abb896-c2e2-4596-b1c0-e3beeae820fe
+USN: uuid:d6abb896-c2e2-4596-b1c0-e3beeae820fe
+
+
+[TRACE] 2016-03-04 23:20:22.313 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-04 23:20:22.313 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-04 23:20:22.313 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:d6abb896-c2e2-4596-b1c0-e3beeae820fe::urn:schemas-simple-energy-management-protocol:device:Gateway:1
+
+
+[TRACE] 2016-03-04 23:20:22.313 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[DEBUG] 2016-03-04 23:20:26.188 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-04 23:20:26.188 [Thread-4] SEMP - >>> /status 2
+[DEBUG] 2016-03-04 23:20:26.188 [Thread-4] SEMP - >>> Normal 
+[TRACE] 2016-03-04 23:20:26.188 [Thread-4] SEMP - <html><head><title>JavaGateway</title>
+</head><body><div style='float:left;'><h2>JavaGateway</h2><h3>by SANDHOLZ ENGINEERING</h3></div>
+<div style='float:right;'>Logo</div></div><div style='clear: both;'/><table><thead><tr><th>Verbraucher</th><th>Betriebsmodus</th><th>Aktueller Verbrauch</th></tr></thead><tbody><tr><td>DeviceA</td><td><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/on'>Einschalten</a><a class='btn btn-off' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/off'>Ausschalten</a><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/auto'>Automatisch</a><div class='status'><div class='dot-off'></div>Ausgeschaltet</div><div style='clear: both;'/><td>100 W</td></tr>
+</tbody></table><hr><div style='text-align: center; width: 100%'>04.03.2016 23:20:26</div></body></html></body></html>
+[DEBUG] 2016-03-04 23:20:26.235 [Thread-4] SEMP - 404 (Not found): the requested URL /favicon.ico is not supported! Client: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-04 23:20:26.235 [Thread-4] SEMP - 404 (Not found): the requested URL /favicon.ico is not supported! Client: Desktop-PC.fritz.box [192.168.178.42]
+[INFO ] 2016-03-04 23:21:35.021 [main] SEMP - >>>>>>   START V1.2 <<<<<<<
+[INFO ] 2016-03-04 23:21:35.099 [main] SEMP - SEMP Gateway initialized!
+[INFO ] 2016-03-04 23:21:35.146 [main] SEMP - SEMP receiver thread listening on http://192.168.178.42:8080/semp
+[INFO ] 2016-03-04 23:21:35.162 [main] SEMP - SEMP Gateway started succesfully!
+[INFO ] 2016-03-04 23:21:35.162 [Thread-5] SEMP - SSDP Receiver thread listening on: 239.255.255.250:1900 - Waiting for incoming data...
+[INFO ] 2016-03-04 23:21:35.162 [main] SEMP - >>>>>>   ENDE V1.2 <<<<<<<
+[DEBUG] 2016-03-04 23:21:35.412 [Timer-1] SEMP - Send SSDP NOTIFY messages to 239.255.255.250:1900
+[TRACE] 2016-03-04 23:21:35.443 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: upnp:rootdevice
+USN: uuid:82c8f099-c07f-4b26-9894-a9c2dea3f62a::upnp:rootdevice
+
+
+[TRACE] 2016-03-04 23:21:35.443 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: uuid:82c8f099-c07f-4b26-9894-a9c2dea3f62a
+USN: uuid:82c8f099-c07f-4b26-9894-a9c2dea3f62a
+
+
+[TRACE] 2016-03-04 23:21:35.443 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-04 23:21:35.443 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-04 23:21:35.443 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:82c8f099-c07f-4b26-9894-a9c2dea3f62a::urn:schemas-simple-energy-management-protocol:device:Gateway:1
+
+
+[TRACE] 2016-03-04 23:21:35.443 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[DEBUG] 2016-03-04 23:21:39.646 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-04 23:21:39.646 [Thread-4] SEMP - >>> /status 2
+[DEBUG] 2016-03-04 23:21:39.646 [Thread-4] SEMP - >>> Normal 
+[TRACE] 2016-03-04 23:21:39.646 [Thread-4] SEMP - <html><head><title>JavaGateway</title>
+</head><body><div style='float:left;'><h2>JavaGateway</h2><h3>by SANDHOLZ ENGINEERING</h3></div>
+<div style='float:right;'>Logo</div></div><div style='clear: both;'/><table><thead><tr><th>Verbraucher</th><th>Betriebsmodus</th><th>Aktueller Verbrauch</th></tr></thead><tbody><tr><td>DeviceA</td><td><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/on'>Einschalten</a><a class='btn btn-off' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/off'>Ausschalten</a><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/auto'>Automatisch</a><div class='status'><div class='dot-off'></div>Ausgeschaltet</div><div style='clear: both;'/><td>100 W</td></tr>
+</tbody></table><hr><div style='text-align: center; width: 100%'>04.03.2016 23:21:39</div></body></html></body></html>
+[DEBUG] 2016-03-04 23:21:48.553 [Thread-4] SEMP - HTTP GET: /status/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-04 23:21:48.569 [Thread-4] SEMP - >>> DeviceCSSHandler/status/semp.css 3
+[INFO ] 2016-03-04 23:32:21.565 [main] SEMP - >>>>>>   START V1.2 <<<<<<<
+[INFO ] 2016-03-04 23:32:21.627 [main] SEMP - SEMP Gateway initialized!
+[INFO ] 2016-03-04 23:32:21.690 [main] SEMP - SEMP receiver thread listening on http://192.168.178.42:8080/semp
+[INFO ] 2016-03-04 23:32:21.690 [main] SEMP - SEMP Gateway started succesfully!
+[INFO ] 2016-03-04 23:32:21.705 [main] SEMP - >>>>>>   ENDE V1.2 <<<<<<<
+[INFO ] 2016-03-04 23:32:21.705 [Thread-5] SEMP - SSDP Receiver thread listening on: 239.255.255.250:1900 - Waiting for incoming data...
+[DEBUG] 2016-03-04 23:32:21.940 [Timer-1] SEMP - Send SSDP NOTIFY messages to 239.255.255.250:1900
+[TRACE] 2016-03-04 23:32:21.987 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: upnp:rootdevice
+USN: uuid:acda756e-b84f-42a4-a363-74a89eb4b3f3::upnp:rootdevice
+
+
+[TRACE] 2016-03-04 23:32:21.987 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: uuid:acda756e-b84f-42a4-a363-74a89eb4b3f3
+USN: uuid:acda756e-b84f-42a4-a363-74a89eb4b3f3
+
+
+[TRACE] 2016-03-04 23:32:21.987 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-04 23:32:21.987 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-04 23:32:21.987 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:acda756e-b84f-42a4-a363-74a89eb4b3f3::urn:schemas-simple-energy-management-protocol:device:Gateway:1
+
+
+[TRACE] 2016-03-04 23:32:21.987 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[DEBUG] 2016-03-04 23:32:26.612 [Thread-4] SEMP - HTTP GET: /status from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-04 23:32:26.612 [Thread-4] SEMP - >>> /status 2
+[DEBUG] 2016-03-04 23:32:26.612 [Thread-4] SEMP - >>> Normal 
+[TRACE] 2016-03-04 23:32:26.612 [Thread-4] SEMP - <html><head><title>JavaGateway</title>
+</head><body><div style='float:left;'><h2>JavaGateway</h2><h3>by SANDHOLZ ENGINEERING</h3></div>
+<div style='float:right;'>Logo</div></div><div style='clear: both;'/><table><thead><tr><th>Verbraucher</th><th>Betriebsmodus</th><th>Aktueller Verbrauch</th></tr></thead><tbody><tr><td>DeviceA</td><td><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/on'>Einschalten</a><a class='btn btn-off' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/off'>Ausschalten</a><a class='btn ' href='http://192.168.178.42:8080/status/1-00D43D7E-812233445566-00/auto'>Automatisch</a><div class='status'><div class='dot-off'></div>Ausgeschaltet</div><div style='clear: both;'/><td>100 W</td></tr>
+</tbody></table><hr><div style='text-align: center; width: 100%'>04.03.2016 23:32:26</div></body></html></body></html>
+[DEBUG] 2016-03-04 23:32:45.566 [Thread-4] SEMP - HTTP GET: /status/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-04 23:32:45.566 [Thread-4] SEMP - >>> DeviceCSSHandler/status/semp.css 3
+[INFO ] 2016-03-04 23:34:35.604 [main] SEMP - >>>>>>   START V1.2 <<<<<<<
+[INFO ] 2016-03-04 23:34:35.682 [main] SEMP - SEMP Gateway initialized!
+[INFO ] 2016-03-04 23:34:35.729 [main] SEMP - SEMP receiver thread listening on http://192.168.178.42:8080/semp
+[INFO ] 2016-03-04 23:34:35.729 [main] SEMP - SEMP Gateway started succesfully!
+[INFO ] 2016-03-04 23:34:35.729 [Thread-5] SEMP - SSDP Receiver thread listening on: 239.255.255.250:1900 - Waiting for incoming data...
+[INFO ] 2016-03-04 23:34:35.729 [main] SEMP - >>>>>>   ENDE V1.2 <<<<<<<
+[DEBUG] 2016-03-04 23:34:35.979 [Timer-1] SEMP - Send SSDP NOTIFY messages to 239.255.255.250:1900
+[TRACE] 2016-03-04 23:34:36.026 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: upnp:rootdevice
+USN: uuid:0080ffe5-aa78-44e7-b242-5cb4d7a2f87a::upnp:rootdevice
+
+
+[TRACE] 2016-03-04 23:34:36.026 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: uuid:0080ffe5-aa78-44e7-b242-5cb4d7a2f87a
+USN: uuid:0080ffe5-aa78-44e7-b242-5cb4d7a2f87a
+
+
+[TRACE] 2016-03-04 23:34:36.026 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-04 23:34:36.026 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-04 23:34:36.026 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:0080ffe5-aa78-44e7-b242-5cb4d7a2f87a::urn:schemas-simple-energy-management-protocol:device:Gateway:1
+
+
+[TRACE] 2016-03-04 23:34:36.026 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[DEBUG] 2016-03-04 23:34:39.901 [Thread-4] SEMP - HTTP GET: /status/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[INFO ] 2016-03-04 23:36:19.142 [main] SEMP - >>>>>>   START V1.2 <<<<<<<
+[INFO ] 2016-03-04 23:36:19.204 [main] SEMP - SEMP Gateway initialized!
+[INFO ] 2016-03-04 23:36:19.267 [main] SEMP - SEMP receiver thread listening on http://192.168.178.42:8080/semp
+[INFO ] 2016-03-04 23:36:19.267 [main] SEMP - SEMP Gateway started succesfully!
+[INFO ] 2016-03-04 23:36:19.267 [main] SEMP - >>>>>>   ENDE V1.2 <<<<<<<
+[INFO ] 2016-03-04 23:36:19.267 [Thread-5] SEMP - SSDP Receiver thread listening on: 239.255.255.250:1900 - Waiting for incoming data...
+[DEBUG] 2016-03-04 23:36:19.517 [Timer-1] SEMP - Send SSDP NOTIFY messages to 239.255.255.250:1900
+[TRACE] 2016-03-04 23:36:19.579 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: upnp:rootdevice
+USN: uuid:608fef34-6f00-4de2-a1e2-6dd9c49281b6::upnp:rootdevice
+
+
+[TRACE] 2016-03-04 23:36:19.579 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: uuid:608fef34-6f00-4de2-a1e2-6dd9c49281b6
+USN: uuid:608fef34-6f00-4de2-a1e2-6dd9c49281b6
+
+
+[TRACE] 2016-03-04 23:36:19.579 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-04 23:36:19.579 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-04 23:36:19.579 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:608fef34-6f00-4de2-a1e2-6dd9c49281b6::urn:schemas-simple-energy-management-protocol:device:Gateway:1
+
+
+[TRACE] 2016-03-04 23:36:19.579 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[DEBUG] 2016-03-04 23:36:23.189 [Thread-4] SEMP - HTTP GET: /status/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[INFO ] 2016-03-04 23:37:03.958 [main] SEMP - >>>>>>   START V1.2 <<<<<<<
+[INFO ] 2016-03-04 23:37:04.021 [main] SEMP - SEMP Gateway initialized!
+[INFO ] 2016-03-04 23:37:04.068 [main] SEMP - SEMP receiver thread listening on http://192.168.178.42:8080/semp
+[INFO ] 2016-03-04 23:37:04.083 [main] SEMP - SEMP Gateway started succesfully!
+[INFO ] 2016-03-04 23:37:04.083 [Thread-5] SEMP - SSDP Receiver thread listening on: 239.255.255.250:1900 - Waiting for incoming data...
+[INFO ] 2016-03-04 23:37:04.083 [main] SEMP - >>>>>>   ENDE V1.2 <<<<<<<
+[DEBUG] 2016-03-04 23:37:04.333 [Timer-1] SEMP - Send SSDP NOTIFY messages to 239.255.255.250:1900
+[TRACE] 2016-03-04 23:37:04.396 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: upnp:rootdevice
+USN: uuid:8d7afbbd-d4f4-42b0-b756-0e2c503a5d28::upnp:rootdevice
+
+
+[TRACE] 2016-03-04 23:37:04.396 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: uuid:8d7afbbd-d4f4-42b0-b756-0e2c503a5d28
+USN: uuid:8d7afbbd-d4f4-42b0-b756-0e2c503a5d28
+
+
+[TRACE] 2016-03-04 23:37:04.396 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-04 23:37:04.396 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-04 23:37:04.396 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:8d7afbbd-d4f4-42b0-b756-0e2c503a5d28::urn:schemas-simple-energy-management-protocol:device:Gateway:1
+
+
+[TRACE] 2016-03-04 23:37:04.396 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[DEBUG] 2016-03-04 23:37:11.678 [Thread-4] SEMP - HTTP GET: /status/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[INFO ] 2016-03-04 23:38:27.890 [main] SEMP - >>>>>>   START V1.2 <<<<<<<
+[INFO ] 2016-03-04 23:38:27.952 [main] SEMP - SEMP Gateway initialized!
+[INFO ] 2016-03-04 23:38:27.999 [main] SEMP - SEMP receiver thread listening on http://192.168.178.42:8080/semp
+[INFO ] 2016-03-04 23:38:28.015 [main] SEMP - SEMP Gateway started succesfully!
+[INFO ] 2016-03-04 23:38:28.015 [Thread-5] SEMP - SSDP Receiver thread listening on: 239.255.255.250:1900 - Waiting for incoming data...
+[INFO ] 2016-03-04 23:38:28.015 [main] SEMP - >>>>>>   ENDE V1.2 <<<<<<<
+[DEBUG] 2016-03-04 23:38:28.265 [Timer-1] SEMP - Send SSDP NOTIFY messages to 239.255.255.250:1900
+[TRACE] 2016-03-04 23:38:28.312 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: upnp:rootdevice
+USN: uuid:ce3df52e-a1a8-478d-b66e-82a93e133d2c::upnp:rootdevice
+
+
+[TRACE] 2016-03-04 23:38:28.312 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: uuid:ce3df52e-a1a8-478d-b66e-82a93e133d2c
+USN: uuid:ce3df52e-a1a8-478d-b66e-82a93e133d2c
+
+
+[TRACE] 2016-03-04 23:38:28.312 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-04 23:38:28.312 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:ce3df52e-a1a8-478d-b66e-82a93e133d2c::urn:schemas-simple-energy-management-protocol:device:Gateway:1
+
+
+[TRACE] 2016-03-04 23:38:28.312 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-04 23:38:28.312 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[DEBUG] 2016-03-04 23:38:32.296 [Thread-4] SEMP - HTTP GET: /status/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-04 23:38:32.296 [Thread-4] SEMP - C:\Users\Desktop\Documents\NetBeansProjects\SEMPsemp.css
+[INFO ] 2016-03-04 23:40:42.885 [main] SEMP - >>>>>>   START V1.2 <<<<<<<
+[INFO ] 2016-03-04 23:40:42.901 [main] SEMP - SEMP Gateway initialized!
+[INFO ] 2016-03-04 23:40:42.917 [main] SEMP - SEMP receiver thread listening on http://192.168.178.42:8080/semp
+[INFO ] 2016-03-04 23:40:42.917 [main] SEMP - SEMP Gateway started succesfully!
+[INFO ] 2016-03-04 23:40:42.917 [main] SEMP - >>>>>>   ENDE V1.2 <<<<<<<
+[INFO ] 2016-03-04 23:40:42.917 [Thread-5] SEMP - SSDP Receiver thread listening on: 239.255.255.250:1900 - Waiting for incoming data...
+[DEBUG] 2016-03-04 23:40:43.167 [Timer-1] SEMP - Send SSDP NOTIFY messages to 239.255.255.250:1900
+[TRACE] 2016-03-04 23:40:43.229 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: upnp:rootdevice
+USN: uuid:3c8b0160-2373-4cf3-b463-a47ee0fd442d::upnp:rootdevice
+
+
+[TRACE] 2016-03-04 23:40:43.229 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: uuid:3c8b0160-2373-4cf3-b463-a47ee0fd442d
+USN: uuid:3c8b0160-2373-4cf3-b463-a47ee0fd442d
+
+
+[TRACE] 2016-03-04 23:40:43.229 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-04 23:40:43.229 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:3c8b0160-2373-4cf3-b463-a47ee0fd442d::urn:schemas-simple-energy-management-protocol:device:Gateway:1
+
+
+[TRACE] 2016-03-04 23:40:43.229 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-04 23:40:43.229 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[DEBUG] 2016-03-04 23:40:48.433 [Thread-4] SEMP - HTTP GET: /status/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-04 23:40:48.433 [Thread-4] SEMP - C:\Users\Desktop\Documents\NetBeansProjects\SEMPsemp.css
+[INFO ] 2016-03-04 23:43:11.565 [main] SEMP - >>>>>>   START V1.2 <<<<<<<
+[INFO ] 2016-03-04 23:43:11.628 [main] SEMP - SEMP Gateway initialized!
+[INFO ] 2016-03-04 23:43:11.690 [main] SEMP - SEMP receiver thread listening on http://192.168.178.42:8080/semp
+[INFO ] 2016-03-04 23:43:11.690 [main] SEMP - SEMP Gateway started succesfully!
+[INFO ] 2016-03-04 23:43:11.690 [Thread-5] SEMP - SSDP Receiver thread listening on: 239.255.255.250:1900 - Waiting for incoming data...
+[INFO ] 2016-03-04 23:43:11.690 [main] SEMP - >>>>>>   ENDE V1.2 <<<<<<<
+[DEBUG] 2016-03-04 23:43:11.940 [Timer-1] SEMP - Send SSDP NOTIFY messages to 239.255.255.250:1900
+[TRACE] 2016-03-04 23:43:12.003 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: upnp:rootdevice
+USN: uuid:a7637d09-b24b-4dcb-927e-495a631d1443::upnp:rootdevice
+
+
+[TRACE] 2016-03-04 23:43:12.003 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: uuid:a7637d09-b24b-4dcb-927e-495a631d1443
+USN: uuid:a7637d09-b24b-4dcb-927e-495a631d1443
+
+
+[TRACE] 2016-03-04 23:43:12.003 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-04 23:43:12.003 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-04 23:43:12.003 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:a7637d09-b24b-4dcb-927e-495a631d1443::urn:schemas-simple-energy-management-protocol:device:Gateway:1
+
+
+[TRACE] 2016-03-04 23:43:12.003 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[DEBUG] 2016-03-04 23:43:15.222 [Thread-4] SEMP - HTTP GET: /status/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-04 23:43:15.222 [Thread-4] SEMP - C:\Users\Desktop\Documents\NetBeansProjects\SEMP/semp.css
+[INFO ] 2016-03-04 23:43:39.208 [main] SEMP - >>>>>>   START V1.2 <<<<<<<
+[INFO ] 2016-03-04 23:43:39.270 [main] SEMP - SEMP Gateway initialized!
+[INFO ] 2016-03-04 23:43:39.333 [main] SEMP - SEMP receiver thread listening on http://192.168.178.42:8080/semp
+[INFO ] 2016-03-04 23:43:39.333 [main] SEMP - SEMP Gateway started succesfully!
+[INFO ] 2016-03-04 23:43:39.333 [main] SEMP - >>>>>>   ENDE V1.2 <<<<<<<
+[INFO ] 2016-03-04 23:43:39.333 [Thread-5] SEMP - SSDP Receiver thread listening on: 239.255.255.250:1900 - Waiting for incoming data...
+[DEBUG] 2016-03-04 23:43:39.583 [Timer-1] SEMP - Send SSDP NOTIFY messages to 239.255.255.250:1900
+[TRACE] 2016-03-04 23:43:39.614 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: upnp:rootdevice
+USN: uuid:9cc3b940-74f0-486f-8b4f-8ba6e8666027::upnp:rootdevice
+
+
+[TRACE] 2016-03-04 23:43:39.614 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: uuid:9cc3b940-74f0-486f-8b4f-8ba6e8666027
+USN: uuid:9cc3b940-74f0-486f-8b4f-8ba6e8666027
+
+
+[TRACE] 2016-03-04 23:43:39.614 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-04 23:43:39.614 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-04 23:43:39.614 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:9cc3b940-74f0-486f-8b4f-8ba6e8666027::urn:schemas-simple-energy-management-protocol:device:Gateway:1
+
+
+[TRACE] 2016-03-04 23:43:39.614 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[DEBUG] 2016-03-04 23:43:43.583 [Thread-4] SEMP - HTTP GET: /status/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-04 23:43:43.598 [Thread-4] SEMP - C:\Users\Desktop\Documents\NetBeansProjects\SEMP\semp.css
+[DEBUG] 2016-03-04 23:44:52.493 [Thread-4] SEMP - HTTP GET: /status/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-04 23:44:52.493 [Thread-4] SEMP - C:\Users\Desktop\Documents\NetBeansProjects\SEMP\semp.css
+[INFO ] 2016-03-04 23:46:36.170 [main] SEMP - >>>>>>   START V1.2 <<<<<<<
+[INFO ] 2016-03-04 23:46:36.233 [main] SEMP - SEMP Gateway initialized!
+[INFO ] 2016-03-04 23:46:36.295 [main] SEMP - SEMP receiver thread listening on http://192.168.178.42:8080/semp
+[INFO ] 2016-03-04 23:46:36.295 [main] SEMP - SEMP Gateway started succesfully!
+[INFO ] 2016-03-04 23:46:36.295 [Thread-5] SEMP - SSDP Receiver thread listening on: 239.255.255.250:1900 - Waiting for incoming data...
+[INFO ] 2016-03-04 23:46:36.295 [main] SEMP - >>>>>>   ENDE V1.2 <<<<<<<
+[DEBUG] 2016-03-04 23:46:36.545 [Timer-1] SEMP - Send SSDP NOTIFY messages to 239.255.255.250:1900
+[TRACE] 2016-03-04 23:46:36.592 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: upnp:rootdevice
+USN: uuid:3e85301b-8359-487c-84dd-57f078c7912d::upnp:rootdevice
+
+
+[TRACE] 2016-03-04 23:46:36.592 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: uuid:3e85301b-8359-487c-84dd-57f078c7912d
+USN: uuid:3e85301b-8359-487c-84dd-57f078c7912d
+
+
+[TRACE] 2016-03-04 23:46:36.592 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-04 23:46:36.592 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:3e85301b-8359-487c-84dd-57f078c7912d::urn:schemas-simple-energy-management-protocol:device:Gateway:1
+
+
+[TRACE] 2016-03-04 23:46:36.592 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-04 23:46:36.592 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[DEBUG] 2016-03-04 23:46:40.639 [Thread-4] SEMP - HTTP GET: /status/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-04 23:46:40.639 [Thread-4] SEMP - C:\Users\Desktop\Documents\NetBeansProjects\SEMP/semp.css
+[INFO ] 2016-03-04 23:48:32.848 [main] SEMP - >>>>>>   START V1.2 <<<<<<<
+[INFO ] 2016-03-04 23:48:32.911 [main] SEMP - SEMP Gateway initialized!
+[INFO ] 2016-03-04 23:48:32.958 [main] SEMP - SEMP receiver thread listening on http://192.168.178.42:8080/semp
+[INFO ] 2016-03-04 23:48:32.973 [main] SEMP - SEMP Gateway started succesfully!
+[INFO ] 2016-03-04 23:48:32.973 [Thread-5] SEMP - SSDP Receiver thread listening on: 239.255.255.250:1900 - Waiting for incoming data...
+[INFO ] 2016-03-04 23:48:32.973 [main] SEMP - >>>>>>   ENDE V1.2 <<<<<<<
+[DEBUG] 2016-03-04 23:48:33.223 [Timer-1] SEMP - Send SSDP NOTIFY messages to 239.255.255.250:1900
+[TRACE] 2016-03-04 23:48:33.286 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: upnp:rootdevice
+USN: uuid:4c8216e8-bab5-429b-b435-fcb4e0d5575e::upnp:rootdevice
+
+
+[TRACE] 2016-03-04 23:48:33.286 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: uuid:4c8216e8-bab5-429b-b435-fcb4e0d5575e
+USN: uuid:4c8216e8-bab5-429b-b435-fcb4e0d5575e
+
+
+[TRACE] 2016-03-04 23:48:33.286 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-04 23:48:33.286 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[TRACE] 2016-03-04 23:48:33.286 [Timer-1] SEMP - SSDP Message:
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+SERVER: Windows 8.1/6.3 UPnP/1.0 SomeGatewaySSDPServer/1.0.1
+NTS: ssdp:alive
+LOCATION: http://192.168.178.42:8080/semp/description.xml
+NT: urn:schemas-simple-energy-management-protocol:device:Gateway:1
+USN: uuid:4c8216e8-bab5-429b-b435-fcb4e0d5575e::urn:schemas-simple-energy-management-protocol:device:Gateway:1
+
+
+[TRACE] 2016-03-04 23:48:33.286 [Thread-5] SEMP - Received message are no SSDP M-SEARCH-REQUEST.
+[DEBUG] 2016-03-04 23:48:37.020 [Thread-4] SEMP - HTTP GET: /status/semp.css from: Desktop-PC.fritz.box [192.168.178.42]
+[DEBUG] 2016-03-04 23:48:37.020 [Thread-4] SEMP - C:\Users\Desktop\Documents\NetBeansProjects\SEMP/semp.css
