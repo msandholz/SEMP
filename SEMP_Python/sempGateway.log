@@ -1,0 +1,10 @@
+2021-01-11 14:44:50,710 - sempGateway  [INFO    ]  ##############################################################################################
+2021-01-11 14:44:50,711 - sempGateway  [INFO    ]  ###  Starting SEMP Gateway
+2021-01-11 14:44:50,712 - sempGateway  [INFO    ]  ##############################################################################################
+2021-01-11 14:44:50,713 - sempGateway  [DEBUG   ]  ssdp
+2021-01-11 14:44:50,713 - sempGateway  [DEBUG   ]  test
+2021-01-11 14:44:50,714 - sempGateway  [CRITICAL]  critical
+2021-01-11 14:44:50,714 - sempGateway  [ERROR   ]  error
+2021-01-11 14:44:50,722 - sempGateway  [WARNING ]  warning
+2021-01-11 14:44:50,723 - sempGateway  [DEBUG   ]  debug
+2021-01-11 14:44:50,725 - sempGateway  [INFO    ]  info
