@@ -22,3 +22,12 @@ Hinweise zu den notwendigen Anpassungen finden sich als Kommentare in der Datei 
 ```
 pi@raspberrypi:~ $ sudo nano /home/pi/IoT-Stack/smartapplianceenabler/compose/docker-compose.yaml
 ```
+
+
+3. Install Docker-Compose:
+
+```
+pi@raspberrypi:~ $ cd /home/pi/IoT-Stack/smartapplianceenabler/compose/
+pi@raspberrypi:~IoT-Stack/smartapplianceenabler/compose/ docker-compose up -d
+
+```
