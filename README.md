@@ -34,7 +34,7 @@ pi@raspberrypi:~IoT-Stack/smartapplianceenabler/compose/ docker-compose up -d
 
 4. Remove Docker-Compose
 
-```shell
+```Shell
 pi@RasPi-Server:~/IoT-Stack/smartapplianceenabler/compose $ docker-compose down
 ```
 
