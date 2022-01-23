@@ -17,3 +17,8 @@ pi@raspberrypi:~ $ sudo wget https://github.com/camueller/SmartApplianceEnabler/
 
 Hinweise zu den notwendigen Anpassungen finden sich als Kommentare in der Datei selbst. Das Docker-Volume sae wird automatisch beim Start erstellt, falls noch nicht vorhanden.
 
+2. Edit Docker-Compose File:
+
+```
+pi@raspberrypi:~ $ sudo nano /home/pi/IoT-Stack/smartapplianceenabler/compose/docker-compose.yaml
+```
