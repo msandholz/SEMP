@@ -31,3 +31,10 @@ pi@raspberrypi:~ $ cd /home/pi/IoT-Stack/smartapplianceenabler/compose/
 pi@raspberrypi:~IoT-Stack/smartapplianceenabler/compose/ docker-compose up -d
 
 ```
+
+4. Remove Docker-Compose
+
+```linux
+pi@RasPi-Server:~/IoT-Stack/smartapplianceenabler/compose $ docker-compose down
+```
+
